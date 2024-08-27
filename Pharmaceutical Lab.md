@@ -161,7 +161,36 @@ Bill of materials:
 - 2 Substrate Molecule Sieve
 - 8 Titanium
 
-## Commercial Scale Kitchen
+### Alpha Andraste III
+
+This base exists to extract two resources: Biosuppressant and Xenon. For the pharmaceuticals lab the only thing we care about is biosuppressant.
+
+- 1 Extractor - Liquid (water)
+- 1 Storage - Liquid - Large (water)
+- Greenhouse (biosuppressant)
+- 1 Storage - Solid - Large (biosuppressant)
+- 1 Extractor - Gas (xenon)
+- 1 Storage - Gas - Large (xenon)
+- 1 Wind Turbine - Advanced (25 power)
+
+## Home Kitchen
+
+### Boutique Meals
+
+Here are my favourite recipes that require ingredients to be scrounged or bought (eg: tomato, onion).
+
+- Alien Scramble (egg, nutrient): 112 damage resistance for 7m30s
+- Barbacoa Wrap (cheese, red meat, spice): 150 damage resistance for 15m
+- Dal Makhani (beans, butter, onion, spice): 187 damage resistance for 15m
+- Fully Loaded Bloody Mary (liquor, spice, tomato): 187 damage resistance for 7m30s, 37 O2 for 7m30s, -25% O2 recovery for 7m30s
+- Galaxy Lo Mein (quark-degenerate tissues, beans, noodles, gastro delight, nutrient) 300 damage resistance for 18m, 300 energy resistance for 18m
+- Grandpa's Meatloaf (dairy, egg, red meat, onion, tomato): 187 damage resistance for 15m, 3% XP gain for 180m
+- Nebula Wat (Bread, Butter, Egg, Quark-Degenerate Tissues): 225 damage resistance for 18m, +18% movement speed for 18m
+- Star Cluster Marsala (Gastro Delight, Onion, Potato, Wine): 262 damage resistance for 18m, +22 carry capacity
+- Stellar Kebabs (Aromatic, Quark-Degenerate Tissue, Spice): 262 energy resistance for 18m
+- Very Heavy Water (liquor, soda): 150 damage resistance for 4m30s, +18 carry capacity for 7m30s, -25% O2 recovery for 7m30s
+
+### Commercial Scale Meals
 
 Here are some food & drink recipes that can be crafted using outpost production or easily sourced materials (ie: I would expect to find the bought ingredients in quantities of 10 or more per daily visit to a city like New Atlantis, Akila City or Neon).
 
@@ -187,24 +216,24 @@ Drink:
 - [Sunray Tonic](https://inara.cz/starfield/item/1175/)
 - [Very Heavy Water](https://inara.cz/starfield/item/1176/)
 
-## Industrial Scale Kitchen
+### Industrial Scale Meals
 
-Here are some food & drink recipes that can be crafted entirely from resources that are produced through industry.
+Here are some food & drink recipes that can be crafted entirely from resources that are produced through industry. Those labelled "(sans-aromatic)" are recipes that do not require the aromatic resource since aromatic can be troublesome to produce industrially if you've committed to large scale vytinium fuel rod production.
 
 Food:
 
-- [Alien Jerky](https://inara.cz/starfield/item/29/)
+- [Alien Jerky](https://inara.cz/starfield/item/29/) (sans-aromatic)
 - [Alien Kebabs](https://inara.cz/starfield/item/1149/)
-- [Alien Stew](https://inara.cz/starfield/item/1151/)
+- [Alien Stew](https://inara.cz/starfield/item/1151/) (150 damage resistance for 18 minutes)
 - [Creature Jam](https://inara.cz/starfield/item/1161/)
 
 Drink:
 
-- [Alien Broth](https://inara.cz/starfield/item/1147/)
-- [Alien Energy Drink](https://inara.cz/starfield/item/1147/)
-- [Alien Liquor](https://inara.cz/starfield/item/1050/)
-- [Alien Tea](https://inara.cz/starfield/item/1053/)
+- [Alien Broth](https://inara.cz/starfield/item/1147/) (sans-aromatic)
+- [Alien Energy Drink](https://inara.cz/starfield/item/1147/) (sans-aromatic)
+- [Alien Liquor](https://inara.cz/starfield/item/1050/) (sans-aromatic)
+- [Alien Tea](https://inara.cz/starfield/item/1053/) (sans-aromatic)
 - [Alien Tonic](https://inara.cz/starfield/item/1054/)
 - [Boba Alien Tea](https://inara.cz/starfield/item/1049/)
-- [Distilled Water](https://inara.cz/starfield/item/1047/)
-- [Lumberjack Julep](https://inara.cz/starfield/item/1169/1169)
+- [Distilled Water](https://inara.cz/starfield/item/1047/) (sans-aromatic)
+- [Lumberjack Julep](https://inara.cz/starfield/item/1169/1169) (100 damage resistance for 5 minutes)

@@ -1,6 +1,7 @@
 # Starfield Resource Extraction
 
 - [Starfield Resource Extraction](#starfield-resource-extraction)
+  - [Overview](#overview)
   - [Miscellany](#miscellany)
     - [Nice Outpost Starter](#nice-outpost-starter)
     - [Containers](#containers)
@@ -10,28 +11,30 @@
       - [Worked Example: Animal Husbandry Facility producing membrane](#worked-example-animal-husbandry-facility-producing-membrane)
       - [Worked Example: Lithium Extractors](#worked-example-lithium-extractors)
     - [Storage Requirements](#storage-requirements)
+    - [Crew Skills](#crew-skills)
   - [Industry from Scratch](#industry-from-scratch)
     - [Bessel III-b Al/Fe/Ni/Co](#bessel-iii-b-alfenico)
-    - [Procyon III (Cu)](#procyon-iii-cu)
-    - [Alpha Tirna VIII-c (Dy, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-ta-ti-w-alkanes)
-    - [Bessel III-b Industry Expansion](#bessel-iii-b-industry-expansion)
-    - [Leviathan II (He3/Be/Eu/Nd)](#leviathan-ii-he3beeund)
-    - [Leviathan II (He3 Expansion)](#leviathan-ii-he3-expansion)
+    - [Procyon III (Cu, Sealant)](#procyon-iii-cu-sealant)
+    - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-pb-ta-ti-w-alkanes)
+    - [Zeta Ophiucui I (silver, ytterbium, polymer)](#zeta-ophiucui-i-silver-ytterbium-polymer)
+    - [Shoza III-a (He3, Be, Nd)](#shoza-iii-a-he3-be-nd)
+    - [Serpentis IV (fiber, structural)](#serpentis-iv-fiber-structural)
+    - [Gagarin (adhesive)](#gagarin-adhesive)
+    - [Home Base Industry Expansion](#home-base-industry-expansion)
   - [Reactor Production](#reactor-production)
-      - [Procyon III (Isotopic Coolant/Antimicrobial expansion)](#procyon-iii-isotopic-coolantantimicrobial-expansion)
+    - [Procyon III (Isotopic Coolant/Antimicrobial expansion)](#procyon-iii-isotopic-coolantantimicrobial-expansion)
     - [Cruth (Semimetal Wafer, Paramagnon Conductor)](#cruth-semimetal-wafer-paramagnon-conductor)
     - [Grimsey (Iridium, Plutonium, Uranium, Vanadium)](#grimsey-iridium-plutonium-uranium-vanadium)
     - [Codos (Solvent)](#codos-solvent)
-    - [Zeta Ophiucui I (silver, ytterbium, polymer)](#zeta-ophiucui-i-silver-ytterbium-polymer)
     - [Operation](#operation)
   - [Industrial Liquid Extractors and Greenhouses](#industrial-liquid-extractors-and-greenhouses)
     - [Molecular Sieve](#molecular-sieve)
-      - [Bessel III-b (Austenitic Manifold, Mag Pressure Tank)](#bessel-iii-b-austenitic-manifold-mag-pressure-tank)
+      - [Home Base (Austenitic Manifold, Mag Pressure Tank)](#home-base-austenitic-manifold-mag-pressure-tank)
       - [Serpentis IV (membrane, molecular sieve)](#serpentis-iv-membrane-molecular-sieve)
     - [Sterile Nanotubes](#sterile-nanotubes)
       - [Serpentis IV (sterile nanotubes)](#serpentis-iv-sterile-nanotubes)
     - [Substrate Molecule Sieve](#substrate-molecule-sieve)
-    - [Alpha Andraste III (biosuppressant)](#alpha-andraste-iii-biosuppressant)
+      - [Alpha Andraste III (biosuppressant)](#alpha-andraste-iii-biosuppressant)
       - [Serpentis IV (fibre and water expansion)](#serpentis-iv-fibre-and-water-expansion)
       - [Fermi VII-a (Memory Substrate)](#fermi-vii-a-memory-substrate)
       - [Serpentis IV (substrate molecule sieve)](#serpentis-iv-substrate-molecule-sieve)
@@ -41,10 +44,13 @@
       - [Serpentis IV (veryl-treated manifold)](#serpentis-iv-veryl-treated-manifold)
   - [Industrial Solid Extractors](#industrial-solid-extractors)
     - [Schrodinger II (aldumite)](#schrodinger-ii-aldumite)
+    - [Andraphon (He3/Be/Eu)](#andraphon-he3beeu)
   - [Advanced Reactor Production](#advanced-reactor-production)
     - [Operation](#operation-1)
     - [Experience grinding](#experience-grinding)
-    - [Shoza VIII-b (Positron Battery, Power Circuit)](#shoza-viii-b-positron-battery-power-circuit)
+    - [Shoza VII-c (palladium)](#shoza-vii-c-palladium)
+    - [Shoza VIII-b (Power Circuit)](#shoza-viii-b-power-circuit)
+    - [Maal IX-b (positron battery)](#maal-ix-b-positron-battery)
     - [Katydid III (Indicite, Silver)](#katydid-iii-indicite-silver)
     - [Zeta Ophiuchi I (silver exports)](#zeta-ophiuchi-i-silver-exports)
     - [Cruth (cargo link expansion)](#cruth-cargo-link-expansion)
@@ -64,9 +70,13 @@
     - [Industrial Upgrades](#industrial-upgrades)
       - [Cruth (Mass Production of Semimetal Wafers)](#cruth-mass-production-of-semimetal-wafers)
   - [Other Sites](#other-sites)
-    - [Andraphon (He3/Be) - Outdated](#andraphon-he3be---outdated)
+    - [Andraphon (He3/Be)](#andraphon-he3be)
+    - [Leviathan II (He3/Be/Eu/Nd)](#leviathan-ii-he3beeund)
   - [References](#references)
 
+## Overview
+
+After the front matter there's a process of boot-strapping an industrial base ("Industry from Scratch"). From there some extra facilities will be brought online to manufacture the parts required to build Reactors (the 30 power version). From there a short deetour to build industrial liquid and solid extractors, and finally a major expansion of facilities to manufacture the entire set of parts required to build Advanced Reactors (the 100 power version).
 
 ## Miscellany
 
@@ -74,7 +84,7 @@ Some things to mention before we get into the body of this guide.
 
 ### Nice Outpost Starter
 
-Here's a standard habitat I like to install just for the RP flavour.
+Here's a standard habitat I like to install just for the RP flavour. It has a two-storey hab from which two round habs are joined, stacked on top of each other. One hab is the "accommodations" and the other ("hydroponic" glass-walled hab) will be the observation deck.
 
 - Four Wall Hab - Double
 - Hab Round
@@ -416,6 +426,19 @@ Warehouses (small unless indicated otherwise):
 - Zero-G Gimbal
 
 
+### Crew Skills
+
+Outpost Engineering increases manufacturing line production by 10/20/30/30%:
+
+- [Heller][INARAHELLER] 30%
+- [Andromeda][INARAANDROMEDA] 20%
+- [Rafael][INARARAFAEL] 10%
+
+Outpost Management increases production of resources by 5/10/15/15%:
+
+- [Lin][INARALIN] 15%
+- [Rafael][INARARAFAEL] 5%
+
 ## Industry from Scratch
 
 New Game, New You? Here's how to bootstrap your industry. Start off with a handful of Tungsten, building out basic resources and low tier manufactured goods:
@@ -423,7 +446,7 @@ New Game, New You? Here's how to bootstrap your industry. Start off with a handf
 - Bessel III-b for Al/Fe/Ni/Co
 - Assembly line for Adaptive Frame and Isocentered Magnets
 - Procyon III for copper
-- Leviathan II for beryllium and helium-3
+- Shoza III-a for beryllium and helium-3
 - Alpha Tirna VIII-c titanium and tungsten
 
 From this you'll be able to construct most tier 1 manufactured goods. The process is entirely based on picking stuff up from each outpost and bringing it back to Bessel III-b for the moment, we'll start introducing cargo links and inter-system cargo links after Andraphon (or Leviathan II).
@@ -454,137 +477,232 @@ Materials:
 - Isocentered Magnet: 8
 - Tungsten: 8
 
-Location: Brahmiluff, [Bessel III-b outpost location](https://www.youtube.com/watch?v=NSxSKiD4ahk), YouTube 23 Sep 2023
+Location: See Brahmiluff, [Bessel III-b outpost location](https://www.youtube.com/watch?v=NSxSKiD4ahk), YouTube 23 Sep 2023
 
-### Procyon III (Cu)
+### Procyon III (Cu, Sealant)
 
 [Procyon III](https://inara.cz/starfield/starsystem/101/#area1624) is one of several convenient sources of **Ionic Liquid**, along with Copper, Fluorine, Tetrafluoride, Water, Antimicrobial, Sealant, and Fiber. All the materials should be available if you select a site in a region rich with Ionic Liquids (bright green patches on the map).
 
 We'll start off with extracting copper to drive industry at Bessel III-b.
 
+Remember to wait for some copper production.
+
 Design:
 
 - Landing Pad - Small
+- Industrial Workbench
 - Wind Turbine - Advanced (25 power)
-- Extractor - Solid (Cu)
-- Storage - Solid - Large (Cu)
+- Extractor - Solid (copper)
+- 2 Storage - Solid - Large (copper, sealant)
+- Extractor - Liquid (water)
+- Storage - Liquid - Large (water)
+- Greenhouse (sealant)
 
 Bill of Materials:
 
-- Adaptive Frame: 10
-- Aluminum: 33
-- Iron: 45
-- Isocentered Magnet: 2
-- Tungsten: 2
+- Manufactured
+  - Adaptive Frame: 35
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3 (built on-site using copper extracted locally)
+- Solid
+  - Aluminum: 78 (+3 for reactive gauge)
+  - Iron: 71
+  - Nickel: 20
+  - Sealant: 3
+  - Tungsten: 2
+- Gas
+  - Fluorine: 4
 
 You should be able to find an appropriate site in various wetlands (regions where Ionic Liquids are available). Look for a flat site with copper, ionic liquids, fluorine, and tetrafluorides. The ionic liquids and tetrafluorides will be needed later for producing isotopic coolant, while the fluorine is necessary for producing greenhouses.
 
-### Alpha Tirna VIII-c (Dy, Ta, Ti, W, Alkanes)
+### Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)
 
-Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main mineral of interest here are Titanium for warehouses and Tungsten for extractors.
+Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main minerals of interest here are Titanium for warehouses and Tungsten for extractors.
 
 Design:
 
 - 1 Landing Pad - Small
 - 3 Solar Dome (12 power)
-- 4 Extractor - Solid (dysprosium, tantalum, titanium, tungsten)
-- 4 Storage - Solid - Large (dysprosium, tantalum, titanium, tungsten)
+- 5 Extractor - Solid (dysprosium, lead, tantalum, titanium, tungsten)
+- 5 Storage - Solid - Large (dysprosium, lead, tantalum, titanium, tungsten)
 - 1 Extractor - Gas (alkanes)
 - 1 Storage - Gas - Large (alkanes)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 50
+  - Adaptive Frame: 60
   - Tau Grade Rheostat: 6
 - Solid
-  - Aluminum: 105
+  - Aluminum: 125
   - Copper: 23
-  - Iron: 120
+  - Iron: 145
   - Nickel: 4
-  - Tungsten: 24
+  - Tungsten: 26
 
 Location:
 
-<p>
-<img src="images/tirna-viii-c-location-map.jpg" alt="Map of Alpha Tirna III with resources shown. There is a marker for the location of the outpost." width="40%">
-<img src="images/tirna-viii-c-location-landscape-from-landing-site.jpg" alt="The landscape around the landing site on Alpha Tirna III intended to help players find the location once they have landed." width="40%">
-<img src="images/tirna-viii-c-location-landscape-from-nearby-poi.jpg" alt="The landscape from a POI on Alpha Tirna VIII-c between the landing site and the outpost site intended to help locate the outpost site." width="40%">
-<img src="images/tirna-viii-c-location-landscape.jpg" alt="The landscape at the outpost on Alpha Tirna VIII-c." width="40%">
-</p>
+Check Brahmiluff's location from [8-in-one Resources Tirna VIII-c Outpost Location in Starfield!](https://www.youtube.com/watch?v=pCjAUcrqYGs). Here's the swamp site on the planet resource map with higher level Scanning skill: ![swamp site](images/tirna-viii-c-location-map-swamp-site.jpg)
 
-### Bessel III-b Industry Expansion
-
-With the titanium available from Tirna VIII-c, build some extra storage:
+### Zeta Ophiucui I (silver, ytterbium, polymer)
 
 Design:
 
-- 4 Wind Turbine - Advanced (6 power)
-- 2 Storage - Solid - Large (copper, silver)
-- 4 Warehouse - Large (adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, zero wire)
-- 4 Simple Fabricator (adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, zero wire)
+- 2 Wind Turbine - Advanced (14 power)
+- Landing Pad - Small
+- Extractor - Solid (silver)
+- Extractor - Solid (ytterbium)
+- Storage - Solid - Large (silver)
+- Storage - Solid - Large (ytterbium)
+- Extractor - Liquid (water)
+- Storage - Liquid - Large (water)
+- Greenhouse (polymer)
+- Storage - Solid - Large (polymer)
 
 Bill of Materials:
 
-- Adaptive Frame: 50
-- Aluminum: 116
-- Iron: 40
-- Titanium: 48
-- Sealant: 6
-- Tungsten: 12
-- Zero Wire: 9
+- Manufactured
+  - Adaptive Frame: 45
+  - Isocentered Magnet: 4
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 99
+  - Iron: 93
+  - Nickel: 20
+  - Sealant: 3
+  - Tungsten: 4
+- Gas
+  - Fluorine: 4
 
-Copper will be imported from Procyon III, silver will be imported from Zeta Ophiuchi I.
+Location:
+<p>
+<img src="images/zeta-ophiuchi-i-location-map.jpg" alt="Map of Zeta Ophiuchi I with resources shown. There is a marker for the location of the outpost." width="40%">
+<img src="images/zeta-ophiuchi-i-location-landscape.jpg" alt="The landscape around the outpost on Zeta Ophiuchi I intended to help players find the location once they have landed." width="40%">
+</p>
 
-### Leviathan II (He3/Be/Eu/Nd)
+Land on the swamp side of a swamp/mountains border. You should find that Ytterbium and Tantalum are *everywhere*. Find a site that has silver and ytterbium, typically the silver will be in small patches, but if you have that patch entirely within the outpost border you can squeeze five extractors onto it (later, during upgrades). It can be useful to have more resources but the important bit is having enough silver to provide industry.
+
+### Shoza III-a (He3, Be, Nd)
 
 Design:
 
 - Landing Pad - Small
-- 4 Solar Dome (16 power)
-- Extractor - Solid (beryllium)
-- Storage - Solid - Large (beryllium)
-- Extractor - Solid (europium)
-- Storage - Solid - Large (europium)
-- Extractor - Solid (neodymium)
-- Storage - Solid - Large (neodymium)
-- 8 Extractor - Gas (He3)
-- Storage - Gas - Large (He3)
-- Cargo Link - Inter-system (He3 to Bessel III-b)
-- Cargo Link - Inter-system (He3 to Grimsey)
+- 2 Solar Dome
+- 3 Extractor - Solid (aluminum, beryllium, neodymium)
+- 3 Storage - Solid - Large (aluminum, beryllium, neodymium)
+- Extractor - Gas (he3)
+- Storage - Gas - Large (he3)
 
-Bill of Materials:
+Materials:
 
-- Adaptive Frame: 40
-- Aluminum: 148
-- Comm Relay: 2
-- Copper: 44
-- Iron: 135
-- Nickel: 32
-- Reactive Gauge: 6
-- Tau Grade Rheostat: 8
-- Tungsten: 22
+- Manufactured
+  - Adaptive Frame: 40
+  - Tau Grade Rheostat: 4
+- Solid
+  - Aluminum: 81
+  - Copper: 23
+  - Iron: 95
+  - Nickel: 4
+  - Tungsten: 22
 
 Location:
 
-It's possible to find a location here with Al/Be/Eu/He3/Nd, but it feels like the "Craters" biome on Leviathan II is actually three separate biomes of Craters with beryllium, Craters with aluminium and He3, and Craters with neodymium/europium. They do mix but generally speaking He3 is harder to find where Europium is easier to find and vice versa. I don't know if it's just confirmation bias but it seems to me that some terrain is slighly shinier and paler than the neighbouring terrain and that's the biome with Europium and Neodymium. YMMV.
+There's a little circular patch of helium-rich terrain on the edge of a region of neodymium-rich terrain. I've had luck finding helium-3, beryllium and neodymium on Shoza III-a within a few minutes of setting down (and if I don't, just reload the pre-landing save and try a new spot). I won't win any speed runs, but it's not like Leviathan II where things are almost impossible to find.
 
 <p>
-<img src="images/leviathan-ii-location-map.jpg" alt="Map of Leviathan II with resources shown. There is a marker for the location of the outpost." width="40%">
-<img src="images/leviathan-ii-location-landscape.jpg" alt="The landscape at the landing site on Leviathan II intended to help players find the location once they have landed." width="40%">
-<a href="images/leviathan-ii-outpost-landscape.jpg" target="_maps"><img src="images/leviathan-ii-outpost-landscape.jpg" alt="The landscape at the outpost site on Leviathan II intended to help players find the location once they have landed. Approx 870m slightly south of East from the landing site." width="40%"></a>
+<img src="images/shoza-iii-a-location-map.jpg" alt="Map of Shoza III-a with resources shown. There is a marker for the location of the outpost.">
 </p>
 
-### Leviathan II (He3 Expansion)
+### Serpentis IV (fiber, structural)
 
-As supplies become available, upgrade He3 extractors to Industrial where constrained He3 supply is causing extraction chains to fill up (where the cargo link is unable to deliver materials before all the storage fills up). Increase helium supply only if the production sites are regularly backing up with more than two days worth of production.
+This outpost is where I build my pharmaceutical lab and kitchen. This initial setup will provide fiber and structural material to start building a habitat. A habitat here will be useful to house security detail to complement turrets and robots, all of which will be busy keeping clickbeetles at bay.
 
-Part of the Industrial Liquid Extractors project is producing the Substrate Molecule Sieve required for industrial gas extractors. Each industrial extractor upgrade will require:
+Design:
 
-- Extractor - Helium-3 - Industrial (20 power)
-- 2 Solar Dome (12 power)
+- 1 Landing Pad - Small
+- 3 Wind Turbine - Advanced
+- 2 Greenhouse (fiber, structural)
+- 2 Extractor - Liquid (water)
+- Storage - Liquid - Large (water)
+- Extractor - Solid (lithium)
+- 3 Storage - Solid - Large (fiber, lithium, structural)
+- 2 Extractor - Gas (argon, benzene)
+- 2 Storage - Gas - Medium (argon, benzene)
 
-Eventually replace those solar domes with an Advanced Reactor. I could squeeze 7 industrial He3 extractors on the tiny helium patch at this site.
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 60
+  - Isocentered Magnet: 6
+  - Reactive Gauge: 6
+- Solid
+  - Aluminum: 115
+  - Copper: 26
+  - Iron: 91
+  - Nickel: 32
+  - Sealant: 6
+  - Tungsten: 18
+- Gas
+  - Fluorine: 8
+
+### Gagarin (adhesive)
+
+This outpost isn't strictly necessary, you can buy adhesive and lead in the quantities needed when heading off to build outposts. For completeness, here it is.
+
+Design:
+
+- Landing Pad - Small
+- Wind Turbine - Advanced
+- Extractor - Liquid (water)
+- Greenhouse (adhesive)
+- Storage - Solid (adhesive)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 8
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 23
+  - Iron: 29
+  - Nickel: 4
+  - Sealant: 3
+- Gas
+  - Fluorine: 4
+
+### Home Base Industry Expansion
+
+With the titanium available from Tirna VIII-c, build some extra storage (home base for me is typcially Serpentis IV):
+
+Design:
+
+- 4 Wind Turbine - Advanced (6 power)
+- 9 Storage - Solid - Large (beryllium, copper, dysprosium, europium, neodymium, silver, titanium, tungsten, ytterbium)
+- 2 Storage - Gas - Large (alkanes, fluorine)
+- 5 Warehouse - Large (adaptive frame, isocentered magnet, isotopic coolant, mag pressure tank, reactive gauge, zero wire)
+- 4 Simple Fabricator (adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, zero wire)
+
+Bill of Materials:
+
+- Manufactured
+  - Adaptive Frame: 130
+  - Isocentered Magnet: 8
+  - Zero Wire: 12
+- Solid
+  - Aluminum: 276
+  - Iron: 180
+  - Sealant: 8
+  - Titanium: 64
+  - Tungsten: 16
+
+Import beryllium from Shoza III-a, copper from Procyon III, silver & ytterbium from Zeta Ophiuchi I, alkanes/dysprosium/titanium/tungsten from Alpha Tirna III-c.
+
+Note: if you have the inclination try out this storage arrangement which will adequately serve all your boutique crafting needs. Not shown here is the array of warehouses and fabricators.
+
+<p>
+<img src="images/storage-arrangement.jpg" alt="a bird's-eye view of a set of storage containers arranged in groups representing mineral solids, organics, liquids and gasses, and sorted alphabetically within those groups.">
+</p>
 
 ## Reactor Production
 
@@ -612,7 +730,7 @@ Recipe for Reactors:
   - Neodymium: 3
 - Tau Grade Rheostat: 3
 
-#### Procyon III (Isotopic Coolant/Antimicrobial expansion)
+### Procyon III (Isotopic Coolant/Antimicrobial expansion)
 
 Upgading the copper-producing infrastructure at Procyon III to produce Isotopic Coolant and Antimicrobial.
 
@@ -627,51 +745,58 @@ Design:
 - 3 Storage - Solid - Large (copper, antimicrobial, sealant)
 - Simple Fabricator (Isotopic Coolant)
 - Warehouse - Large (Isotopic Coolant)
-- Cargo Link - Inter-system (isotopic coolant to Schrodinger VIII-e)
-- Cargo Link - Inter-system (isotopic coolant to Serpentis V-d)
 
 Bill of Materials:
 
-- Adaptive Frame: 90
-- Aluminum: 175
-- Comm Relay: 2
-- Copper: 46
-- Fluorine: 8
-- Iron: 109
-- Isocentered Magnet: 4
-- Nickel: 52
-- Reactive Gauge: 12
-- Sealant: 8
-- Titanium: 16
-- Tungsten: 36
-- Zero Wire: 3
+- Manufactured
+  - Adaptive Frame: 90
+  - Comm Relay: 2
+  - Isocentered Magnet: 4
+  - Reactive Gauge: 12
+  - Zero Wire: 3
+- Solid
+  - Aluminum: 175
+  - Copper: 46
+  - Iron: 109
+  - Nickel: 52
+  - Sealant: 8
+  - Titanium: 16
+  - Tungsten: 36
+- Gas
+  - Fluorine: 8
 
 ### Cruth (Semimetal Wafer, Paramagnon Conductor)
 
-During start-up, import silver manually from Zeta Ophiuchi I.
+During start-up, import silver manually from Zeta Ophiuchi I. Note how many solar domes are required to produce the power required just for the startup phase of this outpost.
 
 Design:
 
 - Landing Pad - Small
-- 9 Solar Dome (4 power)
-- 3 Extractor - Solid (gold, antimony, copper)
-- 5 Storage - Solid - Large (gold, antimony, neodymium, copper, silver)
+- 11 Solar Dome (4 power)
+- 3 Extractor - Solid (antimony, gold, copper)
+- 5 Storage - Solid - Large (antimony, copper, gold, neodymium, silver)
+- 1 Extractor - Gas (fluorine)
+- Storage - Solid - Gas (fluorine)
 - Simple Fabricator (zero wire)
 - 3 Warehouse - Large (zero wire, semimetal wafers, paramagnon conductor)
 - 2 Compound Fabricator (semimetal wafer, paramagnon conductor)
 
 Materials:
 
-- Adaptive Frame: 80
-- Adhesive: 8
-- Aluminum: 204
-- Iron: 135
-- Isotopic Coolant: 4
-- Sealant: 2
-- Tau Grade Rheostat: 18
-- Titanium: 48
-- Tungsten: 26
-- Zero Wire: 13
+- Manufactured
+  - Adaptive Frame: 80
+  - Isotopic Coolant: 4
+  - Tau Grade Rheostat: 22
+  - Zero Wire: 13
+- Solid
+  - Adhesive: 8
+  - Aluminum: 217
+  - Copper: 3
+  - Iron: 135
+  - Nickel: 4
+  - Sealant: 2
+  - Titanium: 48
+  - Tungsten: 26
 
 Location:
 
@@ -687,17 +812,23 @@ Design:
 - Industrial Workbench
 - 4 Solar Dome (6 power)
 - 4 Extractor - Solid (iridium, plutonium, uranium, vanadium)
-- 6 Storage - Solid - Large (lead, solvent, iridium, plutonium, uranium, vanadium)
+- 6 Storage - Solid - Large (iridium, lead, plutonium, solvent, uranium, vanadium)
 - 3 Warehouse - Large (control rod, paramagnon conductor, semimetal wafer)
 
 Materials:
 
-- Adaptive Frame: 90
-- Aluminum: 192
-- Iron: 143
-- Tau Grade Rheostat: 8
-- Titanium: 48
-- Tungsten: 8
+- Manufactured
+  - Adaptive Frame: 90
+  - Tau Grade Rheostat: 8
+- Solid
+  - Aluminum: 200
+  - Iron: 163
+  - Titanium: 48
+  - Tungsten: 8
+
+Location:
+
+All the resources we need from Grimsey are in one biome. Just find somewhere relatively flat in an area with accessible iridium, plutonium, uranium and vanadium deposits.
 
 ### Codos (Solvent)
 
@@ -705,67 +836,40 @@ Materials:
 
 Design:
 
-- Landing Pad - Small
+- Landing Pad with Shipbuilder
 - Wind Turbine - Advanced (14 power)
 - Extractor - Liquid (water)
 - Storage - Liquid - Large (water)
 - Greenhouse (solvent)
-- Storage - Solid - Large (solvent)
+- 1 Storage - Solid - Large (solvent)
+- Transfer Container
 
 Materials:
 
-- Adaptive Frame: 25
-- Aluminum: 54
-- Fluorine: 4
-- Iron: 43
-- Isocentered Magnet: 2
-- Nickel: 20
-- Reactive Gauge: 3
-- Sealant: 3
-
-### Zeta Ophiucui I (silver, ytterbium, polymer)
-
-Design:
-
-- 2 Wind Turbine - Advanced (14 power)
-- Landing Pad - Small
-- Extractor - Solid (silver)
-- Extractor - Solid (ytterbium)
-- Storage - Solid - Large (silver)
-- Storage - Solid - Large (ytterbium)
-- Extractor - Liquid (water)
-- Storage - Liquid - Large (water)
-- Greenhouse (polymer)
-- Storage - Solid - Large (polymer)
-
-Bill of Materials:
-
-- Adaptive Frame: 45
-- Aluminum: 99
-- Fluorine: 4
-- Iron: 93
-- Isocentered Magnet: 4
-- Nickel: 20
-- Reactive Gauge: 3
-- Sealant: 3
-- Tungsten: 4
-
-Location:
-<p>
-<img src="images/zeta-ophiuchi-i-location-map.jpg" alt="Map of Zeta Ophiuchi I with resources shown. There is a marker for the location of the outpost." width="40%">
-<img src="images/zeta-ophiuchi-i-location-landscape.jpg" alt="The landscape around the outpost on Zeta Ophiuchi I intended to help players find the location once they have landed." width="40%">
-</p>
-
-Land on the swamp side of a swamp/mountains border. You should find that Ytterbium and Tantalum are *everywhere*. Find a site that has silver and ytterbium, typically the silver will be in small patches, but if you have that patch entirely within the outpost border you can squeeze five extractors onto it (later, during upgrades). It can be useful to have more resources but the important bit is having enough silver to provide industry.
+- Manufactured
+  - Adaptive Frame: 43
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3
+  - Zero Wire: 2
+- Solid
+  - Aluminum: 46
+  - Beryllium: 2
+  - Iron: 61
+  - Lubricant: 4
+  - Nickel: 20
+  - Sealant: 3
+  - Tungsten: 5
+- Gas
+  - Fluorine: 4
 
 ### Operation
 
 Run a route to pick up materials and manufacture components on the way:
 
-- Collect Neodymium from Leviathan II
-- Collect Dysprosium, Lead from Alpha Tirna VIII-c
+- Collect Neodymium from Shoza III-a
+- Collect Dysprosium from Alpha Tirna VIII-c
 - Collect Isotopic Coolant from Procyon III
-- Deliver Isotopic Coolant, Dysprosium, (half of the) Neodymium to Bessel III-b
+- Deliver Isotopic Coolant, Dysprosium, some of the Neodymium to home base
 - Craft 3 Control Rods
 - Craft 5 Supercooled Magnet
 - Collect 6 Adaptive Frame, 3 Tau Grade Rheostat from Bessel III-b
@@ -776,9 +880,11 @@ Run a route to pick up materials and manufacture components on the way:
 - Head to Grimsey to craft 8 Nuclear Fuel Rods
 - Head to site to build reactor
 
+Of course there's also the option of setting up all the manufacturing lines at home base and just hauling the extracted materials there, building the reactor at home base then disassembling it which puts the components in your ship's hold. This won't work for mass production of Vytinium Fuel Rods for XP grinding, but more about that after the infrastructure to produce Advanced Reactors has been established.
+
 ## Industrial Liquid Extractors and Greenhouses
 
-The larger project ahead is producing advanced reactors. For that project it would be nice to have better extraction technology. This immediate project is oriented towards producing Veryl-Treated Manifold and Substrate Molecule Sieve. These components allow construction of industrial liquid and gas extractors, and industrial greenhouses. These will be useful for materials such as Solvent.
+The larger project ahead is mass producing Vytinium Fuel Rods (an XP and money grind). For that project it would be nice to have better extraction technology. This immediate project is oriented towards producing Veryl-Treated Manifold and Substrate Molecule Sieve. These components allow construction of industrial liquid and gas extractors, and industrial greenhouses. These will be useful for materials such as Solvent.
 
 Note that for the quantities required in any playthrough it might be easier just buying the Substrate Molecule Sieve and Veryl-Treated Manifold from the stores that stock them. Setting up the outposts to collect the unique resources is extra labour.
 
@@ -816,7 +922,7 @@ Molecular Sieve requires the following components:
   - 1 Nickel
 - 2 Membrane
 
-#### Bessel III-b (Austenitic Manifold, Mag Pressure Tank)
+#### Home Base (Austenitic Manifold, Mag Pressure Tank)
 
 Design:
 
@@ -845,16 +951,12 @@ Materials:
 
 Design:
 
-- 1 Landing Pad - Small
 - 3 Wind Turbine - Advanced (25 power)
-- 3 Greenhouse (fiber)
 - 5 Extractor - Liquid (water)
 - 1 Storage - Liquid - Large (water)
-- 2 Extractor - Gas (argon, benzene)
-- 2 Storage - Gas - Medium (argon, benzene)
-- Extractor - Solid (lithium)
+- 2 Greenhouse (fiber)
 - 2 Animal Husbandry Facility (membrane, sealant)
-- 5 Storage - Solid - Large (2 fiber, lithium, membrane, sealant)
+- 4 Storage - Solid - Large (2 fiber, membrane, sealant)
 - Storage - Liquid - Large (ionic liquids)
 - Compound Fabricator (molecular sieve)
 - 2 Warehouse - Small (mag pressure tank, molecular sieve)
@@ -880,6 +982,8 @@ Materials:
   - Fluorine: 12
 
 Location:
+
+My favoured spots are along the "frozen crevasses" side of the frozen crevasse/savanna borders. When you land you should see both savanna and frozen crevasse landscape. With a bit of hunting you'll find a spot with Argon, Benzene and Lithium. With a bit more luck you'll find Chlorosilanes too, though they're not needed for much.
 
 <p>
 <img src="images/serpentis-iv-location-map.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the location of the outpost." width="40%">
@@ -927,7 +1031,7 @@ These are needed for industrial water extractors and industrial greenhouses.
 - 1 Molecular Sieve
 - 2 Sterile Nanotubes
 
-### Alpha Andraste III (biosuppressant)
+#### Alpha Andraste III (biosuppressant)
 
 [Alpha Andraste III](https://inara.cz/starfield/starsystem/25/#area1284) has a domesticable source of **Biosuppressant**.
 
@@ -935,7 +1039,7 @@ Biosuppressant is used for a few mods, Substrate Molecule Sieve and Repairing Im
 
 Design:
 
-- Landing Pad - Small
+- Landing Pad with Shipbuilder
 - Wind Turbine - Advanced (25 power)
 - 2 Extractor - Liquid (water, chlorosilanes)
 - 2 Storage - Liquid - Medium (water, chlorosilanes)
@@ -947,13 +1051,15 @@ Design:
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 35
+  - Adaptive Frame: 53
   - Isocentered Magnet: 2
   - Reactive Gauge: 3
+  - Zero Wire: 2
 - Solid
-  - Aluminum: 69
+  - Aluminum: 61
+  - Beryllium: 2
   - Copper: 26
-  - Iron: 46
+  - Iron: 56
   - Nickel: 32
   - Sealant: 3
   - Tungsten: 16
@@ -971,7 +1077,7 @@ Design:
 - Greenhouse (fiber)
 - Extractor - Liquid (water)
 - Storage - Liquid - Large (water)
-- Storage - Solid - Large (fiber)
+- 2 Storage - Solid - Large (fiber)
 - Wind Turbine - Advanced (25 power)
 
 Materials:
@@ -990,7 +1096,7 @@ Materials:
 
 #### Fermi VII-a (Memory Substrate)
 
-[Fermi VII-a](https://inara.cz/starfield/starsystem/73/#area185) is the only place we can produce **Memory Substrate**. Import 600 fiber and 300 water (expand production at Procyon III or Serpentis IV), dump them in the large storage then come back to pick up the memory substrate. At that point delete the outpost, we won't be back.
+[Fermi VII-a](https://inara.cz/starfield/starsystem/73/#area185) is the only place we can produce **Memory Substrate**. Import two storages of fiber and 1 of water (expand production at Procyon III or Serpentis IV), dump them in the large storage then come back to pick up the memory substrate. At that point delete the outpost, we won't be back. You need 3 Memory Substrate to make 1 Substrate Molecule Sieve, then 2 Substrate Molecule Sieve to make the industrial buildings of interest (extractors, greenhouses), which means 6 memory substrate for 1 building. With ~200 memory substrate from one load of fiber and water, you'll be able to make 30-odd buildings which is far more than this entire build guide needs. In fact I'd go so far as to say you could rely entirely on vendors for this material (if you weren't already relying on vendors for Substrate Molecule Sieve in the first place).
 
 Design:
 
@@ -1045,11 +1151,9 @@ Materials:
 
 [Verne I](https://inara.cz/starfield/starsystem/22/#area390) is the unique source of **Veryl**.
 
-Once this site is build, wait for 12 benzene which is required for Alpha Tirna VIII-c expansion.
-
 Design:
 
-- 1 Landing Pad - Small
+- 1 Landing Pad with Shipbuilder
 - 1 Wind Turbine - Advanced (25 power)
 - 2 Extractor - Gas (neon, veryl)
 - 2 Storage - Gas - Large (neon, veryl)
@@ -1057,12 +1161,14 @@ Design:
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 20
+  - Adaptive Frame: 38
   - Isocentered Magnet: 2
+  - Zero Wire: 2
 - Solid
-  - Aluminum: 23
+  - Aluminum: 15
+  - Beryllium: 2
   - Copper: 46
-  - Iron: 20
+  - Iron: 30
   - Nickel: 8
   - Tungsten: 32
 
@@ -1070,7 +1176,7 @@ Materials:
 
 [Alpha Tirna VIII-c](https://inara.cz/starfield/starsystem/51/#area1536) has domesticable **lubricant** source along with Antimicrobial, Fiber, Sealant, Tantalum, Titanium, Tungsten.
 
-I've already set up Alpha Tirna VIII-c for the metals. Livestock will require water which can only be obtained through vapor extractors:
+I've already set up Alpha Tirna VIII-c for the metals. Livestock will require water which can only be obtained through vapor extractors, and fiber which can be grown locally:
 
 - 3 Solar Dome (12 power)
 - 4 Extractor - Liquid Vapor (water)
@@ -1100,7 +1206,7 @@ Materials:
 
 Set up the Transfer container as a feed-in for the various storages (see References: "Unlimited Storage & Automated Resources Guide").
 
-The only materials you want in this storage system are as follows (source in parentheses):
+The only materials you want in this storage system are feedstock for Substrate Molecule Sieve and Veryl-Treated Manifold asfollows (source in parentheses):
 
 - Austenitic Manifold (Bessel III-b)
 - Biosuppressant (Alpha Andraste III)
@@ -1150,7 +1256,8 @@ My order of preference for upgrades is:
 
 - Build more of the simple extractors
 - Build Sanitation Robots (10% extra production, multiplicative)
-- Add crew with Outpost Engineering skill (this is becoming a very expensive outpost)
+- Add crew with Outpost Management skill
+- If more production is still required, upgrade to industrial extractors
 
 The recipe for these:
 
@@ -1173,12 +1280,12 @@ The recipe for these:
 I already collect Lubricant and Tungsten at Tirna VIII-c Ta/Ti/W/Alk/Lube, have Schrodinger VIII-e set up for Rothicite Magnets, so producing Drilling Rigs will consist of:
 
 1. Pick up Reactive Gauge and Tau Grade Rheostat from Bessel III-b
-2. Pick up Europium from Leviathan II
+2. Pick up Europium from Andraphon
 3. Head to Tirna VIII-c outpost to construct Drilling Rig
 4. Head to Schrodinger VIII-e to construct Microsecond Regulators
 5. Pick up Aldumite from Schrodinger II (if you haven't already got a stash hidden away at Grimsey)
 6. Head to Grimsey to construct Aldumite Drilling Rig
-7. Drop Aldumite Drilling Rig off at Bessel III-b (1 large warehouse will store 42 Aldumite Drilling Rig)
+7. Drop Aldumite Drilling Rig off at home base. A large warehouse will store 42 Aldumite Drilling Rig
 
 Vendors:
 
@@ -1210,6 +1317,44 @@ Materials:
   - Iron: 45
   - Tungsten: 2
 
+### Andraphon (He3/Be/Eu)
+
+Andraphon is a convenient location to collect He3 to drive the Grimsey and Cruth outposts.
+
+Solar Array: 6
+Wind Turbine: 0
+
+Design:
+
+- Landing Pad - Small
+- 3 Solar Dome (12 power)
+- Extractor - Solid (beryllium)
+- Storage - Solid - Large (beryllium)
+- 4 Extractor - Gas (He3)
+- Storage - Gas - Large (He3)
+
+Bill of Materials:
+
+- Adaptive Frame: 20
+- Aluminum: 60
+- Copper: 32
+- Iron: 45
+- Nickel: 16
+- Tau Grade Rheostat: 6
+- Tungsten: 18
+
+Location:
+
+- Note that the outpost beacon is placed on a terrain (non-resource) gas vent.
+
+<p>
+<img src="images/andraphon-site-map.jpg" alt="Map of Adraphon with resources shown. There is a marker for the location of the outpost." width="40%">
+<img src="images/andraphon-site-landscape-landing.png" alt="The landscape around the landing site on Andraphon intended to help players find the location once they have landed." width="40%">
+<img src="images/andraphon-site-landscape-outpost.png" alt="The landscape around the outpost site on Andraphon intended to help players find the location once they have landed." width="40%">
+</p>
+
+TODO: update with new location: JRamosWorks Gaming Fun, [#Starfield Outposts - 5 Resources in One Spot on Andraphon | Great Starter Locations Video 1 of 4](https://www.youtube.com/watch?v=XEJNLgBUXVI)
+
 ## Advanced Reactor Production
 
 Advanced reactors are great for outposts that require lots of industry. If you start deploying industrial extractors, they'll require 20 power to operate so you'll basically require an advanced reactor to provide the necessary power. On some worlds you'll get by just fine with wind turbines.
@@ -1217,6 +1362,8 @@ Advanced reactors are great for outposts that require lots of industry. If you s
 This project is really not about advanced reactors so much as it is about building outposts, setting up cargo links, and trying to figure out numbers for optimal production rates.
 
 ### Operation
+
+To construct advanced reactors we need the parts for the following recipe:
 
 - Reactor - Advanced
   - 10 Adaptive Frame (16kg) 2 storage box
@@ -1227,7 +1374,9 @@ This project is really not about advanced reactors so much as it is about buildi
   - 4 Tasine Superconductor (20kg) 2 storage box
   - 8 Vytinium Fuel Rod (88kg) 1 storage crate
 
-Once these upgrades are complete:
+In this section we'll expand the industrial base to produce those parts. Most of the production chain will be automated but cargo transfers will be manual. The next section will focus on why we add certain cargo links, and which links will be most important if you only have access to 3 cargo links per outpost (eg: you haven't upgraded Outpost Management, or NG+ has broken Outpost Management for you).
+
+Once the upgrades in this section are complete:
 
 1. Head to Grimsey and build Vytinium Fuel Rods
   1. Check the warehouse for stock of Indicite Wafer and Nuclear Fuel Rods
@@ -1274,20 +1423,47 @@ If you're trying to grind XP instead of build advanced reactors, just build the 
 
 That's 755 VFR in one trip. Each VFR represents 4XP for Nuclear Fuel Rod, 10XP for Indicite Wafer, 14XP for the VFR build for a total of 28XP.
 
-Note that I have found Trade Authority Kiosks don't reset their credits.
-
-### Shoza VIII-b (Positron Battery, Power Circuit)
+### Shoza VII-c (palladium)
 
 Design:
 
-- Landing Pad - Small
+- Landing Pad with Shipbuilder
+- Solar Dome
+- Extractor - Solid (Pd)
+- Storage - Solid - Large (Pd)
+- Cargo Link (Pd to Shoza VIII-b)
+
+Materials:
+
+- Adaptive Frame: 28
+- Aluminum: 36
+- Beryllium: 4
+- Iron: 75
+- Tau Grade Rheostat: 2
+- Tungsten: 2
+- Zero Wire: 4
+
+### Shoza VIII-b (Power Circuit)
+
+Manually construct Power Circuit here to build reactors and advanced reactors.
+
+This outpost is only necessary if you want to automate the flow of tau grade rheostat to Maal IX-b. Another option is to set the fabricator up at home base and import:
+
+- Paramagnon Conductor from Cruth
+- Polymer from Zeta Ophiuchi I
+- Palladium from Shoza VII-c
+
+Design:
+
+- Landing Pad with Shipbuilder
 - 2 Reactor
 - 4 Extractor - Solid (Al, Be, Cu, Au)
-- 10 Storage - Solid - Large (Al, Be, Cu, Au, Nd, Pd, Sb, V, polymer)
+- 6 Storage - Solid - Large (Al, Be, Cu, Au, Pd, polymer)
 - Simple Fabricator (tau grade rheostat)
 - Compound Fabricator (positron battery)
 - 3 Warehouse - Large (paramagnon conductor, positron battery, tau grade rheostat)
-- 2 Cargo Link - Inter-system (paramagnon conductor from Cruth, silver from Zeta Ophiuchi I)
+- Cargo Link (Pd from Shoza VII-c)
+- 4 Cargo Link - Inter-system (paramagnon conductor from Cruth, polymer from Zeta Ophiuchi I, tau grade rheostat to Maal IX-b, positron battery from Maal IX-b)
 
 Materials:
 
@@ -1319,6 +1495,45 @@ Location:
 </p>
 
 Also see the "Advanced Reactor Assembly" document from MattGyver's "Starfield Manufacturing Flow Diagrams" which has a full page describing the location(s) at which you can build this outpost.
+
+### Maal IX-b (positron battery)
+
+This outpost is only necessary if you want to automate the production of positron battery. If you're using a manual supply chain just build the fabricator at home base and import all the required materials:
+
+- tau grade rheostat from Bessel III-b
+- antimony from Cruth
+- Vanadium from Grimsey
+
+Local power generation is 8 from a solar dome, 6 from a wind turbine - advanced, or 30 from a reactor.
+
+Design:
+
+- Landing Pad with Shipbuilder
+- Reactor
+- 2 Extractor - Solid (antimony, vanadium)
+- 2 Storage - Solid - Large (antimony, vanadium)
+- 2 Warehouse - Large (tau grade rheostat, positron battery)
+- Compound Fabricator (positron battery)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 64
+  - Control Rod: 3
+  - Isotopic Coolant: 2
+  - Nuclear Fuel Rod: 8
+  - Paramagnon Conductor: 4
+  - Supercooled Magnet: 5
+  - Tau Grade Rheostat: 3
+  - Zero Wire: 7
+- Solid
+  - Adhesive: 4
+  - Aluminum: 80
+  - Beryllium: 2
+  - Iron: 80
+  - Lead: 10
+  - Titanium: 32
+  - Tungsten: 12
 
 ### Katydid III (Indicite, Silver)
 
@@ -1429,6 +1644,8 @@ Materials:
   - Aluminum: 44
   - Iron: 60
 
+Location: Not important, you should be able to fully survey the planet on one landing. Just land in a vytinium-rich area. There might be some utility in a 4-resource location on this world so here's a [Reddit post](https://old.reddit.com/r/Starfield/comments/17nbhmt/anyone_able_to_point_me_to_a_four_resource/k85fhn8/) purporting to show one.
+
 ### Grimsey (Vytinium Fuel Rod expansion) 
 
 By selling to all the Trade Authority vendors and the Red Mile bartender we should be able to clear 500 VFR sales per trip. As such, all storage is scaled to produce 500 VFR in one go. You can sell much more each trip if you are willing to visit each individual vendor.
@@ -1475,9 +1692,9 @@ Note that the austenitic manifold fabricator already exists if you followed the 
 - Storage - Gas - Large
 - Cargo Link - Inter-system (Copper from Procyon III)
 - Storage - Solid - Large (copper)
-- Cargo Link - Inter-system (Neodymium from Leviathan II)
+- Cargo Link - Inter-system (Neodymium from Shoza III-a)
 - Storage - Solid - Large (neodymium)
-- Cargo Link - Inter-system (Beryllium from Leviathan II)
+- Cargo Link - Inter-system (Beryllium from Shoza III-a)
 - Storage - Solid - Large (beryllium)
 - Cargo Link - Inter-system (Isotopic Coolant from Procyon III)
 - 6 Warehouse - Small (isotopic coolant, reactive gauge, austenitic manifold, tau grade rheostat, supercooled magnet)
@@ -1588,7 +1805,7 @@ Design:
 - 3 Warehouse - Large (Isotopic Coolant, Isocentered Magnet, Supercooled Magnet)
 - Simple Fabricator (isocentered magnet)
 - Compound Fabricator (supercooled magnet)
-- 3 Cargo Link - Inter-system (Neodymium from Leviathan II, Isotopic Coolant from Procyon III, Supercooled Magnets to Schrodinger VIII-e)
+- 3 Cargo Link - Inter-system (Neodymium from Shoza III-a, Isotopic Coolant from Procyon III, Supercooled Magnets to Schrodinger VIII-e)
 
 Materials:
 
@@ -1805,9 +2022,9 @@ Materials:
 
 Here are some sites I had built out at some point but can't bear to remove from this document.
 
-### Andraphon (He3/Be) - Outdated
+### Andraphon (He3/Be)
 
-For the purposes of this industry guide the only resources we care about are Be and He3, with the priority being a large He3 patch. The five-resource site is restricted in build area and has a difficult He3 patch to exploit. If we can find Europium here that's great. Otherwise we can find Europium elsewhere (even through a one-and-done outpost). The only thing Europium is used for in this plan is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors.
+For the purposes of this industry guide the only resources we care about are Be and He3, with the priority being a large He3 patch. If we can find Europium here that's great. Otherwise we can find Europium elsewhere (even through a one-and-done outpost). The only thing Europium is used for in this plan is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors.
 
 - He3 for transport
 - Beryllium for Bessel workshop
@@ -1843,6 +2060,51 @@ It's worth pointing out that if you land right in a Europium rich area, He3 will
 <img src="images/andraphon-5-resource-location-landscape.png" alt="The landscape around the outpost on Andraphon intended to help players find the location once they have landed." width="40%">
 </p>
 
+TODO: update with new location: JRamosWorks Gaming Fun, [#Starfield Outposts - 5 Resources in One Spot on Andraphon | Great Starter Locations Video 1 of 4](https://www.youtube.com/watch?v=XEJNLgBUXVI)
+
+### Leviathan II (He3/Be/Eu/Nd)
+
+I found Leviathan II outpost hard to reproduce, so rather than condemn future readers to spending several hours just finding the spot for one outpost we'll archive this plan.
+
+Design:
+
+- Landing Pad - Small
+- 4 Solar Dome (16 power)
+- Extractor - Solid (beryllium)
+- Storage - Solid - Large (beryllium)
+- Extractor - Solid (europium)
+- Storage - Solid - Large (europium)
+- Extractor - Solid (neodymium)
+- Storage - Solid - Large (neodymium)
+- 8 Extractor - Gas (He3)
+- Storage - Gas - Large (He3)
+- Cargo Link - Inter-system (He3 to Bessel III-b)
+- Cargo Link - Inter-system (He3 to Grimsey)
+
+Bill of Materials:
+
+- Manufactured
+  - Adaptive Frame: 40
+  - Comm Relay: 2
+  - Reactive Gauge: 6
+  - Tau Grade Rheostat: 8
+- Solid
+  - Aluminum: 148
+  - Copper: 44
+  - Iron: 135
+  - Nickel: 32
+  - Tungsten: 22
+
+Location:
+
+It's possible to find a location here with Al/Be/Eu/He3/Nd, but it feels like the "Craters" biome on Leviathan II is actually three separate biomes of Craters with beryllium, Craters with aluminium and He3, and Craters with neodymium/europium. They do mix but generally speaking He3 is harder to find where Europium is easier to find and vice versa. I don't know if it's just confirmation bias but it seems to me that some terrain is slighly shinier and paler than the neighbouring terrain and that's the biome with Europium and Neodymium. YMMV.
+
+<p>
+<img src="images/leviathan-ii-location-map.jpg" alt="Map of Leviathan II with resources shown. There is a marker for the location of the outpost." width="40%">
+<img src="images/leviathan-ii-location-landscape.jpg" alt="The landscape at the landing site on Leviathan II intended to help players find the location once they have landed." width="40%">
+<a href="images/leviathan-ii-outpost-landscape.jpg" target="_maps"><img src="images/leviathan-ii-outpost-landscape.jpg" alt="The landscape at the outpost site on Leviathan II intended to help players find the location once they have landed. Approx 870m slightly south of East from the landing site." width="40%"></a>
+</p>
+
 ## References
 
 - [Starfield Unlimited Storage & Automated Resources Guide](https://www.youtube.com/watch?v=4PpCgF9RtY4)
@@ -1852,3 +2114,12 @@ It's worth pointing out that if you land right in a Europium rich area, He3 will
 - MattGyver [Starfield Outpost Pocket Reference](https://www.mattgyver.com/starfield-outpost)
 - MattGyver [Starfield System Starmap v6](images/Starfield-System-Starmap-v6.png)
 - MattGyver [Starfield Manufacturing Flow Diagrams](https://www.mattgyver.com/tutorials/2024/2/15/starfield-manufacturing-flow-diagrams)
+- [Rafael character page][INARARAFAEL]
+- [Lin character page][INARALIN]
+- [Heller character page][INARAHELLER]
+- [Andromeda character page][INARAANDROMEDA]
+
+[INARAANDROMEDA]: https://inara.cz/starfield/companion/22/
+[INARAHELLER]: https://inara.cz/starfield/companion/5/
+[INARALIN]: https://inara.cz/starfield/companion/14/
+[INARARAFAEL]: https://inara.cz/starfield/companion/62/

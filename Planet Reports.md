@@ -32,6 +32,32 @@ Maybe one day Scan Boosters will function as expected (ie: boosting scanner abil
 
 ## Planet Reports
 
+### Bardeen III
+
+Fauna:
+
+- Flocking Roundface Herbivore (metabolic agent) (mountains, deciduous forest, hills) (outpost, non-lethal)
+- Grabber Grazer (pigment) (mountains, deciduous forest, hills) (outpost: no)
+- Herding Dragon Scavenger (sealant) (frozen plains, wetlands) (outpost: yes, non-lethal)
+- Herding Hornface Herbivore (gastro delight) (wetlands, deciduous forest) (outpost: yes)
+- Herding Spiderwasp Grazer (amino acids) (wetlands, deciduous forest) (outpost: yes)
+- Pack Exocrawler (spice) (mountains, deciduous forest, hills) (outpost: no, non-lethal)
+- Pack Horsamander (polymer) (frozen plains, wetlands) (outpost: no)
+- Parrothawk Scavenger (membrane) (mountains, wetlands, deciduous forest, hills) (outpost: no)
+- Schooling Kronosaurus Scavenger (structural) (ocean)
+- Swarming Clickbeetle (sedative) (wetlands, deciduous forest) (no)
+- Tubecrawler Scavenger (nutrient) (frozen plains, wetlands) (outpost: no)
+
+Flora:
+
+- Atlas Weed (nutrient) (mountains, deciduous forest) (outpost: water)
+- Bleeding Heart Vine (fiber) (mountains, hills) (outpost: no)
+- Bowing Shadeleaf (lubricant) (mountains, frozen plains, deciduous forest, hills) (outpost: water)
+- Frost Reed (cosmetic) (mountains, frozen plains) (outpost: water)
+- Gnaw Stalk (metabolic agent) (wetlands) (outpost: no)
+- Leafy Morningstar (toxin) (deciduous forest) (outpost: water)
+- Rotting Stinkroot (sealant) (wetlands) (outpost: water)
+
 ### Jemison
 
 Fauna:
@@ -187,6 +213,30 @@ Fauna:
 - Herding Nautiloos Filterer (memory substrate) (plateau, hills, sandy desert) (outpost)
 - Jellyfin Filterer (toxin) (plateau, hills, sandy desert) (no)
 - Pack Sunfish (stimulant) (plateau, hills, sandy desert) (no)
+
+### Hyla II
+
+Fauna:
+
+- Centiskull Scavenger (toxin) (swamp) (no)
+- Flocking Brainblimp Filterer (biosuppressant) (swamp) (no)
+- Herding Tongueface Grazer (fiber) (swamp, mountains) (no, non-lethal)
+- Hunting Ikuradon (aromatic) (swamp, mountains) (no)
+- Hunting Lockjaw (cosmetic) (mountains) (outpost: no)
+- Schooling Unishark Scavenger (metabolic agent) (ocean, swamp) (no)
+- Trihorn Grazer (structural) (mountains) (outpost: no, non-lethal)
+- Trilobite Filterer (sealant) (mountains, frozen plains) (outpost: no)
+
+Flora:
+
+- Aruna Goldenglow (fiber) (swamp) (outpost: water)
+- Caelus Pokeweed (sealant) (swamp) (outpost: water)
+- Ice Creeper (spice) (mountains, frozen plains) (outpost: water)
+- Iceblood Vine (metabolic agent) (mountains, frozen plains) (outpost: no)
+- Mountain Silkweed (nutrient) (swamp, mountains) (outpost: no)
+- Nebula Vine (structural) (swamp, mountains) (outpost: no)
+- Spiral Bloom (aromatic) (mountains) (outpost: water)
+- Sweeping Silkweed (toxin) (swamp) (no) (outpost: no)
 
 ### Copernicus II
 
@@ -602,15 +652,19 @@ Biomes:
 
 Fauna:
 
+- Coralheart Herbivore (membrane) (mountains) (outpost: yes)
+- Grabber Filterer (toxin) (volcanic, sandy desert) (outpost)
+- Herding Coralcrawler Filterer (structural) (mountains) (outpost: yes, non-lethal)
 - Herding Hornface Scavenger (cosmetic) (volcanic, sandy desert) (outpost)
 - Hunting Cricket (biosuppressant) (volcanic, sandy desert) (no)
-- Grabber Filterer (toxin) (volcanic, sandy desert) (outpost)
+- Pack Twistfin (analgesic) (mountains) (outpost: yes)
 
 Flora:
 
+- Haven Vine (nutrient) (volcanic, sandy desert, mountains) (no)
+- Leafy Morningstar (toxin) (deciduous forest, mountains) (outpost: water)
 - Spiral Bloom (spice) (volcanic, sandy desert, mountains) (outpost: water)
 - Stunted Pine (sealant) (volcanic, deciduous forest, sandy deert, mountains) (outpost: water)
-- Haven Vine (nutrient) (volcanic, sandy desert, mountains) (no)
 
 ### Piazzi IV-c
 
@@ -650,6 +704,7 @@ Fauna:
 - Baleen Rotifer (antimicrobial) (frozen plains, savanna) (no)
 - Buzzrunner (sealant) (coniferous forest) (no)
 - Crawling Eurypterid (aromatic) (frozen plains, coniferous forest) (outpost)
+- Dropsalm (structural) (coniferous forest) (outpost: no)
 - Elk Crangon (nutrient) (frozen plains, savanna) (outpost)
 - Flying Leech (cosmetic) (frozen plains) (no)
 - Grazing Ensifer (toxin) (coniferous forest, savanna) (outpost)
@@ -660,6 +715,7 @@ Flora:
 
 - Canary Reed (nutrient) (coniferous forest, savanna) (no)
 - Chillhook (toxin) (frozen plains, coniferous forest) (outpost: water)
+- Cold Cave Nettle (nutrient) (frozen plains) (outpost: water)
 - Golden Creeper (hallucinogen) (frozen plains, coniferous forest, savanna) (outpost: water)
 - Savanna Sweetbush (Fiber) (coniferous forest, savanna) (no)
 
