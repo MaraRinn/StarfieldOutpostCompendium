@@ -135,7 +135,7 @@ Materials:
 - Gas
   - Fluorine: 44
 
-### Proycon III
+### Proycon III (antimicrobial)
 
 I already have a base on Proycon III, this just expands on that installation.
 
@@ -161,7 +161,7 @@ Bill of materials:
 - 2 Substrate Molecule Sieve
 - 8 Titanium
 
-### Alpha Andraste III
+### Alpha Andraste III (biosuppressant)
 
 This base exists to extract two resources: Biosuppressant and Xenon. For the pharmaceuticals lab the only thing we care about is biosuppressant.
 
@@ -172,6 +172,15 @@ This base exists to extract two resources: Biosuppressant and Xenon. For the pha
 - 1 Extractor - Gas (xenon)
 - 1 Storage - Gas - Large (xenon)
 - 1 Wind Turbine - Advanced (25 power)
+
+### Hyla II (aromatic)
+
+- 1 Extractor - Liquid (water)
+- 1 Storage - Liquid - Large (water)
+- 1 Greenhouse (aromatic)
+- 1 Storage - Solid - Large (aromatic)
+- 1 Wind Turbine - Advanced (25 power)
+- 1 Landing Pad - Small
 
 ## Home Kitchen
 
