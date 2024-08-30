@@ -3,6 +3,7 @@
 - [Starfield Resource Extraction](#starfield-resource-extraction)
   - [Overview](#overview)
   - [Miscellany](#miscellany)
+    - [Broken Skills](#broken-skills)
     - [Nice Outpost Starter](#nice-outpost-starter)
     - [Containers](#containers)
     - [Measured Components for Cargo Link - Inter-system](#measured-components-for-cargo-link---inter-system)
@@ -34,7 +35,7 @@
     - [Sterile Nanotubes](#sterile-nanotubes)
       - [Serpentis IV (sterile nanotubes)](#serpentis-iv-sterile-nanotubes)
     - [Substrate Molecule Sieve](#substrate-molecule-sieve)
-      - [Alpha Andraste III (biosuppressant)](#alpha-andraste-iii-biosuppressant)
+      - [Alpha Andraste III (biosuppressant, Chlorosilanes, Cl, Xe)](#alpha-andraste-iii-biosuppressant-chlorosilanes-cl-xe)
       - [Serpentis IV (fibre and water expansion)](#serpentis-iv-fibre-and-water-expansion)
       - [Fermi VII-a (Memory Substrate)](#fermi-vii-a-memory-substrate)
       - [Serpentis IV (substrate molecule sieve)](#serpentis-iv-substrate-molecule-sieve)
@@ -82,6 +83,15 @@ After the front matter there's a process of boot-strapping an industrial base ("
 
 Some things to mention before we get into the body of this guide.
 
+### Broken Skills
+
+Outpost Management will stop working when you transition to the next NG+. The current workaround requires console commands, disabling achievements:
+
+1. player.removeperk 0023826F
+2. player.addperk 0023826F (once for each level)
+
+You can get by without Outpost Management 4 but the industrial expansions for Advanced Reactor Production (specifically the Vytinium Fuel Rod produciton line) require more than 3 cargo links for a few key hubs.
+
 ### Nice Outpost Starter
 
 Here's a standard habitat I like to install just for the RP flavour. It has a two-storey hab from which two round habs are joined, stacked on top of each other. One hab is the "accommodations" and the other ("hydroponic" glass-walled hab) will be the observation deck.
@@ -119,6 +129,8 @@ Containers that can be included in storage chains:
 When crafting at a workbench you can not pull resources from the storage boxes or storage crates, only the Storage and Warehouse components (along with personal inventory and home ship inventory if it is within 250m).
 
 ### Measured Components for Cargo Link - Inter-system
+
+This is a simple idea for pre-measuring the amounts of materials required for common outpost items.
 
 - 12 Aluminium (6kg) Storage Box
 - 1 Comm Relay (3.5kg) Storage Box
@@ -304,6 +316,8 @@ Result:
 
 ### Storage Requirements
 
+![An example layout of various storages in roughly the proportions used for one game](<images/arrangement of storage.jpg>)
+
 Mineral Solids (small/medium unless otherwise specified, 30):
 
 - Aldumite
@@ -425,7 +439,6 @@ Warehouses (small unless indicated otherwise):
 - Zero Wire
 - Zero-G Gimbal
 
-
 ### Crew Skills
 
 Outpost Engineering increases manufacturing line production by 10/20/30/30%:
@@ -446,7 +459,7 @@ New Game, New You? Here's how to bootstrap your industry. Start off with a handf
 - Bessel III-b for Al/Fe/Ni/Co
 - Assembly line for Adaptive Frame and Isocentered Magnets
 - Procyon III for copper
-- Shoza III-a for beryllium and helium-3
+- Shoza III-a for beryllium, neodymium and helium-3
 - Alpha Tirna VIII-c titanium and tungsten
 
 From this you'll be able to construct most tier 1 manufactured goods. The process is entirely based on picking stuff up from each outpost and bringing it back to Bessel III-b for the moment, we'll start introducing cargo links and inter-system cargo links after Andraphon (or Leviathan II).
@@ -1031,7 +1044,7 @@ These are needed for industrial water extractors and industrial greenhouses.
 - 1 Molecular Sieve
 - 2 Sterile Nanotubes
 
-#### Alpha Andraste III (biosuppressant)
+#### Alpha Andraste III (biosuppressant, Chlorosilanes, Cl, Xe)
 
 [Alpha Andraste III](https://inara.cz/starfield/starsystem/25/#area1284) has a domesticable source of **Biosuppressant**.
 
@@ -1180,10 +1193,10 @@ I've already set up Alpha Tirna VIII-c for the metals. Livestock will require wa
 
 - 3 Solar Dome (12 power)
 - 4 Extractor - Liquid Vapor (water)
-- 2 Animal Husbandry Facility (lubricant)
-- 2 Greenhouse (fiber)
 - 1 Storage - Liquid (water)
+- 2 Greenhouse (fiber)
 - 1 Storage - Solid (fiber)
+- 2 Animal Husbandry Facility (lubricant)
 - Storage - Solid - Large (lubricant)
 
 Materials:
@@ -1206,7 +1219,7 @@ Materials:
 
 Set up the Transfer container as a feed-in for the various storages (see References: "Unlimited Storage & Automated Resources Guide").
 
-The only materials you want in this storage system are feedstock for Substrate Molecule Sieve and Veryl-Treated Manifold asfollows (source in parentheses):
+The only materials you want in this storage system are feedstock for Substrate Molecule Sieve and Veryl-Treated Manifold as follows (source in parentheses):
 
 - Austenitic Manifold (Bessel III-b)
 - Biosuppressant (Alpha Andraste III)
@@ -1554,7 +1567,7 @@ Design:
 - Cargo Link - Inter-system (indicite to Grimsey)
 - Cargo Link - Inter-system (silver to Cruth)
 - Cargo Link - Inter-system (silver to Shoza VIII-B)
-- Cargo Link - Inter-system (He3 from Leviathan II)
+- Cargo Link - Inter-system (He3 from Androphon)
 - Landing Pad - Small
 
 Materials:
@@ -1597,7 +1610,7 @@ Materials:
 Design:
 
 - Cargo Link (semimetal wafers to Grimsey)
-- 3 Cargo Link - Inter-system (silver from Zeta Ophiuchi I, semimetal wafers to Schrodinger VIII-e, antimony to Shoza VIII-b)
+- 4 Cargo Link - Inter-system (silver from Zeta Ophiuchi I, semimetal wafers to Schrodinger VIII-e, antimony to Shoza VIII-b, neodymium from Shoza III-a, He3 from Shoza III-a)
 
 ### Codos (solvent to grimsey)
 
@@ -1838,6 +1851,8 @@ Design:
 
 - Cargo Link - Inter-system (He3 for Maal IX-b)
 - Cargo Link - Inter-system (He3 for Schrodinger VIII-e)
+- Cargo Link - Inter-system (Nd to Serpentis V-d)
+- Cargo Link - Inter-system (Nd to Cruth)
 - 2 Storage - Gas - Large
 - 8 Extractor - Gas (helium-3)
 - 4 Solar Dome (12 power)
@@ -2024,7 +2039,7 @@ Here are some sites I had built out at some point but can't bear to remove from 
 
 ### Andraphon (He3/Be)
 
-For the purposes of this industry guide the only resources we care about are Be and He3, with the priority being a large He3 patch. If we can find Europium here that's great. Otherwise we can find Europium elsewhere (even through a one-and-done outpost). The only thing Europium is used for in this plan is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors.
+The only use for Europium is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors. Androphon can be useful as an extra Helium source.
 
 - He3 for transport
 - Beryllium for Bessel workshop
