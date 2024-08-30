@@ -2068,14 +2068,15 @@ Bill of Materials:
 
 Location:
 
-It's worth pointing out that if you land right in a Europium rich area, He3 will be extremely rare. If you land in a He3 righ area, Europium will be extremely rare. These images show the location of the popular "good" site with He3, Beryllium, Aluminium, Europium and Iron. It's workable, but the He3 patch is tedious due to scenery rocks meaning you can't place extractors where you want them.
+It's worth pointing out that if you land right in a Europium rich area, He3 will be extremely rare. If you land in a He3 righ area, Europium will be extremely rare. These images show the location of a site with He3, Beryllium, Aluminium, Europium and Iron.
 
 <p>
-<img src="images/andraphon-5-resource-location-map-main.jpg" alt="Map of Adraphon with resources shown. There is a marker for the location of the outpost." width="40%">
-<img src="images/andraphon-5-resource-location-landscape.png" alt="The landscape around the outpost on Andraphon intended to help players find the location once they have landed." width="40%">
+<img src="images/andraphon-site-map.jpg" alt="Map of Adraphon with resources shown. There is a marker for the location of the outpost." width="40%">
+<img src="images/andraphon-site-landscape-landing.jpg" alt="The landscape around the landing site on Andraphon. Two blue rock outcrops are annotated 1 and 2 respectively. An arrow indicates the location of the outpost" width="40%">
+<img src="images/andraphon-site-outpost.jpg" alt="The landscape at the outpost site. Two blue rock outcrops are annotated 1 and 2 respectively. An arrow indicates the rough location of the landing site." width="40%">
 </p>
 
-TODO: update with new location: JRamosWorks Gaming Fun, [#Starfield Outposts - 5 Resources in One Spot on Andraphon | Great Starter Locations Video 1 of 4](https://www.youtube.com/watch?v=XEJNLgBUXVI)
+Video presentation of this site by JRamosWorks Gaming Fun, [#Starfield Outposts - 5 Resources in One Spot on Andraphon | Great Starter Locations Video 1 of 4](https://www.youtube.com/watch?v=XEJNLgBUXVI)
 
 ### Leviathan II (He3/Be/Eu/Nd)
 
