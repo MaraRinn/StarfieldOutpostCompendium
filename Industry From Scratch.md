@@ -180,9 +180,17 @@ Location:
 <img src="images/zeta-ophiuchi-i-location-landscape.jpg" alt="The landscape around the outpost on Zeta Ophiuchi I intended to help players find the location once they have landed." width="40%">
 </p>
 
-Land on the swamp side of a swamp/mountains border. You should find that Ytterbium and Tantalum are *everywhere*. Find a site that has silver and ytterbium, typically the silver will be in small patches, but if you have that patch entirely within the outpost border you can squeeze five extractors onto it (later, during upgrades). It can be useful to have more resources but the important bit is having enough silver to provide industry.
+This site is a confluence of three biomes: swamp where silver is marked on the map, savanna to the right and frozen dunes where ytterbium is marked on the map. The landing site is just inside the frozen dunes biome when approaching from the swamp side of the confluence. So follow the swap/savanna border into the frozen dunes and land on the frozen duens side of the swamp/frozen dunes border.
 
-### Shoza III-a (He3, Be, Nd)
+The important resources from this outpost are polymer and silver for industry, and some ytterbium for weapon mods and veryl-treated manifold manufacture.
+
+Sources:
+
+- PsionPhoenixGaming in Starfield subreddit thread [Ideal outposts locations/rare resources location](https://old.reddit.com/r/Starfield/comments/16e8esr/comment/k17h6hi/)
+- Sifting Santa on YouTube, [How to get a 8 Resource Starfield Outpost](https://www.youtube.com/watch?v=0Xc1UxRk9FM&t=174s) (I think this is based on that Reddit comment)
+- Brahmiluff, [8-in-one Resources Zeta Ophiuchi Outpost Location in Starfield!](https://www.youtube.com/watch?v=M9GlFTBNQNc) (based on same location) &emdash; go into frozen dunes from the swamp side of the swamp/savanna/frozen dunes confluence.
+
+## Shoza III-a (He3, Be, Nd)
 
 Design:
 
