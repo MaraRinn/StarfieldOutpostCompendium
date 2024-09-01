@@ -8,7 +8,7 @@ The contents are as follows:
 
 - Industry From Scratch: how to start up an industrial base with nothing more than a cutter and some cash. For people who are starting NG+ you can even get started without a cutter, just get straight into the industry side from the moment you start the new game
 - Advanced Nuclear Reactor Assembly Line: walks you through setting up an outpost network based on MattGyver's "Advanced Reactor Assembly Manual" plans including advice on optimising throughput for XP grinding based on resetting vendors every two days and attempting to sell all the Vytinium Fuel Rods produced
-- Pharmaceutical Lab: with only three planets, set up a pharmaceutical lab to produce various medical aids such as analgesic poultice, injector, and immobiliser
+- Pharmaceutical Lab: three extra planets, set up a pharmaceutical lab to produce various medical aids such as amp, analgesic poultice, injector, and immobiliser
 
 ## Future Plans
 

@@ -1,6 +1,6 @@
-# Starfield Resource Extraction
+# Advanced Reactor Assembly Line
 
-- [Starfield Resource Extraction](#starfield-resource-extraction)
+- [Advanced Reactor Assembly Line](#advanced-reactor-assembly-line)
   - [Overview](#overview)
   - [Reactor Production](#reactor-production)
     - [Procyon III (Isotopic Coolant/Antimicrobial expansion)](#procyon-iii-isotopic-coolantantimicrobial-expansion)
@@ -51,13 +51,12 @@
     - [Industrial Upgrades](#industrial-upgrades)
       - [Cruth (Mass Production of Semimetal Wafers)](#cruth-mass-production-of-semimetal-wafers)
   - [Other Sites](#other-sites)
-    - [Andraphon (He3/Be)](#andraphon-he3be)
     - [Leviathan II (He3/Be/Eu/Nd)](#leviathan-ii-he3beeund)
   - [References](#references)
 
 ## Overview
 
-In this document you'll build upon the Industry from Scratch infrastructure to:
+In this document you'll build upon the *Industry from Scratch* infrastructure to:
 
 - Build Reactors using manual logistics
 - Build Advanced Reactors using manual logistics
@@ -67,7 +66,7 @@ In this document you'll build upon the Industry from Scratch infrastructure to:
 
 ## Reactor Production
 
-As a stepping stone from "Industry from Scratch" to the Advanced Reactor Production chain, having the capacity to build normal reactors is useful. They produce a fixed 30 power which is great for those worlds where wind turbines and solar arrays are especially weak (airless worlds with dim light).
+As a stepping stone from *Industry from Scratch* to the Advanced Reactor Production chain, having the capacity to build normal reactors is useful. They produce a fixed 30 power which is great for those worlds where wind turbines and solar arrays are especially weak (airless worlds with dim light).
 
 This manufacturing system is based on shipping resources manually since the volume of production is so low. The steps taken to expand industry capacity in this section are necessary for the next section on Advance Reactor production.
 

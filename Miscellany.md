@@ -11,7 +11,7 @@ Outpost Management will stop working when you transition to the next NG+. The cu
 
 You can get by without Outpost Management 4 but the industrial expansions for Advanced Reactor Production (specifically the Vytinium Fuel Rod produciton line) require more than 3 cargo links for a few key hubs.
 
-## Nice Outpost Starter
+## Nice Outpost Habitat
 
 Here's a standard habitat I like to install just for the RP flavour. It has a two-storey hab from which two round habs are joined, stacked on top of each other. One hab is the "accommodations" and the other ("hydroponic" glass-walled hab) will be the observation deck.
 
@@ -326,7 +326,7 @@ Gasses (10):
 - Veryl
 - Xenon
 
-Warehouses (small unless indicated otherwise):
+Warehouses (1 large, 28 small):
 
 - Adaptive Frame (large)
 - Aldumite Drilling Rig
