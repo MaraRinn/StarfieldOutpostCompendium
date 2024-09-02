@@ -350,6 +350,9 @@ My favoured spots are along the "frozen crevasses" side of the frozen crevasse/s
 <p>
 <img src="images/serpentis-iv-location-map.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the location of the outpost." width="40%">
 <img src="images/serpentis-iv-location-landscape.jpg" alt="The landscape around the outpost on Serpentis IV intended to help players find the location once they have landed." width="40%">
+<img src="images/serpentis-iv-location-map-2.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the alternative outpost location" width="40%">
+<img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the landing site for the alternative outpost location on Serpentis IV." width="40%">
+<img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the alternative outpost location on Serpentis IV" width="40%">
 </p>
 
 ### Sterile Nanotubes

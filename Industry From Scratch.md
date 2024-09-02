@@ -3,7 +3,7 @@
 New Game, New You? Here's how to bootstrap your industry. Start off with a handful of Tungsten, building out basic resources and low tier manufactured goods:
 
 - Bessel III-b for Al/Fe/Ni/Co
-- Androphon for europium and helium-3
+- Androphon for beryllium, europium and helium-3
 - Procyon III for copper
 - Alpha Tirna VIII-c titanium and tungsten
 - Zeta Ophiuchi for silver
@@ -18,14 +18,14 @@ After that we'll proceed to producing Reactors as a stepping stone towards produ
 - [Industry from Scratch](#industry-from-scratch)
   - [Preparation](#preparation)
   - [Bessel III-b Al/Fe/Ni/Co](#bessel-iii-b-alfenico)
-  - [Andraphon (He3/Be)](#andraphon-he3be)
+  - [Andraphon (He3/Be/Eu)](#andraphon-he3beeu)
   - [Procyon III (Cu, Sealant)](#procyon-iii-cu-sealant)
   - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-pb-ta-ti-w-alkanes)
   - [Zeta Ophiucui I (silver, ytterbium, polymer)](#zeta-ophiucui-i-silver-ytterbium-polymer)
   - [Shoza III-a (He3, Be, Nd)](#shoza-iii-a-he3-be-nd)
   - [Serpentis IV (fiber, structural)](#serpentis-iv-fiber-structural)
-  - [Gagarin (adhesive)](#gagarin-adhesive)
   - [Home Base Industry Expansion](#home-base-industry-expansion)
+    - [Further Expansion](#further-expansion)
   - [Sales Route](#sales-route)
 
 
@@ -79,7 +79,7 @@ Location:
 - Brahmiluff, [Bessel III-b outpost location](https://www.youtube.com/watch?v=NSxSKiD4ahk), YouTube 23 Sep 2023 (NB: relies on good lighting which you won't get until a couple of weeks from start of game)
 - Vash Cowaii, [Starfield: The Best Beginner XP Farm? Only 950 Credits](https://www.youtube.com/watch?v=DKTjyx-1ES4), YouTube 13 Sep 2023 (NB: provides necessary hints to find the landing site on the dark side. Abrasive personality)
 
-## Andraphon (He3/Be)
+## Andraphon (He3/Be/Eu)
 
 The only use for Europium is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors. Androphon can be useful as an extra Helium source. Consider visiting Procyon III to gather the copper, or buy the copper from New Atlantis vendors.
 
@@ -238,22 +238,22 @@ Design:
 
 - Landing Pad - Small
 - 2 Solar Dome
-- 3 Extractor - Solid (aluminum, beryllium, neodymium)
-- 3 Storage - Solid - Large (aluminum, beryllium, neodymium)
+- 2 Extractor - Solid (beryllium, neodymium)
+- 2 Storage - Solid - Large (beryllium, neodymium)
 - Extractor - Gas (he3)
 - Storage - Gas - Large (he3)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 40
+  - Adaptive Frame: 30
   - Tau Grade Rheostat: 4
 - Solid
-  - Aluminum: 81
+  - Aluminum: 61
   - Copper: 23
-  - Iron: 95
+  - Iron: 70
   - Nickel: 4
-  - Tungsten: 22
+  - Tungsten: 20
 
 Location:
 
@@ -265,7 +265,7 @@ There's a little circular patch of helium-rich terrain on the edge of a region o
 
 ## Serpentis IV (fiber, structural)
 
-This outpost is where I build my pharmaceutical lab and kitchen. This initial setup will provide fiber and structural material to start building a habitat. A habitat here will be useful to house security detail to complement turrets and robots, all of which will be busy keeping clickbeetles at bay.
+This outpost is where I build my pharmaceutical lab and kitchen (see *Pharmaceuticals Lab* document). This initial setup will provide fiber and structural material to start building a habitat. A habitat here will be useful to house security detail to complement turrets and robots, all of which will be busy keeping clickbeetles at bay.
 
 Design:
 
@@ -276,8 +276,8 @@ Design:
 - Storage - Liquid - Large (water)
 - Extractor - Solid (lithium)
 - 3 Storage - Solid - Large (fiber, lithium, structural)
-- 2 Extractor - Gas (argon, benzene)
-- 2 Storage - Gas - Medium (argon, benzene)
+- 2 Extractor - Gas (argon, chlorine)
+- 2 Storage - Gas - Medium (argon, chlorine)
 
 Materials:
 
@@ -295,75 +295,64 @@ Materials:
 - Gas
   - Fluorine: 8
 
-## Gagarin (adhesive)
+Location:
 
-This outpost isn't strictly necessary, you can buy adhesive and lead in the quantities needed when heading off to build outposts. For completeness, here it is.
-
-Design:
-
-- Landing Pad - Small
-- Wind Turbine - Advanced
-- Extractor - Liquid (water)
-- Greenhouse (adhesive)
-- Storage - Solid (adhesive)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 8
-  - Isocentered Magnet: 2
-  - Reactive Gauge: 3
-- Solid
-  - Aluminum: 23
-  - Iron: 29
-  - Nickel: 4
-  - Sealant: 3
-- Gas
-  - Fluorine: 4
+<img src="images/serpentis-iv-location-map-2.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the alternative outpost location" width="40%">
+<img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the landing site for the alternative outpost location on Serpentis IV." width="40%">
+<img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the alternative outpost location on Serpentis IV" width="40%">
 
 ## Home Base Industry Expansion
 
 With the titanium available from Tirna VIII-c, build some extra storage and production:
 
-- Build adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, zero wire locally
-- Import isotopic coolant from Procyon III
+- Build adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, tau grade rheostat, zero wire locally
+- Import copper, fluorine, isotopic coolant, sealant from Procyon III
 - Import beryllium from Shoza III-a
-- Import copper from Procyon III
-- Import silver & ytterbium from Zeta Ophiuchi I
-- Import alkanes, dysprosium, titanium and tungsten from Alpha Tirna III-c
+- Import polymer, silver & ytterbium from Zeta Ophiuchi I
+- Import alkanes, dysprosium, tantalum, titanium and tungsten from Alpha Tirna III-c
 
-My typical operation at this stage is to build a ship with a decent cargo capacity, then visit my outposts roughly in clockwise order around the map, returning to Bessell III-b when full to top up storage there, then Serpentis IV to top up storage there, then going through the sales route to get rid of the surplus before I start turning into a hoarder.
+My typical operation at this stage is to build a ship with a decent cargo capacity, then visit my outposts roughly in clockwise order around the map, returning to Bessell III-b when full to top up storage there, then Serpentis IV to top up storage there, then going through the sales route to get rid of the surplus.
 
-This design does not include power expansion.
+This design does not include power expansion. You will need to provide 30 power, which on Bessel III-b means 5 Wind Turbine - Advanced.
 
 Design:
 
 - 9 Storage - Solid - Large (beryllium, copper, dysprosium, europium, neodymium, silver, titanium, tungsten, ytterbium)
 - 2 Storage - Gas - Large (alkanes, fluorine)
-- 5 Warehouse - Large (adaptive frame, isocentered magnet, isotopic coolant, mag pressure tank, reactive gauge, zero wire)
-- 4 Simple Fabricator (adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, zero wire)
+- 7 Warehouse - Small (adaptive frame, isocentered magnet, isotopic coolant, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
+- 6 Simple Fabricator (adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
 
 Bill of Materials:
 
 - Manufactured
-  - Adaptive Frame: 130
-  - Isocentered Magnet: 8
-  - Zero Wire: 12
+  - Adaptive Frame: 131
+  - Zero Wire: 18
 - Solid
-  - Aluminum: 276
+  - Aluminum: 234
+  - Copper: 40
   - Iron: 180
-  - Sealant: 8
-  - Titanium: 64
-  - Tungsten: 16
+  - Sealant: 12
+  - Titanium: 35
+  - Tungsten: 56
+
+### Further Expansion
+
+Over time, I will usually expand this storage to include space for all materials. This relies on a mixture of small storages for stuff that is imported, and large storages for the important and local resources.
 
 ## Sales Route
 
 1. Porrima III (Red Mile) - 11,000Cr
 2. Volii Alpha (Neon) - 
-3. Jemison (New Atlantis) - 21,000Cr
+   1. Trade Authority kiosk - 5,000Cr
+   2. Trade Authority - 11,000Cr
+   3. Mining Exchange - 5,000Cr
+   4. Sieghart's - 5,000Cr
+   5. Newell's Goods - 5,000Cr
+3. Jemison (New Atlantis) - 26,000Cr
    1. Trade Authority kiosk - 5,000Cr
    2. Jemison Mercantile - 5,000Cr
    3. Trade Authority - 11,000Cr
+   4. Outland - 5,000Cr
 4. Gagarin - 10,000Cr
    1. Trade Authority kiosk - 5,000Cr
    2. Clint's - 5,000Cr
@@ -371,8 +360,10 @@ Bill of Materials:
    1. Trade Authority kiosk - 5,000Cr
    2. Trade Authority - 11,000Cr
    3. UC Exchange - 5,000Cr
-6. Akila City - 
+6. Hopetown (Polvo) - 16,000Cr
+   1. Trade Authority kiosk - 5,000Cr
+   2. Trade Authority - 11,000Cr
+7. Akila City - 
    1. Trade Authority kiosk - 5,000Cr
    2. Trade Authority - 11,000Cr
    3. Shepard's - 5,000Cr
-   4. 

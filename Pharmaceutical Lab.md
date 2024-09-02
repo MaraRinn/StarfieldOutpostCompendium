@@ -2,7 +2,9 @@
 
 One form of industry in Starfield is producing drugs. Some drugs are able to be produced at industrial scale, with input products scalable by number of extractors/greenhouses/animal houses, while other drugs will rely on availability of source materials such as Trauma Packs, Chasmbass Oil, or Caelumite (loot, vendor, anomaly sites respectively).
 
-## Industrial Scale Aids
+## The Lab
+
+### Industrial Scale Aids
 
 These are items produced entirely using player-created materials (Value Per Mass in brackets).
 
@@ -21,7 +23,9 @@ These are items produced entirely using player-created materials (Value Per Mass
 - [Repairing Immobilizer](https://inara.cz/starfield/item/388/) (2,600)🔴🔵
 - [Snake Oil](https://inara.cz/starfield/item/393/) (1,250)🟡
 
-### Analgesic Poultice
+From this list we'll focus on Analgesic Poultice, Repairing Immobiliser and Snake Oil. These items cover all the ailments we're likely to encounter, and have the highest value per mass which makes them good for generating income.
+
+#### Analgesic Poultice
 
 Sources for ingredients are a small selected list of domesticable fauna or flora. For more complete listing check Inara directly.
 
@@ -52,7 +56,19 @@ Producing Analgesic Poultice requires researching Medical Treatment 2 and each i
 
 My plan: produce Antimicrobial on Proycon III (already have an outpost for coolant), deliver those to Serpentis IV and produce Analgesic Poultice on Serpentis IV.
 
-## Retail-Scale Aids
+#### Repairing Immobiliser
+
+- Bandages
+  - Fiber
+  - Sealant
+- Biosuppressant
+- Immobilizer
+  -  Sealant
+  -  Structural
+
+
+
+### Retail-Scale Aids
 
 These are items whose manufacture requires dropped, manually acquired, or bought components.
 
@@ -65,124 +81,10 @@ The "star heart" line are generally based on Alien Genetic Material and Caelumit
 - [Subgiant Heart](https://inara.cz/starfield/item/443/)
 - [Supermassive Black Heart](https://inara.cz/starfield/item/444/)
 
-## Planet Plans
-
-### Nice Outpost Starter
-
-This is an advanced outpost that has a two-storey build, top floor is a glass-walled hab to let you see the scenery and will contain 3 crew stations. Bottom floor is a regular hab which will contain three beds. Later I'll look at adding dividers for privacy, though I may end up just having small habs hanging off for individual bedrooms.
-
-Design:
-
-- Landing Pad - Small
-- Four Wall Hab - Double
-- Hab Round
-- Hydroponic Hab Round
-- Outpost Airlock
-- 3 Crew Station
-- 3 Bed 10
-- Mission Board
-- Constellation Mission Board
-- Self-Service Bounty Clearance
-- Industrial Workbench
-- Cooking Station
-- Pharmaceutical Lab
-- Weapon Workbench
-- Spacesuit Workbench
-- Research Lab
-
-Bill of Materials:
-
-- 52 Aluminium
-- 12 Fiber
-- 14 Iron
-- 20 Lead
-- 9 Nickel
-- 16 Sealant
-- 16 Structural
-
-### Serpentis IV
-
-Production facilities and large solid storages for each component:
-
-  - membrane
-  - fiber
-  - sealant
-  - analgesic
-  - antimicrobial (from Procyon III)
-
-In general you need about 1 water extractor for each greenhouse and animal husbandry facility. Each animal husbandry facility in this installation requires fibre too. This means that for each animal husbandry facility there are 2 water extractors and 1 greenhouse producing fiber. Then you find that production rates never quite match up with consumption rates and suddenly five animal husbandry facilities require 10 fiber greenhouses and 10 water extractors, with a bit extra on top.
-
-Design:
-
-- 5 Wind Turbine - Advanced (25 power)
-- 5 Animal Husbandry Facility (analgesic, membrane, sealant, spice, toxin)
-- 11 Greenhouse (9 fiber, structural, metabolic agent)
-- 12 Extractor - Liquid (water)
-- Storage - Liquid - Large (water)
-- 7 Storage - Solid - Large (analgesic, fiber, membrane, metabolic agent, sealant, structural, toxin)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 160
-  - Isocentered Magnet: 10
-  - Reactive Gauge: 48
-- Solid
-  - Aluminum: 257
-  - Iron: 176
-  - Nickel: 64
-  - Sealant: 48
-- Gas
-  - Fluorine: 44
-
-### Proycon III (antimicrobial)
-
-I already have a base on Proycon III, this just expands on that installation.
-
-Wind Turbine - Advanced produces 25 power. Sticking to "commercial" water extractors until I can put an outpost on Verne I (Planetary Habitation 2).
-
-- Greenhouse - Industrial (antimicrobial)
-- 2 Extractor - Liquid - Commercial (water)
-- 1 Storage - Liquid - Large (water for greenhouse)
-- 2 Storage - Solid - Large (antimicrobial)
-- Wind Turbine - Advanced (25 power)
-
-Bill of materials:
-
-- 45 Adaptive Frame
-- 57 Aluminium
-- 6 Austentic Manifold
-- 12 Fluorine
-- 40 Iron
-- 2 Isocentered Magnet
-- 4 Molecular Sieve
-- 16 Nickel
-- 9 Sealant
-- 2 Substrate Molecule Sieve
-- 8 Titanium
-
-### Alpha Andraste III (biosuppressant)
-
-This base exists to extract two resources: Biosuppressant and Xenon. For the pharmaceuticals lab the only thing we care about is biosuppressant.
-
-- 1 Extractor - Liquid (water)
-- 1 Storage - Liquid - Large (water)
-- Greenhouse (biosuppressant)
-- 1 Storage - Solid - Large (biosuppressant)
-- 1 Extractor - Gas (xenon)
-- 1 Storage - Gas - Large (xenon)
-- 1 Wind Turbine - Advanced (25 power)
-
-### Hyla II (aromatic)
-
-- 1 Extractor - Liquid (water)
-- 1 Storage - Liquid - Large (water)
-- 1 Greenhouse (aromatic)
-- 1 Storage - Solid - Large (aromatic)
-- 1 Wind Turbine - Advanced (25 power)
-- 1 Landing Pad - Small
 
 ## Home Kitchen
+
+Since we're going to be cooking, may as well be cooking, too!
 
 ### Boutique Meals
 
@@ -246,3 +148,191 @@ Drink:
 - [Boba Alien Tea](https://inara.cz/starfield/item/1049/)
 - [Distilled Water](https://inara.cz/starfield/item/1047/) (sans-aromatic)
 - [Lumberjack Julep](https://inara.cz/starfield/item/1169/1169) (100 damage resistance for 5 minutes)
+
+
+## Planet Plans
+
+### Nice Outpost Starter
+
+This is an advanced outpost that has a two-storey build, top floor is a glass-walled hab to let you see the scenery and will contain 3 crew stations. Bottom floor is a regular hab which will contain three beds. Later I'll look at adding dividers for privacy, though I may end up just having small habs hanging off for individual bedrooms.
+
+Design:
+
+- Landing Pad - Small
+- Four Wall Hab - Double
+- Hab Round
+- Hydroponic Hab Round
+- Outpost Airlock
+- 3 Crew Station
+- 3 Bed 12
+- Mission Board
+- Constellation Mission Board
+- Self-Service Bounty Clearance
+- Industrial Workbench
+- Cooking Station
+- Pharmaceutical Lab
+- Weapon Workbench
+- Spacesuit Workbench
+- Research Lab
+- Navigation Console
+
+- Manufactured
+  - Zero Wire: 6
+- Solid
+  - Adhesive: 3
+  - Aluminum: 84
+  - Beryllium: 8
+  - Copper: 2
+  - Cosmetic: 4
+  - Fiber: 12
+  - Iron: 39
+  - Lead: 20
+  - Nickel: 11
+  - Sealant: 19
+  - Structural: 12
+- Gas
+  - Benzene: 3
+  - Chlorine: 4
+
+### Serpentis IV
+
+Production facilities and large solid storages for each component:
+
+  - membrane
+  - fiber
+  - sealant
+  - analgesic
+  - antimicrobial (from Procyon III)
+
+In general you need about 1 water extractor for each greenhouse and animal husbandry facility. Each animal husbandry facility in this installation requires fibre too. This means that for each animal husbandry facility there are 2 water extractors and 1 greenhouse producing fiber. Then you find that production rates never quite match up with consumption rates and suddenly five animal husbandry facilities require 10 fiber greenhouses and 10 water extractors, with a bit extra on top.
+
+NB: The greenhouses will be replaced with industrial variants as part of *Advanced Reactor Assembly Line* - skip to the section on *Industrial Liquid Extractors*. Short version: buy Substrate Molecule Sieve from Clint/Outland/UC Exchange/Sieghart/Shepard's/The Trader, and replace 2 Greenhouse with 1 Greenhouse - Industrial. For the water extractors, you also want Veryl-Treated Manifold from the same vendors.
+
+Design:
+
+- 5 Wind Turbine - Advanced (25 power)
+- 5 Animal Husbandry Facility (analgesic, membrane, sealant, spice, toxin)
+- 12 Greenhouse (9 fiber, metabolic agent, nutrient, structural)
+- 15 Extractor - Liquid (water)
+- Storage - Liquid - Large (water)
+- 11 Storage - Solid - Large (analgesic, antimicrobial, aromatic, biosuppressant, fiber, membrane, metabolic agent, sealant, sedative, structural, toxin)
+- 3 Extractor - Gas (argon, benzene, chlorine)
+- 4 Storage - Gas - Large (alkanes, argon, benzene, chlorine)
+- Pharmaceutical Lab (analgesic poultice)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 165
+  - Isocentered Magnet: 10
+  - Reactive Gauge: 51
+- Solid
+  - Aluminum: 266
+  - Iron: 182
+  - Nickel: 68
+  - Sealant: 51
+- Gas
+  - Benzene: 3
+  - Chlorine: 4
+  - Fluorine: 48
+
+### Procyon III (antimicrobial, ornamental, sedative)
+
+*Industry From Scratch* establishes a base on Proycon III, this just expands on that installation.
+
+- 2 Wind Turbine - Advanced (25 power)
+- 4 Extractor - Liquid (water)
+- 1 Storage - Liquid - Large (water)
+- 3 Greenhouse (antimicrobial, fiber, ornamental)
+- 1 Animal Husbandry Facility (sedative)
+- 4 Storage - Solid - Large (antimicrobial, fiber, ornamental, sedative)
+
+Bill of materials:
+
+- Manufactured
+  - Adaptive Frame: 70
+  - Isocentered Magnet: 4
+  - Reactive Gauge: 12
+- Material
+  - Aluminum: 122
+  - Fluorine: 12
+  - Iron: 92
+  - Nickel: 32
+  - Sealant: 12
+
+### Alpha Andraste III (biosuppressant, Xe)
+
+This base exists to extract two resources: Biosuppressant and Xenon. For the pharmaceuticals lab the only thing we care about is biosuppressant (repairing immobiliser). Xenon is useful for Laser Turret Mk III, and outpost lighting.
+
+Design:
+
+- 1 Wind Turbine - Advanced (25 power)
+- 1 Landing Pad - Small
+- 1 Extractor - Liquid (water)
+- 1 Storage - Liquid - Large (water)
+- 1 Greenhouse (biosuppressant)
+- 1 Storage - Solid - Large (biosuppressant)
+- 1 Extractor - Gas (xenon)
+- 1 Storage - Gas - Large (xenon)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 35
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3
+- Materials
+  - Aluminum: 59
+  - Copper: 23
+  - Fluorine: 4
+  - Iron: 43
+  - Nickel: 24
+  - Sealant: 3
+  - Tungsten: 16
+
+### Groombridge VIII-a or Hyla II (aromatic)
+
+These planets can also be used to produce Carboxylic Acids.
+
+Design:
+
+- 1 Landing Pad - Small
+- 1 Wind Turbine - Advanced (25 power)
+- 1 Extractor - Liquid (water)
+- 1 Storage - Liquid - Large (water)
+- 1 Greenhouse (aromatic)
+- 1 Storage - Solid - Large (aromatic)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 25
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 54
+  - Iron: 43
+  - Nickel: 20
+  - Sealant: 3
+- Gas
+  - Fluorine: 4
+
+## Operation
+
+From time to time, do a tour of the supply planets to pick up ingredients:
+
+- Procyon III (antimicrobial, sedative)
+- Alpha Andraste III (biosuppressant)
+- Groombridge VIII-a/Hyla II (aromatic)
+- Alpha Tirna VIII-c (alkanes)
+
+Then cook up:
+
+- Alien Stew
+- Lumberjack Julep
+- Analgesic Poultice
+- Repairing Immobiliser
+
+## References & Further Reading
+
+- MattGyver, [Starfield Outpost](https://www.mattgyver.com/starfield-outpost) which contains a decent rundown on what you need in a pharmaceutical lab and why
