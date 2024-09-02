@@ -293,7 +293,7 @@ Materials:
 Location:
 
 <img src="images/serpentis-iv-location-map-2.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the alternative outpost location" width="40%">
-<img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the landing site for the alternative outpost location on Serpentis IV." width="40%">
+<img src="images/serpentis-iv-location-landscape-2.jpg" alt="The landscape around the landing site for the alternative outpost location on Serpentis IV." width="40%">
 <img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the alternative outpost location on Serpentis IV" width="40%">
 
 ## Home Base Industry Expansion
