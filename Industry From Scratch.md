@@ -111,7 +111,7 @@ It's worth pointing out that if you land right in a Europium rich area, He3 will
 <p>
 <img src="images/andraphon-site-map.jpg" alt="Map of Adraphon with resources shown. There is a marker for the location of the outpost." width="40%">
 <img src="images/andraphon-site-landscape-landing.jpg" alt="The landscape around the landing site on Andraphon. Two blue rock outcrops are annotated 1 and 2 respectively. An arrow indicates the location of the outpost" width="40%">
-<img src="images/andraphon-site-outpost.jpg" alt="The landscape at the outpost site. Two blue rock outcrops are annotated 1 and 2 respectively. An arrow indicates the rough location of the landing site." width="40%">
+<img src="images/andraphon-site-landscape-outpost.jpg" alt="The landscape at the outpost site. Two blue rock outcrops are annotated 1 and 2 respectively. An arrow indicates the rough location of the landing site." width="40%">
 </p>
 
 Video presentation of this site by JRamosWorks Gaming Fun, [#Starfield Outposts - 5 Resources in One Spot on Andraphon | Great Starter Locations Video 1 of 4](https://www.youtube.com/watch?v=XEJNLgBUXVI)
@@ -217,7 +217,7 @@ Location:
 <img src="images/zeta-ophiuchi-i-location-landscape.jpg" alt="The landscape around the outpost on Zeta Ophiuchi I intended to help players find the location once they have landed." width="40%">
 </p>
 
-This site is a confluence of three biomes: swamp where silver is marked on the map, savanna to the right and frozen dunes where ytterbium is marked on the map. The landing site is just inside the frozen dunes biome when approaching from the swamp side of the confluence. So follow the swap/savanna border into the frozen dunes and land on the frozen duens side of the swamp/frozen dunes border.
+This site is a confluence of three biomes: swamp where silver is marked on the map, savanna to the right and frozen dunes where ytterbium is marked on the map. The landing site is just inside the frozen dunes biome when approaching from the swamp side of the confluence. So follow the swap/savanna border into the frozen dunes and land on the frozen dunes side of the swamp/frozen dunes border.
 
 The important resources from this outpost are polymer and silver for industry, and some ytterbium for weapon mods and veryl-treated manifold manufacture.
 
@@ -291,6 +291,8 @@ Materials:
   - Fluorine: 8
 
 Location:
+
+The location is one of many available along the frozen crevasses side of the frozen crevasses/savanna border. There's probably a better site at a confluence of frozen crevasses/savanna/wetlands which would allow copper and fluorine to be extracted, but we already have Procyon III for that and Serpentis IV is going to be busy enough producing pharmaceuticals, food, substrate molecule sieve and veryl-treated manifold (assuming you go down that path).
 
 <img src="images/serpentis-iv-location-map-2.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the alternative outpost location" width="40%">
 <img src="images/serpentis-iv-location-landscape-2.jpg" alt="The landscape around the landing site for the alternative outpost location on Serpentis IV." width="40%">
