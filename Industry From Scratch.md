@@ -177,7 +177,11 @@ Materials:
 
 Location:
 
-Check Brahmiluff's location from [8-in-one Resources Tirna VIII-c Outpost Location in Starfield!](https://www.youtube.com/watch?v=pCjAUcrqYGs). Here's the swamp site on the planet resource map with higher level Scanning skill: ![swamp site](images/tirna-viii-c-location-map-swamp-site.jpg). Unfortunately this is one of those "keep trying till it works" scenarios. My images for whatever reason look nothing like Brahmiluff's - different resolution, different zoom level, completely different look to the splotches of colour. There's no convenient border nearby, the surrounding pixels are all swamp. There's a confluence of savanna, hills and swamp to the west but there's no convenient outpost location there.
+Check Brahmiluff's location from [8-in-one Resources Tirna VIII-c Outpost Location in Starfield!](https://www.youtube.com/watch?v=pCjAUcrqYGs). Here's the swamp site on the planet resource map with higher level Scanning skill:
+
+![swamp site](images/tirna-viii-c-location-map-swamp-site.jpg)
+
+Unfortunately this is one of those "keep trying till it works" scenarios. My images for whatever reason look nothing like Brahmiluff's - different resolution, different zoom level, completely different look to the splotches of colour. There's no convenient border nearby, the surrounding pixels are all swamp. There's a confluence of savanna, hills and swamp to the west but there's no convenient outpost location there.
 
 If you find a better location that's easier to pick up the first time, please raise an issue in the [GitHub repository](https://github.com/MaraRinn/StarfieldOutpostCompendium).
 
