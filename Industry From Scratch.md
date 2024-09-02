@@ -11,7 +11,7 @@ After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Lin
   - [Procyon III (Cu, Sealant)](#procyon-iii-cu-sealant)
   - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-pb-ta-ti-w-alkanes)
   - [Zeta Ophiucui I (silver, ytterbium, polymer)](#zeta-ophiucui-i-silver-ytterbium-polymer)
-  - [Shoza III-a (He3, Be, Nd)](#shoza-iii-a-he3-be-nd)
+  - [Shoza III-a (He3, Nd)](#shoza-iii-a-he3-nd)
   - [Serpentis IV (fiber, structural)](#serpentis-iv-fiber-structural)
   - [Home Base Industry Expansion](#home-base-industry-expansion)
     - [Further Expansion](#further-expansion)
@@ -231,7 +231,7 @@ Sources:
 - Sifting Santa on YouTube, [How to get a 8 Resource Starfield Outpost](https://www.youtube.com/watch?v=0Xc1UxRk9FM&t=174s) (I think this is based on that Reddit comment)
 - Brahmiluff, [8-in-one Resources Zeta Ophiuchi Outpost Location in Starfield!](https://www.youtube.com/watch?v=M9GlFTBNQNc) (based on same location) &emdash; go into frozen dunes from the swamp side of the swamp/savanna/frozen dunes confluence.
 
-## Shoza III-a (He3, Be, Nd)
+## Shoza III-a (He3, Nd)
 
 Design:
 
@@ -257,6 +257,10 @@ Materials:
 Location:
 
 There's a little circular patch of helium-rich terrain on the edge of a region of neodymium-rich terrain. I've had luck finding helium-3, beryllium and neodymium on Shoza III-a within a few minutes of setting down (and if I don't, just reload the pre-landing save and try a new spot). I won't win any speed runs, but it's not like Leviathan II where things are almost impossible to find.
+
+No comprehensive location guide because this planet's surface is basically craters, craters and craters so there's no confluence of biomes to guide you. Pick a site, explore for a few minutes, try to find helium and neodymium together.
+
+If you find a nice site that lines up with the visuals on the surface map and has an easy to find location due to local features on the ground, please raise an issue in the Github project! I may end up replacing Shoza with another planet.
 
 <p>
 <img src="images/shoza-iii-a-location-map.jpg" alt="Map of Shoza III-a with resources shown. There is a marker for the location of the outpost.">
