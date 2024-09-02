@@ -1,19 +1,8 @@
 # Industry from Scratch
 
-New Game, New You? Here's how to bootstrap your industry. Start off with a handful of Tungsten, building out basic resources and low tier manufactured goods:
+New Game, New You? Here's how to bootstrap your industry. Start off with a handful of Tungsten, building out basic resources and low tier manufactured goods. At the completion of this guide you'll be able to construct "tier 1" goods (the ones made by [Simple Fabricator](https://inara.cz/starfield/outpost-module/1206/)). The process is entirely based on picking stuff up from each outpost and bringing it back to Bessel III-b for the moment. Cargo Links for some routes will be added right at the end.
 
-- Bessel III-b for Al/Fe/Ni/Co
-- Androphon for beryllium, europium and helium-3
-- Procyon III for copper
-- Alpha Tirna VIII-c titanium and tungsten
-- Zeta Ophiuchi for silver
-- Gagarin for adhesive
-- Fabricators for Adaptive Frame, Isocentered Magnets and more
-- Shoza III-a for neodymium and helium-3
-
-From this you'll be able to construct most tier 1 manufactured goods. The process is entirely based on picking stuff up from each outpost and bringing it back to Bessel III-b for the moment, we'll start introducing cargo links and inter-system cargo links after Andraphon (or Leviathan II).
-
-After that we'll proceed to producing Reactors as a stepping stone towards producing Advanced Reactors.
+After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Line*, or you can branch out into pharmaceuticals with *Pharmaceutical Lab*.
 
 - [Industry from Scratch](#industry-from-scratch)
   - [Preparation](#preparation)
@@ -26,6 +15,12 @@ After that we'll proceed to producing Reactors as a stepping stone towards produ
   - [Serpentis IV (fiber, structural)](#serpentis-iv-fiber-structural)
   - [Home Base Industry Expansion](#home-base-industry-expansion)
     - [Further Expansion](#further-expansion)
+  - [Cargo Links](#cargo-links)
+    - [Bessel III-b (cargo links, helium plumbing)](#bessel-iii-b-cargo-links-helium-plumbing)
+    - [Androphon (cargo link, helium export)](#androphon-cargo-link-helium-export)
+    - [Procyon III (cargo link, copper export)](#procyon-iii-cargo-link-copper-export)
+    - [Alpha Tirna VIII-c (cargo link, titanium and tungsten export)](#alpha-tirna-viii-c-cargo-link-titanium-and-tungsten-export)
+    - [Bessel III-b (activate cargo links)](#bessel-iii-b-activate-cargo-links)
   - [Sales Route](#sales-route)
 
 
@@ -338,6 +333,128 @@ Bill of Materials:
 ### Further Expansion
 
 Over time, I will usually expand this storage to include space for all materials. This relies on a mixture of small storages for stuff that is imported, and large storages for the important and local resources.
+
+## Cargo Links
+
+For the infrastructure built so far, the vast majority of manufacturing will be done using resources found on Bessel III-b. The remaining high consumption items will be titanium and tungsten (storage and extractors), with a little copper.
+
+For the purposes of this guide, we'll set up three sets of cargo links to bring those resources to Bessel III-b, along with the helium supply route from Androphon.
+
+As a general rule, when laying out cargo links make sure:
+
+1. Only one material type is shipped on any pair of cargo links
+2. Material only travels one direction (out/red on one link, in/green on the other)
+
+The way cargo links work is that the freighter will pick up whatever is in the outgoing box, fly to the other end of the link, then transfer whatever will fit from its own cargo hold to the green incoming box when it lands. Anything that doesn't fit will remain in its hold. Then when it flies back it will try to pick up what it can from the red box on the pad it's leaving. Then when it arrives back at the first pad it will dump what it can from its cargo hold into the green box, then pick up what it can from the red box as it leaves. Wash, rinse, repeat.
+
+If you try to feed materials in both directions (eg: helium one way, copper the other), you'll eventually fill up the storage at one end of the chain and start bringing that resource back to the origin and clogging up the entire production chain.
+
+Stick to *one material*, *one direction*.
+
+### Bessel III-b (cargo links, helium plumbing)
+
+Design:
+
+- 4 Cargo Link - Inter-system
+- 1 Storage - Gas - Large (helium)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 10
+  - Comm Relay: 4
+  - Reactive Gauge: 12
+- Solid
+  - Aluminum: 48
+  - Copper: 20
+  - Iron: 80
+  - Tungsten: 16
+
+Most of these materials should already be at Bessel III-b.
+
+When you set these cargo links up:
+
+- plumb the *incoming* (green) bay from one cargo link to the helium storage - this will be the one we link to Androphon
+- plumb the helium storage to the *helium* (blue) bay of the remaining cargo links
+- connect the *incoming* (green) bays from the other three cargo links to the local storage for copper, titanium and tungsten respectively (I'm a ghostbusters fan: never cross the streams)
+
+Here's a picture showing how I plumbed it up, the helium shipments arrive at the left-most link:
+
+![screenshot showing four cargo links in an arc from left to right. The leftmost cargo link has its incoming bay connected to a local gas storage, for incoming helium. The helium storage is connected to the blue bays on the remaining three cargo links. There are green and grey arrows representing links from the incoming bays of the three right-most cargo links to copper, titanium and tungsten storage respectively.](images/bessel-iii-b-industry-from-scratch-4-cargo-links.jpg)
+
+
+### Androphon (cargo link, helium export)
+
+Design:
+
+- Cargo Link - Inter-system
+
+Materials:
+
+- Manufactured
+  - Comm Relay: 1
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 12
+  - Iron: 20
+
+This one is really simple: connect the helium storage at Androphon to both the outgoing/red and the helium/blue boxes on the cargo link. What this will achieve is a built-in gating of helium deliveries so that the freighter will only depart when the outgoing supply is full.
+
+Do not activate the cargo link yet, do that from Bessel III-b once all the remote sites are built.
+
+![screenshot showing the links between the helium production at Androphon to the local helium storage, and then separately from the storage to the cargo link's helium bay, and from the storage to the cargo link's outgoing bay](images/androphon-helium-export-to-bessel-iii-b.jpg)
+
+### Procyon III (cargo link, copper export)
+
+Design:
+
+- Cargo Link - Inter-system
+
+Materials:
+
+- Manufactured
+  - Comm Relay: 1
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 12
+  - Iron: 20
+
+The only connection here is sending the copper from the copper storage to the outgoing/red box on the cargo link.
+
+### Alpha Tirna VIII-c (cargo link, titanium and tungsten export)
+
+Design:
+
+- Cargo Link - Inter-system
+
+Materials:
+
+- Manufactured
+  - Comm Relay: 1
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 12
+  - Iron: 20
+
+The only connections here are titanium storage to the outgoing/red box of one cargo link, and tungsten storage to the outgoing/red box of the other cargo link. Here's a picture to reinforce the idea that each resource uses its own dedicated link:
+
+![screenshot showing the links between local storage for titanium and tungsten and their respective cargo link's green bays](images/tirna-viii-c-cargo-link-connections.jpg)
+
+### Bessel III-b (activate cargo links)
+
+Now it's time to activate the cargo links. Double check and triple-check to make sure you have the correct materials imported to each cargo link!
+
+When you activate a link, the first freighter to arrive will be empty. It will loiter for a short spell then depart to begin its hauling route. Each circuit takes three minutes of wall clock time (about 3 hours UT):
+
+1. As the freighter is arriving the lights on the pad will rapidly blink amber
+2. Once the freighter has landed it will transfer what cargo it can into the green bay, and the lights on the pad will slowly blink amber
+3. The freighter will loiter for about a minute
+4. As the freighter departs the lights on the pad will rapidly blink amber
+5. Once the freighter has gone the lights on the pad will be lit steady green
+6. If you launch your ship to orbit, you'll see your departing freighter in orbit and it will shortly grav jump to the destination
+7. If you fast travel to the other outpost, the freighter will arrive at the destination about thirty seconds after it departed (one minute on pad at each end, thirty seconds in transit each way, total of three minutes real world time between arrivals at one end)
+
+If the lights on the pad are red, that means you haven't configured the pad yet or it needs to be reconfigured (for example, you've broken the link by demolishing its partner).
 
 ## Sales Route
 
