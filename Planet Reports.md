@@ -58,6 +58,33 @@ Flora:
 - Leafy Morningstar (toxin) (deciduous forest) (outpost: water)
 - Rotting Stinkroot (sealant) (wetlands) (outpost: water)
 
+### Charybdis II
+
+Fauna:
+
+- Flamethorn Grazer (spice) (swamp, wetlands) (outpost: no)
+- Flocking Cranehopper Grazer (sealant) (deciduous forest, confierous forest) (outpost: yes)
+- Flocking Hippodon Scavenger (structural) (swamp, wetlands) (outpost: no)
+- Flocking Sporeback Grazer (nutrient) (savanna)
+- Herding Glider Scavenger (pigment) (swamp, deciduous forest, coniferous forest, savanna, wetlands) (outpost: yes)
+- Pack Eggtail Stalker (ornamental) (swamp, wetlands) (outpost: yes)
+- Pack Mothwing (hypercatalyst) (swamp, deciduous forest, coniferous forest, savanna, wetlands)
+- Pack Silverfish (amino acids) (deciduous forest, coniferous forest) (outpost: yes)
+- Pack Vulture (adhesive) (savanna) (outpost: yes)
+- Trilobite Grazer (nutrient) (savanna) (outpost: yes)
+- Triworm Scavenger (membrane) (frozen hills, deciduous forest, coniferous forest) (outpost: yes)
+
+Flora:
+
+- Abyss Pine Seedling (fiber) (deciduous forest, coniferous forest, savanna) (outpost: water)
+- Canary Reed (metabolic agent) (swamp, coniferous forest, savanna) (outpost: no)
+- Flame Vine (structural) (swamp, deciduous forest, coniferous forest, wetlands) (outpost: water)
+- Nebula Weed (nutrient) (swamp, deciduous forest, coniferous forest, savanna) (outpost: water)
+- Sage Shrub (toxin) (savanna) (outpost: water)
+- Savage Woundwort (ornamental) (swamp, deciduous forest) (outpost: water)
+- Split Leaf Watercress (sealant) (wetlands) (outpost: water)
+- Swamp Bottle Root (cosmetic) (swamp, wetlands) (outpost: water)
+
 ### Jemison
 
 Fauna:
@@ -237,6 +264,27 @@ Flora:
 - Nebula Vine (structural) (swamp, mountains) (outpost: no)
 - Spiral Bloom (aromatic) (mountains) (outpost: water)
 - Sweeping Silkweed (toxin) (swamp) (no) (outpost: no)
+
+### Celebrai II
+
+- Flocking Roundshell Grazer (sedative) (mountains, savanna, frozen plains, hills) (outpost: no)
+- Glowback Grazer (nutrient) (mountains, savanna, frozen plains, hills) (outpost: yes)
+- Horsamander Grazer (lubricant) (savanna, frozen plains) (outpost: no)
+- Longhorn Grazer (nutrient) (mountains, savanna, frozen plains, hills) (outpost: no)
+- Pack Lionbear (hallucinogen) (mountains, savanna, frozen plains, hills) (outpost: no)
+- Spikeworm Herbivore (ornamental) (savanna, frozen plains) (outpost: yes)
+- Thorn Grazer (analgesic) (mountains, savanna, frozen plains, hills) (outpost: yes)
+- Trident Filterer (spice) (savanna, frozen plains) (outpost: no)
+
+Flora:
+
+- Augustus Creeper (structural) (mountains, savanna, hills) (outpost: water)
+- Bleeding Heart Vine (sealant) (mountains, hills) (outpost: no)
+- Bowing Shadeleaf (toxin) (mountains, hills) (outpost: water)
+- Mountain Silkweed (fiber) (mountains, frozen plains, hills) (outpost: no)
+- Sage Shrub (pigment) (savanna, hills) (outpost: water)
+- Warren Nettle (nutrient) (mountains, swamp, hills)
+
 
 ### Copernicus II
 
