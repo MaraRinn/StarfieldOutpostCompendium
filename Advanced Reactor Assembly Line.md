@@ -30,8 +30,8 @@
     - [Operation](#operation-1)
     - [Experience grinding](#experience-grinding)
     - [Shoza VII-c (palladium)](#shoza-vii-c-palladium)
-    - [Shoza VIII-b (Power Circuit)](#shoza-viii-b-power-circuit)
     - [Maal IX-b (positron battery)](#maal-ix-b-positron-battery)
+    - [Shoza VIII-b (Power Circuit)](#shoza-viii-b-power-circuit)
     - [Katydid III (Indicite, Silver)](#katydid-iii-indicite-silver)
     - [Zeta Ophiuchi I (silver exports)](#zeta-ophiuchi-i-silver-exports)
     - [Cruth (cargo link expansion)](#cruth-cargo-link-expansion)
@@ -808,45 +808,83 @@ Materials:
 - Tungsten: 2
 - Zero Wire: 4
 
-### Shoza VIII-b (Power Circuit)
+### Maal IX-b (positron battery)
 
-Manually construct Power Circuit here to build reactors and advanced reactors.
-
-This outpost is only necessary if you want to automate the flow of tau grade rheostat to Maal IX-b. Another option is to set the fabricator up at home base and import:
-
-- Paramagnon Conductor from Cruth
-- Polymer from Zeta Ophiuchi I
-- Palladium from Shoza VII-c
+Local power generation is 8 from a solar dome, 6 from a wind turbine - advanced, or 30 from a reactor.
 
 Design:
 
-- Landing Pad with Shipbuilder
-- 2 Reactor
-- 4 Extractor - Solid (Al, Be, Cu, Au)
-- 6 Storage - Solid - Large (Al, Be, Cu, Au, Pd, polymer)
-- Simple Fabricator (tau grade rheostat)
+- Landing Pad - Small
+- Reactor
+- 2 Extractor - Solid (antimony, vanadium)
+- 2 Storage - Solid - Large (antimony, vanadium)
+- 2 Warehouse - Large (tau grade rheostat, positron battery)
 - Compound Fabricator (positron battery)
-- 3 Warehouse - Large (paramagnon conductor, positron battery, tau grade rheostat)
-- Cargo Link (Pd from Shoza VII-c)
-- 4 Cargo Link - Inter-system (paramagnon conductor from Cruth, polymer from Zeta Ophiuchi I, tau grade rheostat to Maal IX-b, positron battery from Maal IX-b)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 142
-  - Comm Relay: 2
+  - Adaptive Frame: 46
+  - Control Rod: 3
+  - Isotopic Coolant: 2
+  - Nuclear Fuel Rod: 8
+  - Paramagnon Conductor: 4
+  - Supercooled Magnet: 5
+  - Tau Grade Rheostat: 3
+  - Zero Wire: 5
+- Solid
+  - Adhesive: 4
+  - Aluminum: 88
+  - Iron: 70
+  - Lead: 10
+  - Titanium: 32
+  - Tungsten: 12
+
+Location:
+
+Land on the Frozen Hills side of the Sandy Desert/Frozen Hills border. Head to the biome border and follow the snowline to the left, keep going for about 1.6km until you see the stone pillars rock formation. Outpost site is immediately behind and to the right, in the direction of travel.
+
+<p>
+<img src="images/maal-ix-b-location-map.jpg" alt="Map of Maal IX-b with resources shown. There is a marker for the location of the outpost." width="40%">
+<img src="images/maal-ix-b-landing-landscape.jpg" alt="The landscape around the landing site on Maal IX-b intended to help players find the location once they have landed." width="40%">
+<img src="images/maal-ix-b-outpost-landscape.jpg" alt="The landscape around the outpost on Maal IX-b intended to help players find the location once they have landed." width="40%">
+</p>
+
+
+### Shoza VIII-b (Power Circuit)
+
+Manually construct Power Circuit here to build advanced reactors:
+
+- Palladium from Shoza VII-c
+- Polymer from Zeta Ophiuchi I
+- Power Circuit from Maal IX-b
+
+Design:
+
+- Landing Pad - Small
+- 1 Reactor
+- 4 Extractor - Solid (Al, Be, Cu, Au)
+- 6 Storage - Solid - Large (Al, Be, Cu, Au, Pd, polymer)
+- Simple Fabricator (tau grade rheostat)
+- 3 Warehouse - Large (paramagnon conductor, positron battery, tau grade rheostat)
+- Cargo Link (Pd from Shoza VII-c)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 120
   - Control Rod: 6
   - Isotopic Coolant: 2
   - Nuclear Fuel Rod: 16
   - Paramagnon Conductor: 8
-  - Reactive Gauge: 6
   - Supercooled Magnet: 10
   - Tau Grade Rheostat: 6
-  - Zero Wire: 8
+  - Zero Wire: 12
 - Solid
   - Adhesive: 4
-  - Aluminum: 276
-  - Iron: 280
+  - Aluminum: 192
+  - Beryllium: 4
+  - Iron: 190
   - Lead: 20
   - Sealant: 2
   - Titanium: 48
@@ -860,45 +898,6 @@ Location:
 </p>
 
 Also see the "Advanced Reactor Assembly" document from MattGyver's "Starfield Manufacturing Flow Diagrams" which has a full page describing the location(s) at which you can build this outpost.
-
-### Maal IX-b (positron battery)
-
-This outpost is only necessary if you want to automate the production of positron battery. If you're using a manual supply chain just build the fabricator at home base and import all the required materials:
-
-- tau grade rheostat from Bessel III-b
-- antimony from Cruth
-- Vanadium from Grimsey
-
-Local power generation is 8 from a solar dome, 6 from a wind turbine - advanced, or 30 from a reactor.
-
-Design:
-
-- Landing Pad with Shipbuilder
-- Reactor
-- 2 Extractor - Solid (antimony, vanadium)
-- 2 Storage - Solid - Large (antimony, vanadium)
-- 2 Warehouse - Large (tau grade rheostat, positron battery)
-- Compound Fabricator (positron battery)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 64
-  - Control Rod: 3
-  - Isotopic Coolant: 2
-  - Nuclear Fuel Rod: 8
-  - Paramagnon Conductor: 4
-  - Supercooled Magnet: 5
-  - Tau Grade Rheostat: 3
-  - Zero Wire: 7
-- Solid
-  - Adhesive: 4
-  - Aluminum: 80
-  - Beryllium: 2
-  - Iron: 80
-  - Lead: 10
-  - Titanium: 32
-  - Tungsten: 12
 
 ### Katydid III (Indicite, Silver)
 
