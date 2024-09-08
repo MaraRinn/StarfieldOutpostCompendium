@@ -987,9 +987,16 @@ Design:
 - Cargo Link (semimetal wafers to Grimsey)
 - 4 Cargo Link - Inter-system (silver from Zeta Ophiuchi I, semimetal wafers to Schrodinger VIII-e, antimony to Shoza VIII-b, neodymium from Shoza III-a, He3 from Shoza III-a)
 
-### Codos (solvent to grimsey)
+Materials:
 
-- 1 Cargo Link - Inter-system (Solvent to Grimsey)
+- Manufactured
+  - Comm Relay: 4
+  - Reactive Gauge: 12
+  - Zero Wire: 2
+- Solid
+  - Aluminum: 60
+  - Beryllium: 2
+  - Iron: 100
 
 ### Dalvik (Caesium)
 
