@@ -92,6 +92,26 @@ Recipe for Reactors:
   - Neodymium: 3
 - Tau Grade Rheostat: 3
 
+### Androphon (He3 Infrastructure)
+
+Design:
+
+- 2 Cargo Link (He3 to Grimsey, He3 to Cruth)
+- 2 Extractor - Gas (he3)
+- 1 Solar Dome (12 power)
+
+Materials:
+
+- Manufactured
+  - Tau Grade Rheostat: 2
+  - Zero Wire: 4
+- Solid
+  - Aluminum: 38
+  - Beryllium: 4
+  - Copper: 6
+  - Iron: 40
+  - Nickel: 8
+
 ### Procyon III (Isotopic Coolant/Antimicrobial expansion)
 
 Upgading the copper-producing infrastructure at Procyon III to produce Isotopic Coolant and Antimicrobial. The isotopic coolant will be required for reactors, antimicrobial is useful elsewhere.
@@ -1052,7 +1072,7 @@ Materials:
 Note that the austenitic manifold fabricator already exists if you followed the industrial liquid extractor build.
 
 - Reactor
-- Cargo Link - Inter-system (He from Leviathan II)
+- Cargo Link - Inter-system (He from Androphon)
 - Storage - Gas - Large
 - Cargo Link - Inter-system (Copper from Procyon III)
 - Storage - Solid - Large (copper)
