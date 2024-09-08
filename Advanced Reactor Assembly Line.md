@@ -189,34 +189,6 @@ Location:
 
 Location of Cruth outpost isn't important, just plonk it down on a large yellow patch (Gold, Antimony, Copper). All the resources this outpost needs are in a single biome.
 
-### Grimsey (Iridium, Plutonium, Uranium, Vanadium)
-
-For the moment, use Grimsey as a depot for materials to build reactors. This will change when the advanced reactor production chain is set up.
-
-Design:
-
-- Landing Pad - Small
-- Industrial Workbench
-- 4 Solar Dome (6 power)
-- 4 Extractor - Solid (iridium, plutonium, uranium, vanadium)
-- 6 Storage - Solid - Large (iridium, lead, plutonium, solvent, uranium, vanadium)
-- 3 Warehouse - Large (control rod, paramagnon conductor, semimetal wafer)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 90
-  - Tau Grade Rheostat: 8
-- Solid
-  - Aluminum: 200
-  - Iron: 163
-  - Titanium: 48
-  - Tungsten: 8
-
-Location:
-
-All the resources we need from Grimsey are in one biome. Just find somewhere relatively flat in an area with accessible iridium, plutonium, uranium and vanadium deposits.
-
 ### Codos (Solvent)
 
 [Codos](https://inara.cz/starfield/starsystem/10/#area1158) is a nice place for a **solvent**-producing outpost, being the only domesticable plant-based solvent supply.
@@ -229,25 +201,56 @@ Design:
 - Storage - Liquid - Large (water)
 - Greenhouse (solvent)
 - 1 Storage - Solid - Large (solvent)
-- Transfer Container
+- 1 Cargo Link - Inter-system (Solvent to Grimsey)
 
 Materials:
 
 - Manufactured
   - Adaptive Frame: 43
+  - Comm Relay: 1
   - Isocentered Magnet: 2
-  - Reactive Gauge: 3
+  - Reactive Gauge: 6
   - Zero Wire: 2
 - Solid
-  - Aluminum: 46
+  - Aluminum: 58
   - Beryllium: 2
-  - Iron: 61
-  - Lubricant: 4
+  - Iron: 73
   - Nickel: 20
   - Sealant: 3
-  - Tungsten: 5
 - Gas
   - Fluorine: 4
+
+### Grimsey (Iridium, Plutonium, Uranium, Vanadium)
+
+Set Grimsey up as a location for manually producing Nuclear Fuel Rod. This will grow over time to become a manufacturing site for Vytinium Fuel Rods.
+
+Design:
+
+- Landing Pad - Small
+- Industrial Workbench
+- 4 Solar Dome (6 power)
+- 4 Extractor - Solid (iridium, plutonium, uranium, vanadium)
+- 6 Storage - Solid - Large (iridium, lead, plutonium, solvent, uranium, vanadium)
+- 3 Warehouse - Large (control rod, paramagnon conductor, semimetal wafer)
+- 2 Cargo link (semimetal wafer from cruth, he3 from Androphon)
+- Cargo Link - Inter-system (solvent from Codos)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 90
+  - Comm Relay: 1
+  - Reactive Gauge: 3
+  - Tau Grade Rheostat: 8
+- Solid
+  - Aluminum: 212
+  - Iron: 183
+  - Titanium: 48
+  - Tungsten: 8
+
+Location:
+
+All the resources we need from Grimsey are in one biome. Just find somewhere relatively flat in an area with accessible iridium, plutonium, uranium and vanadium deposits.
 
 ### Operation
 
