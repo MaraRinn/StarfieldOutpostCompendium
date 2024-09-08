@@ -746,18 +746,20 @@ Advanced reactors are great for outposts that require lots of industry. If you s
 
 This project is really not about advanced reactors so much as it is about building outposts, setting up cargo links, and trying to figure out numbers for optimal production rates.
 
+To build advanced reactors we need the following parts:
+
+- Reactor - Advanced
+  - 10 Adaptive Frame
+  - 5 Control Rod
+  - 20 Lead (14kg)
+  - 3 Power Circuit
+  - 5 Rothicite Magnet
+  - 4 Tasine Superconductor
+  - 8 Vytinium Fuel Rod
+
 ### Operation
 
 To construct advanced reactors we need the parts for the following recipe:
-
-- Reactor - Advanced
-  - 10 Adaptive Frame (16kg) 2 storage box
-  - 5 Control Rod (22.5kg) 3 storage box
-  - 20 Lead (14kg) 2 storage box
-  - 3 Power Circuit (11.4kg) 2 storage box
-  - 5 Rothicite Magnet (23kg) 3 storage box
-  - 4 Tasine Superconductor (20kg) 2 storage box
-  - 8 Vytinium Fuel Rod (88kg) 1 storage crate
 
 In this section we'll expand the industrial base to produce those parts. Most of the production chain will be automated but cargo transfers will be manual. The next section will focus on why we add certain cargo links, and which links will be most important if you only have access to 3 cargo links per outpost (eg: you haven't upgraded Outpost Management, or NG+ has broken Outpost Management for you).
 
@@ -771,11 +773,13 @@ Once the upgrades in this section are complete:
   1. Build all the Vytinium Fuel rods that resources allow
   1. Deposit remaining Indicite Wafers and Nuclear Fuel Rods in the warehouse
 1. Head to Shoza VIII-b and build:
-  - Power Circuits
-  - Tasine Superconductors
-1. Head to Schroedinger VIII-e and build:
-  - Rothicite Magnets (large warehouse can only hold 65)
-  - Control Rods
+  - 3 Power Circuits
+  - 4 Tasine Superconductors
+1. Head to Schrodinger VIII-e and build:
+  - 5 Rothicite Magnets
+  - 5 Control Rods
+1. Collect lead from Schrodinger VIII-e
+2. Collect 10 Adaptive Frame from Bessel III-b
 
 ### Experience grinding
 
