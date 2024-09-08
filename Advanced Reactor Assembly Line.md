@@ -1026,36 +1026,68 @@ Materials:
 
 Location: Not important, you should be able to fully survey the planet on one landing. Just land in a vytinium-rich area. There might be some utility in a 4-resource location on this world so here's a [Reddit post](https://old.reddit.com/r/Starfield/comments/17nbhmt/anyone_able_to_point_me_to_a_four_resource/k85fhn8/) purporting to show one.
 
-### Grimsey (Vytinium Fuel Rod expansion) 
+### Grimsey (Vytinium Fuel Rod) 
 
-By selling to all the Trade Authority vendors and the Red Mile bartender we should be able to clear 500 VFR sales per trip. As such, all storage is scaled to produce 500 VFR in one go. You can sell much more each trip if you are willing to visit each individual vendor.
+Design:
 
-- 4 Cargo Link - Inter-system (solvents from codos, vytinium from decaran vii-b, indicite from katydid iii, He3 from Leviathan II)
-- 2 Cargo Link (caesium from dalvik, semimetal wafers from Cruth)
-- 9 Storage - Solid - Large (Vytinium)
-- 8 Storage - Solid - Large (Indicite)
-- 2 Storage - Solid - Large (Plutonium)
-- 2 Storage - Solid - Large (Uranium)
-- Storage - Solid - Large (Iridium, Vanadium, Solvent)
-- Storage - Liquid - Large (caesium)
-- 18 Warehouse - Large (semimetal wafers)
-- Storage - Gas - Large (He3)
-- Industrial Workbench
+- 2 Storage - Solid - Large (indicite, vytinium)
+- 1 Storage - Liquid - Large (caesium)
+- 1 Warehouse - Large (semimetal wafers)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 420
-  - Comm Relay: 4
-  - Reactive Gauge: 12
-  - Zero Wire: 4
+  - Adaptive Frame: 40
 - Solid
-  - Aluminum: 808
-  - Beryllium: 4
-  - Copper: 20
-  - Iron: 563
+  - Aluminum: 72
+  - Iron: 40
   - Nickel: 16
-  - Titanium: 288
+  - Titanium: 16
+
+### Grimsey (storage expansion)
+
+By selling to all the Trade Authority vendors and the Red Mile bartender we should be able to clear 500 VFR sales per trip. As such, all storage is scaled to produce 500 VFR in one go. You can sell much more each trip if you are willing to visit each individual vendor.
+
+Design:
+
+- 8 Storage - Solid - Large (Vytinium)
+- 7 Storage - Solid - Large (Indicite)
+- 2 Storage - Solid - Large (Plutonium)
+- 2 Storage - Solid - Large (Uranium)
+- 17 Warehouse - Large (semimetal wafers)
+- 3 Storage - Solid - Large (Iridium, Vanadium, Solvent)
+- Storage - Liquid - Large (caesium)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 400
+- Solid
+  - Aluminum: 712
+  - Iron: 440
+  - Nickel: 16
+  - Titanium: 272
+
+### Grimsey (cargo links)
+
+Design:
+
+- 2 Cargo Link - Inter-system (vytinium from decaran vii-b, indicite from katydid iii)
+- 1 Cargo Link (caesium from dalvik)
+- 1 Storage - Gas - Large (He3)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 10
+  - Comm Relay: 3
+  - Reactive Gauge: 9
+  - Zero Wire: 6
+- Solid
+  - Aluminum: 72
+  - Beryllium: 6
+  - Copper: 20
+  - Iron: 120
   - Tungsten: 16
 
 ### Procyon III Expansion (Isotopic Coolant, Copper to Bessel III-b)
@@ -1101,25 +1133,6 @@ Materials:
   - Titanium: 96
   - Tungsten: 36
 
-### Carinae III-a (Rothicite)
-
-Design:
-
-- Landing Pad - Small
-- Solar Dome (8 power)
-- Extractor - Solid (rothicite)
-- Storage - Solid - Large (rothicite)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 10
-  - Tau Grade Rheostat: 2
-- Solid
-  - Aluminum: 32
-  - Iron: 45
-  - Tungsten: 2
-
 ### Zeta Ophiuchi I (Polymer, Silver, Ytterbium)
 
 Design:
@@ -1152,25 +1165,6 @@ Location:
 <img src="images/zeta-ophiuchi-i-location-map.jpg" alt="Map of Zeta Ophiuchi I with resources shown. There is a marker for the location of the outpost." width="40%">
 <img src="images/zeta-ophiuchi-i-location-landscape.jpg" alt="The landscape around the outpost on Zeta Ophiuchi I intended to help players find the location once they have landed." width="40%">
 </p>
-
-### Huygens VII-a (Tasine)
-
-Design:
-
-- Landing Pad - Small
-- Extractor - Liquid (tasine)
-- Storage - Liquid - Large (tasine)
-- Solar Dome (8 power)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 10
-  - Tau Grade Rheostat: 2
-- Solid
-  - Aluminum: 37
-  - Iron: 23
-  - Nickel: 20
 
 ### Serpentis V-d (He3/SupColMag)
 
