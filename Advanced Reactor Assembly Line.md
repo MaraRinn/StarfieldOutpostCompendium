@@ -1029,6 +1029,92 @@ Materials:
 
 Location: Not important, you should be able to fully survey the planet on one landing. Just land in a vytinium-rich area. There might be some utility in a 4-resource location on this world so here's a [Reddit post](https://old.reddit.com/r/Starfield/comments/17nbhmt/anyone_able_to_point_me_to_a_four_resource/k85fhn8/) purporting to show one.
 
+### Carinae III-a (Rothicite)
+
+Design:
+
+- Landing Pad - Small
+- Solar Dome (8 power)
+- Extractor - Solid (rothicite)
+- Storage - Solid - Large (rothicite)
+- Cargo Link - Inter-system (rothicite to Schroedinger VIII-e)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 10
+  - Tau Grade Rheostat: 2
+- Solid
+  - Aluminum: 32
+  - Iron: 45
+  - Tungsten: 2
+
+Location:
+
+Any rothicite-rich area will do.
+
+### Schrodinger VIII-e (C-Rods, R-Mags, u-sec Regs, Dy, Li, Pb)
+
+It's important to find a site that has access to both lithium and dysprosium (that's why we're building on this world). It should be easy to find lead in the area where Lithium and Dysprosium are both available.
+
+This is a manual production site as part of the XP grind. Produce Control Rods, Rothicite Magnets, Microsecond Regulators. Bring Europium if you are producing Microsecond Regulators to build Aldumite Drilling Rig instead of just buying Aldumite Drilling Rig.
+
+Design:
+
+- Reactor
+- 6 Cargo Link - Inter-system (austenitic manifold, isotopic coolant, rothicite, semimetal wafer, supercooled magnet, he3)
+- 2 Extractor - Solid (lithium, dysprosium)
+- 5 Storage - Solid - Large (dysprosium, europium, lead, lithium, rothicite)
+- 1 Storage - Gas - Large (he3)
+- 7 Warehouse - Large (austenitic manifold, control rods, isotopic coolant, microsecond regulators, rothicite magnets, semimetal wafer, supercooled magnet)
+- 1 Compound Fabricator (control rod)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 136
+  - Comm Relay: 6
+  - Control Rod: 3
+  - Nuclear Fuel Rod: 8
+  - Paramagnon Conductor: 4
+  - Reactive Gauge: 18
+  - Supercooled Magnet: 5
+  - Tau Grade Rheostat: 3
+- Solid
+  - Aluminum: 300
+  - Copper: 20
+  - Iron: 230
+  - Lead: 10
+  - Titanium: 112
+  - Tungsten: 20
+
+Cargo links:
+
+- He3 from Shoza III-a He3/Nd
+- Austenitic Manifold from Bessel III-b Manifolds
+- Isotopic Coolant from Procyon III
+- Semimetal Wafer from Cruth
+- Supercooled Magnet from Serpentis V-d He3/Supcolmag
+- Rothicite from Carinae III-a Rothicite
+
+Location:
+
+In the southern hemisphere, find this region. The landing spot is on the rocky desert side of the mountains/rocky desert/frozen hills biome border. When you land the ship should be close to the snowline, the landscape should be predominantly flat with stone pillars and a small mound in the middle distance in the snow-covered region. Opposite from the snowline will be a hot springs geographic feature whcih you should have seen during the landing animation.
+
+From the landing site, follow the snowline north for about 3km. Half way there you'll pass a large dysprosium patch that crosses the snowline and eventually come to a snow-covered region that is relatively void of stone pillars. One last stone pillar on the snow side of the border (left, in the direction of travel), and there will be a large slab of rock perched on the hillside. At this location you can place an outpost and have access to Dysprosium, Lead and Lithium.
+
+<p>
+<img src="images/schrodinger-viii-e-location-map.jpg" alt="Map of Schrodinger VIII-e with resources shown. There is a marker for the location of the outpost." width="40%">
+<img src="images/schrodinger-viii-e-location-landing.jpg" alt="The landscape at the landing site on Schrodinger VIII-e intended to help players find the location of this outpost" width="40%">
+<img src="images/schrodinger-viii-e-location-landscape.jpg" alt="The landscape around the outpost on Schrodinger VIII-e intended to help players find the location once they have landed." width="40%">
+</p>
+
+### Cruth (cargo link expansion)
+
+Design:
+
+- 2 Cargo Link - Inter-system (semimetal wafers to Schrodinger VIII-e, antimony to Shoza VIII-b)
+
 ### Grimsey (Vytinium Fuel Rod) 
 
 Design:
