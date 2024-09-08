@@ -7,9 +7,9 @@ After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Lin
 - [Industry from Scratch](#industry-from-scratch)
   - [Preparation](#preparation)
   - [Bessel III-b Al/Fe/Ni/Co](#bessel-iii-b-alfenico)
+  - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-pb-ta-ti-w-alkanes)
   - [Andraphon (He3/Be/Eu)](#andraphon-he3beeu)
   - [Procyon III (Cu, Sealant)](#procyon-iii-cu-sealant)
-  - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-pb-ta-ti-w-alkanes)
   - [Zeta Ophiucui I (silver, ytterbium, polymer)](#zeta-ophiucui-i-silver-ytterbium-polymer)
   - [Shoza III-a (He3, Nd)](#shoza-iii-a-he3-nd)
   - [Serpentis IV (fiber, structural)](#serpentis-iv-fiber-structural)
@@ -73,6 +73,41 @@ Location:
 
 - Brahmiluff, [Bessel III-b outpost location](https://www.youtube.com/watch?v=NSxSKiD4ahk), YouTube 23 Sep 2023 (NB: relies on good lighting which you won't get until a couple of weeks from start of game)
 - Vash Cowaii, [Starfield: The Best Beginner XP Farm? Only 950 Credits](https://www.youtube.com/watch?v=DKTjyx-1ES4), YouTube 13 Sep 2023 (NB: provides necessary hints to find the landing site on the dark side. Abrasive personality)
+
+## Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)
+
+Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main minerals of interest here are Titanium for warehouses and Tungsten for extractors.
+
+Design:
+
+- 1 Landing Pad - Small
+- 3 Solar Dome (12 power)
+- 5 Extractor - Solid (dysprosium, lead, tantalum, titanium, tungsten)
+- 5 Storage - Solid - Large (dysprosium, lead, tantalum, titanium, tungsten)
+- 1 Extractor - Gas (alkanes)
+- 1 Storage - Gas - Large (alkanes)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 60
+  - Tau Grade Rheostat: 6
+- Solid
+  - Aluminum: 125
+  - Copper: 23
+  - Iron: 145
+  - Nickel: 4
+  - Tungsten: 26
+
+Location:
+
+Check Brahmiluff's location from [8-in-one Resources Tirna VIII-c Outpost Location in Starfield!](https://www.youtube.com/watch?v=pCjAUcrqYGs). Here's the swamp site on the planet resource map with higher level Scanning skill:
+
+![swamp site](images/tirna-viii-c-location-map-swamp-site.jpg)
+
+Unfortunately this is one of those "keep trying till it works" scenarios. My images for whatever reason look nothing like Brahmiluff's - different resolution, different zoom level, completely different look to the splotches of colour. There's no convenient border nearby, the surrounding pixels are all swamp. There's a confluence of savanna, hills and swamp to the west but there's no convenient outpost location there.
+
+If you find a better location that's easier to pick up the first time, please raise an issue in the [GitHub repository](https://github.com/MaraRinn/StarfieldOutpostCompendium).
 
 ## Andraphon (He3/Be/Eu)
 
@@ -149,41 +184,6 @@ Bill of Materials:
   - Fluorine: 4
 
 **Location**: You should be able to find an appropriate site in various wetlands (regions where Ionic Liquids are available). Look for a **flat site with copper, fluorine, ionic liquids, tetrafluorides and water**. The ionic liquids and tetrafluorides will be needed later for producing isotopic coolant, while the fluorine is necessary for producing greenhouses.
-
-## Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)
-
-Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main minerals of interest here are Titanium for warehouses and Tungsten for extractors.
-
-Design:
-
-- 1 Landing Pad - Small
-- 3 Solar Dome (12 power)
-- 5 Extractor - Solid (dysprosium, lead, tantalum, titanium, tungsten)
-- 5 Storage - Solid - Large (dysprosium, lead, tantalum, titanium, tungsten)
-- 1 Extractor - Gas (alkanes)
-- 1 Storage - Gas - Large (alkanes)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 60
-  - Tau Grade Rheostat: 6
-- Solid
-  - Aluminum: 125
-  - Copper: 23
-  - Iron: 145
-  - Nickel: 4
-  - Tungsten: 26
-
-Location:
-
-Check Brahmiluff's location from [8-in-one Resources Tirna VIII-c Outpost Location in Starfield!](https://www.youtube.com/watch?v=pCjAUcrqYGs). Here's the swamp site on the planet resource map with higher level Scanning skill:
-
-![swamp site](images/tirna-viii-c-location-map-swamp-site.jpg)
-
-Unfortunately this is one of those "keep trying till it works" scenarios. My images for whatever reason look nothing like Brahmiluff's - different resolution, different zoom level, completely different look to the splotches of colour. There's no convenient border nearby, the surrounding pixels are all swamp. There's a confluence of savanna, hills and swamp to the west but there's no convenient outpost location there.
-
-If you find a better location that's easier to pick up the first time, please raise an issue in the [GitHub repository](https://github.com/MaraRinn/StarfieldOutpostCompendium).
 
 ## Zeta Ophiucui I (silver, ytterbium, polymer)
 
