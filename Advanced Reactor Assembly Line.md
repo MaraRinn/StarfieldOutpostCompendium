@@ -1053,6 +1053,32 @@ Location:
 
 Any rothicite-rich area will do.
 
+### Huygens VII-a (Tasine)
+
+Design:
+
+- Landing Pad - Small
+- Extractor - Liquid (tasine)
+- Storage - Liquid - Large (tasine)
+- Solar Dome (8 power)
+- Cargo Link - Inter-system (tasine to Shoza VIII-b)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 10
+  - Comm Relay: 1
+  - Reactive Gauge: 3
+  - Tau Grade Rheostat: 2
+- Solid
+  - Aluminum: 49
+  - Iron: 43
+  - Nickel: 20
+
+Location:
+
+Any tasine-rich area.
+
 ### Schrodinger VIII-e (C-Rods, R-Mags, u-sec Regs, Dy, Li, Pb)
 
 It's important to find a site that has access to both lithium and dysprosium (that's why we're building on this world). It should be easy to find lead in the area where Lithium and Dysprosium are both available.
