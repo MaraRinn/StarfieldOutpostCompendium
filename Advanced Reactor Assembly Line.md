@@ -1095,29 +1095,36 @@ Design:
 - Reactor
 - 6 Cargo Link - Inter-system (austenitic manifold, isotopic coolant, rothicite, semimetal wafer, supercooled magnet, he3)
 - 2 Extractor - Solid (lithium, dysprosium)
-- 5 Storage - Solid - Large (dysprosium, europium, lead, lithium, rothicite)
+- 4 Storage - Solid - Large (dysprosium, lead, lithium, rothicite)
 - 1 Storage - Gas - Large (he3)
-- 7 Warehouse - Large (austenitic manifold, control rods, isotopic coolant, microsecond regulators, rothicite magnets, semimetal wafer, supercooled magnet)
+- 6 Warehouse - Large (austenitic manifold, control rods, isotopic coolant, rothicite magnets, semimetal wafer, supercooled magnet)
 - 1 Compound Fabricator (control rod)
+- 1 Multiplex Fabricator (rothicite magnet)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 136
+  - Adaptive Frame: 116
   - Comm Relay: 6
   - Control Rod: 3
+  - Isotopic Coolant: 2
   - Nuclear Fuel Rod: 8
   - Paramagnon Conductor: 4
+  - Positron Battery: 3
   - Reactive Gauge: 18
   - Supercooled Magnet: 5
   - Tau Grade Rheostat: 3
+  - Zero Wire: 5
 - Solid
-  - Aluminum: 300
+  - Adhesive: 4
+  - Aluminum: 264
   - Copper: 20
-  - Iron: 230
+  - Iron: 210
   - Lead: 10
-  - Titanium: 112
-  - Tungsten: 20
+  - Lubricant: 6
+  - Polymer: 8
+  - Titanium: 104
+  - Tungsten: 28
 
 Cargo links:
 
