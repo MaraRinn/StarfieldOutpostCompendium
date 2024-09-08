@@ -852,22 +852,25 @@ Design:
 - 2 Storage - Solid - Large (antimony, vanadium)
 - 2 Warehouse - Large (tau grade rheostat, positron battery)
 - Compound Fabricator (positron battery)
+- Cargo Link - Inter-system (tau grade rheostat from Shoza VIII-b, positron battery to Shoza VIII-b)
 
 Materials:
 
 - Manufactured
   - Adaptive Frame: 46
+  - Comm Relay: 1
   - Control Rod: 3
   - Isotopic Coolant: 2
   - Nuclear Fuel Rod: 8
   - Paramagnon Conductor: 4
+  - Reactive Gauge: 3
   - Supercooled Magnet: 5
   - Tau Grade Rheostat: 3
   - Zero Wire: 5
 - Solid
   - Adhesive: 4
-  - Aluminum: 88
-  - Iron: 70
+  - Aluminum: 100
+  - Iron: 90
   - Lead: 10
   - Titanium: 32
   - Tungsten: 12
@@ -1236,9 +1239,10 @@ Materials:
 
 Design:
 
-- 7 Extractor - Gas (Helium-3)
+- 1 Extractor - Gas (Helium-3)
 - Storage - Gas - Large
-- 6 Cargo Link - Inter-system (polymer from Zeta Ophiuchi I, zero wire from Cruth, vanadium from Maal IX-b, antimony from Cruth, tasine from Huygens VII-a, Nd from Leviathan II)
+- 4 Cargo Link - Inter-system (polymer from Zeta Ophiuchi I, power circuit from Maal IX-b, paramagnon conductor from Cruth, tasine from Huygens VII-a)
+- 1 Cargo Link (Nd from Shoza III-b)
 
 Materials:
 
