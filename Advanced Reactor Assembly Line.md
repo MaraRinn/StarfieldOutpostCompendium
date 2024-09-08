@@ -149,7 +149,7 @@ Bill of Materials:
 
 ### Cruth (Semimetal Wafer, Paramagnon Conductor)
 
-During start-up, import silver manually from Zeta Ophiuchi I. Note how many solar domes are required to produce the power required just for the startup phase of this outpost.
+Note how many solar domes are required to produce the power required just for the startup phase of this outpost.
 
 Design:
 
@@ -162,19 +162,24 @@ Design:
 - Simple Fabricator (zero wire)
 - 3 Warehouse - Large (zero wire, semimetal wafers, paramagnon conductor)
 - 2 Compound Fabricator (semimetal wafer, paramagnon conductor)
+- 2 Cargo Link (semimetal wafer to Grimsey, he3 from androphon)
+- 2 Cargo Link - Inter-system (silver from Zeta Ophiuchi I, neodymium from Shoza III-a)
 
 Materials:
 
 - Manufactured
   - Adaptive Frame: 80
+  - Comm Relay: 2
   - Isotopic Coolant: 4
+  - Reactive Gauge: 6
   - Tau Grade Rheostat: 22
-  - Zero Wire: 13
+  - Zero Wire: 17
 - Solid
   - Adhesive: 8
-  - Aluminum: 217
+  - Aluminum: 265
+  - Beryllium: 4
   - Copper: 3
-  - Iron: 135
+  - Iron: 215
   - Nickel: 4
   - Sealant: 2
   - Titanium: 48
@@ -923,62 +928,46 @@ Location:
 
 Also see the "Advanced Reactor Assembly" document from MattGyver's "Starfield Manufacturing Flow Diagrams" which has a full page describing the location(s) at which you can build this outpost.
 
-### Katydid III (Indicite, Silver)
-
-- Indicite from Frozen Plains
-- Copper from Plateau
-- Silver from Rocky Desert
-
-Found one place where I can harvest Indicite and Silver.
+### Katydid III (Indicite)
 
 Design:
 
 - Wind Turbine - Advanced (14 power)
 - Extractor - Solid (indicite)
 - Storage - Solid - Large (indicite)
-- Extractor - Solid (silver)
-- Storage - Solid - Large (silver)
-- Storage - Gas
 - Cargo Link - Inter-system (indicite to Grimsey)
-- Cargo Link - Inter-system (silver to Cruth)
-- Cargo Link - Inter-system (silver to Shoza VIII-B)
-- Cargo Link - Inter-system (He3 from Androphon)
 - Landing Pad - Small
 
 Materials:
 
-- Adaptive Frame: 23
-- Aluminum: 101
-- Comm Relay: 4
-- Copper: 6
-- Iron: 150
-- Isocentered Magnet: 2
-- Reactive Gauge: 12
-- Tungsten: 9
+- Manufactured
+  - Adaptive Frame: 10
+  - Comm Relay: 1
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 45
+  - Iron: 65
+  - Tungsten: 2
 
 Location:
 
-<p>
-<img src="images/katydid-iii-location-map.jpg" alt="Map of Katydid III with resources shown. There is a marker for the location of the outpost." width="40%">
-<img src="images/katydid-iii-location-landscape.png" alt="The landscape around the outpost on Katydid III intended to help players find the location once they have landed." width="40%">
-</p>
+Only one resource being collected here, just find somewhere you like that has indicite.
 
-In general you can land on a frozen plains / rocky desert interface and walk along the snowline to find a spot with indicite and silver. No other resources matter here.
-
-### Zeta Ophiuchi I (silver exports)
+### Zeta Ophiuchi I (polymer, silver exports)
 
 Design:
 
-- 4 Cargo Link - Inter-system (He3 from Leviathan II, silver to Cruth, silver to Shoza VIII-b, polymer to Shoza VIII-b)
+- 2 Cargo Link - Inter-system (silver to Cruth, polymer to Shoza VIII-b)
 
 Materials:
 
 - Manufactured
-  - Comm Relay: 4
-  - Reactive Gauge: 12
+  - Comm Relay: 2
+  - Reactive Gauge: 6
 - Solid
-  - Aluminum: 48
-  - Iron: 80
+  - Aluminum: 24
+  - Iron: 40
 
 ### Cruth (cargo link expansion)
 
