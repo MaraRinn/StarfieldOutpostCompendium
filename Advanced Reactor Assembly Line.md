@@ -41,8 +41,7 @@
     - [Decaran VII-b (Vytinium)](#decaran-vii-b-vytinium)
     - [Carinae III-a (Rothicite)](#carinae-iii-a-rothicite)
     - [Huygens VII-a (Tasine)](#huygens-vii-a-tasine)
-    - [Schrodinger VIII-e (C-Rods, R-Mags, u-sec Regs, Dy, Li, Pb)](#schrodinger-viii-e-c-rods-r-mags-u-sec-regs-dy-li-pb)
-    - [Cruth (cargo link expansion)](#cruth-cargo-link-expansion-1)
+    - [Schrodinger VIII-e (control rod)](#schrodinger-viii-e-control-rod)
     - [Grimsey (Vytinium Fuel Rod)](#grimsey-vytinium-fuel-rod)
     - [Grimsey (storage expansion)](#grimsey-storage-expansion)
     - [Grimsey (cargo links)](#grimsey-cargo-links)
@@ -1153,12 +1152,6 @@ From the landing site, follow the snowline north for about 3km. Half way there y
 <img src="images/schrodinger-viii-e-location-landing.jpg" alt="The landscape at the landing site on Schrodinger VIII-e intended to help players find the location of this outpost" width="40%">
 <img src="images/schrodinger-viii-e-location-landscape.jpg" alt="The landscape around the outpost on Schrodinger VIII-e intended to help players find the location once they have landed." width="40%">
 </p>
-
-### Cruth (cargo link expansion)
-
-Design:
-
-- 2 Cargo Link - Inter-system (semimetal wafers to Schrodinger VIII-e, antimony to Shoza VIII-b)
 
 ### Grimsey (Vytinium Fuel Rod) 
 
