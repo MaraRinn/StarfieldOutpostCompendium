@@ -1296,11 +1296,11 @@ Location:
 Design:
 
 - Industrial Workbench
-- Reactor - Advanced
-- Extractor - Gas - Industrial (helium-3)
+- 4 Solar Dome (8 power)
+- Extractor - Gas (helium-3)
 - Storage - Gas - Large (He3)
 - 2 Extractor - Solid (Nickel, Cobalt)
-- 4 Storage - Solid - Large (Co, Ni, Nd, Be)
+- 4 Storage - Solid - Large (Co, Ni, Nd)
 - 3 Warehouse - Large (Isotopic Coolant, Isocentered Magnet, Supercooled Magnet)
 - Simple Fabricator (isocentered magnet)
 - Compound Fabricator (supercooled magnet)
@@ -1309,27 +1309,30 @@ Design:
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 85
+  - Adaptive Frame: 80
   - Comm Relay: 3
-  - Control Rod: 5
   - Isotopic Coolant: 2
-  - Power Circuit: 3
-  - Reactive Gauge: 12
-  - Rothicite Magnet: 5
-  - Substrate Molecule Sieve: 2
-  - Tasine Superconductor: 4
-  - Vytinium Fuel Rod: 8
+  - Reactive Gauge: 9
+  - Tau Grade Rheostat: 8
   - Zero Wire: 8
 - Solid
   - Adhesive: 4
-  - Aluminum: 180
-  - Copper: 20
+  - Aluminum: 201
+  - Copper: 23
   - Iron: 153
-  - Lead: 20
+  - Nickel: 4
   - Sealant: 2
   - Titanium: 48
   - Tungsten: 32
-  - Vanadium: 6
+
+Location:
+
+The resources needed for this outpost are Co/Ni and He3. You'll find Co/Ni in the Hills biome, He3 in the craters biome. In the surface map you'll find a confluence of craters, hills and mountains along the left edge of the litte green nubbin, craters down the centre, hills south (down) from that, mountains west (left) of the craters. The landing site is on the mountains side of craters/mountains border. This outpost has He3, Ni, Co, Al, Be.
+
+<img src="images/serpentis-v-d-location-map.jpg" alt="Map of Serpentis V-d with resources shown" width="40%">
+<img src="images/serpentis-v-d-landscape-landing.jpg" alt="Landscape at the landing site" width="40%">
+<img src="images/serpentis-v-d-surface-map.jpg" alt="Surface map showing landing site and outpost location" width="40%">
+<img src="images/serpentis-v-d-landscape-outpost.jpg" alt="Landscape at outpost location" width="40%">
 
 ### Shoza III-a (He3 expansion)
 
