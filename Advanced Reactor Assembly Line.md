@@ -3,7 +3,7 @@
 - [Advanced Reactor Assembly Line](#advanced-reactor-assembly-line)
   - [Overview](#overview)
   - [Reactor Production](#reactor-production)
-    - [Androphon (He3 Infrastructure)](#androphon-he3-infrastructure)
+    - [Andraphon (He3 Infrastructure)](#andraphon-he3-infrastructure)
     - [Procyon III (Isotopic Coolant/Antimicrobial expansion)](#procyon-iii-isotopic-coolantantimicrobial-expansion)
     - [Cruth (Semimetal Wafer, Paramagnon Conductor)](#cruth-semimetal-wafer-paramagnon-conductor)
     - [Codos (Solvent)](#codos-solvent)
@@ -94,7 +94,7 @@ Recipe for Reactors:
   - Neodymium: 3
 - Tau Grade Rheostat: 3
 
-### Androphon (He3 Infrastructure)
+### Andraphon (He3 Infrastructure)
 
 Design:
 
@@ -164,7 +164,7 @@ Design:
 - Simple Fabricator (zero wire)
 - 3 Warehouse - Large (zero wire, semimetal wafers, paramagnon conductor)
 - 2 Compound Fabricator (semimetal wafer, paramagnon conductor)
-- 2 Cargo Link (semimetal wafer to Grimsey, he3 from androphon)
+- 2 Cargo Link (semimetal wafer to Grimsey, he3 from Andraphon)
 - 2 Cargo Link - Inter-system (silver from Zeta Ophiuchi I, neodymium from Shoza III-a)
 
 Materials:
@@ -234,7 +234,7 @@ Design:
 - 4 Extractor - Solid (iridium, plutonium, uranium, vanadium)
 - 6 Storage - Solid - Large (iridium, lead, plutonium, solvent, uranium, vanadium)
 - 3 Warehouse - Large (control rod, paramagnon conductor, semimetal wafer)
-- 2 Cargo link (semimetal wafer from cruth, he3 from Androphon)
+- 2 Cargo link (semimetal wafer from cruth, he3 from Andraphon)
 - Cargo Link - Inter-system (solvent from Codos)
 
 Materials:
@@ -1227,7 +1227,7 @@ Materials:
 Note that the austenitic manifold fabricator already exists if you followed the industrial liquid extractor build.
 
 - Reactor
-- Cargo Link - Inter-system (He from Androphon)
+- Cargo Link - Inter-system (He from Andraphon)
 - Storage - Gas - Large
 - Cargo Link - Inter-system (Copper from Procyon III)
 - Storage - Solid - Large (copper)
