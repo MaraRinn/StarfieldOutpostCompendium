@@ -1088,11 +1088,13 @@ Location:
 
 Any tasine-rich area.
 
-### Schrodinger VIII-e (C-Rods, R-Mags, u-sec Regs, Dy, Li, Pb)
+### Schrodinger VIII-e (control rod)
 
 It's important to find a site that has access to both lithium and dysprosium (that's why we're building on this world). It should be easy to find lead in the area where Lithium and Dysprosium are both available.
 
 This is a manual production site as part of the XP grind. Produce Control Rods, Rothicite Magnets, Microsecond Regulators. Bring Europium if you are producing Microsecond Regulators to build Aldumite Drilling Rig instead of just buying Aldumite Drilling Rig.
+
+If you haven't set up the lubricant production on Alpha Tirna VIII-c as prt of the Veryl-Treated Manifold production chain, you should be able to get lubricant from Sieghart, Trade Authority.
 
 Design:
 
