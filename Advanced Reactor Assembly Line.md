@@ -7,6 +7,8 @@
     - [Procyon III (Isotopic Coolant/Antimicrobial expansion)](#procyon-iii-isotopic-coolantantimicrobial-expansion)
     - [Cruth (Semimetal Wafer, Paramagnon Conductor)](#cruth-semimetal-wafer-paramagnon-conductor)
     - [Codos (Solvent)](#codos-solvent)
+    - [Serpentis V-d (He3/SupColMag)](#serpentis-v-d-he3supcolmag)
+    - [Schrodinger VIII-e (control rod)](#schrodinger-viii-e-control-rod)
     - [Grimsey (Iridium, Plutonium, Uranium, Vanadium)](#grimsey-iridium-plutonium-uranium-vanadium)
     - [Operation](#operation)
   - [Industrial Liquid Extractors and Greenhouses](#industrial-liquid-extractors-and-greenhouses)
@@ -40,16 +42,14 @@
     - [Decaran VII-b (Vytinium)](#decaran-vii-b-vytinium)
     - [Carinae III-a (Rothicite)](#carinae-iii-a-rothicite)
     - [Huygens VII-a (Tasine)](#huygens-vii-a-tasine)
-    - [Schrodinger VIII-e (control rod)](#schrodinger-viii-e-control-rod)
+    - [Shoza VIII-b (tasine superconductor)](#shoza-viii-b-tasine-superconductor)
     - [Grimsey (Vytinium Fuel Rod)](#grimsey-vytinium-fuel-rod)
     - [Grimsey (storage expansion)](#grimsey-storage-expansion)
     - [Grimsey (cargo links)](#grimsey-cargo-links)
     - [Procyon III Expansion (Isotopic Coolant, Copper to Bessel III-b)](#procyon-iii-expansion-isotopic-coolant-copper-to-bessel-iii-b)
     - [Bessel III-b Expansion (manufacturing, cargo links)](#bessel-iii-b-expansion-manufacturing-cargo-links)
     - [Zeta Ophiuchi I (Polymer, Silver, Ytterbium)](#zeta-ophiuchi-i-polymer-silver-ytterbium)
-    - [Serpentis V-d (He3/SupColMag)](#serpentis-v-d-he3supcolmag)
     - [Shoza III-a (He3 expansion)](#shoza-iii-a-he3-expansion)
-    - [Shoza VIII-b (inter-system links)](#shoza-viii-b-inter-system-links)
   - [Mass Production Upgrades](#mass-production-upgrades)
       - [Cruth (Mass Production of Semimetal Wafers)](#cruth-mass-production-of-semimetal-wafers)
   - [Other Sites](#other-sites)
@@ -221,6 +221,114 @@ Materials:
   - Sealant: 3
 - Gas
   - Fluorine: 4
+
+### Serpentis V-d (He3/SupColMag)
+
+Design:
+
+- Industrial Workbench
+- 4 Solar Dome (8 power)
+- Extractor - Gas (helium-3)
+- Storage - Gas - Large (He3)
+- 2 Extractor - Solid (Nickel, Cobalt)
+- 4 Storage - Solid - Large (Co, Ni, Nd)
+- 3 Warehouse - Large (Isotopic Coolant, Isocentered Magnet, Supercooled Magnet)
+- Simple Fabricator (isocentered magnet)
+- Compound Fabricator (supercooled magnet)
+- 3 Cargo Link - Inter-system (Neodymium from Shoza III-a, Isotopic Coolant from Procyon III, Supercooled Magnets to Schrodinger VIII-e)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 80
+  - Comm Relay: 3
+  - Isotopic Coolant: 2
+  - Reactive Gauge: 9
+  - Tau Grade Rheostat: 8
+  - Zero Wire: 8
+- Solid
+  - Adhesive: 4
+  - Aluminum: 201
+  - Copper: 23
+  - Iron: 153
+  - Nickel: 4
+  - Sealant: 2
+  - Titanium: 48
+  - Tungsten: 32
+
+Location:
+
+The resources needed for this outpost are Co/Ni and He3. You'll find Co/Ni in the Hills biome, He3 in the craters biome. In the surface map you'll find a confluence of craters, hills and mountains along the left edge of the litte green nubbin, craters down the centre, hills south (down) from that, mountains west (left) of the craters. The landing site is on the mountains side of craters/mountains border. This outpost has He3, Ni, Co, Al, Be.
+
+<img src="images/serpentis-v-d-location-map.jpg" alt="Map of Serpentis V-d with resources shown" width="40%">
+<img src="images/serpentis-v-d-landscape-landing.jpg" alt="Landscape at the landing site" width="40%">
+<img src="images/serpentis-v-d-surface-map.jpg" alt="Surface map showing landing site and outpost location" width="40%">
+<img src="images/serpentis-v-d-landscape-outpost.jpg" alt="Landscape at outpost location" width="40%">
+
+### Schrodinger VIII-e (control rod)
+
+It's important to find a site that has access to both lithium and dysprosium (that's why we're building on this world). It should be easy to find lead in the area where Lithium and Dysprosium are both available.
+
+This is a manual production site as part of the XP grind. Produce Control Rods, Rothicite Magnets, Microsecond Regulators. Bring Europium if you are producing Microsecond Regulators to build Aldumite Drilling Rig instead of just buying Aldumite Drilling Rig.
+
+If you haven't set up the lubricant production on Alpha Tirna VIII-c as part of the Veryl-Treated Manifold production chain, you should be able to get lubricant from Sieghart, Trade Authority.
+
+Design:
+
+- Reactor
+- 6 Cargo Link - Inter-system (austenitic manifold, isotopic coolant, rothicite, semimetal wafer, supercooled magnet, he3)
+- 2 Extractor - Solid (lithium, dysprosium)
+- 4 Storage - Solid - Large (dysprosium, lead, lithium, rothicite)
+- 1 Storage - Gas - Large (he3)
+- 6 Warehouse - Large (austenitic manifold, control rods, isotopic coolant, rothicite magnets, semimetal wafer, supercooled magnet)
+- 1 Compound Fabricator (control rod)
+- 1 Multiplex Fabricator (rothicite magnet)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 116
+  - Comm Relay: 6
+  - Control Rod: 3
+  - Isotopic Coolant: 2
+  - Nuclear Fuel Rod: 8
+  - Paramagnon Conductor: 4
+  - Positron Battery: 3
+  - Reactive Gauge: 18
+  - Supercooled Magnet: 5
+  - Tau Grade Rheostat: 3
+  - Zero Wire: 5
+- Solid
+  - Adhesive: 4
+  - Aluminum: 264
+  - Copper: 20
+  - Iron: 210
+  - Lead: 10
+  - Lubricant: 6
+  - Polymer: 8
+  - Titanium: 104
+  - Tungsten: 28
+
+Cargo links:
+
+- He3 from Shoza III-a He3/Nd
+- Austenitic Manifold from Bessel III-b Manifolds
+- Isotopic Coolant from Procyon III
+- Semimetal Wafer from Cruth
+- Supercooled Magnet from Serpentis V-d He3/Supcolmag
+- Rothicite from Carinae III-a Rothicite
+
+Location:
+
+In the southern hemisphere, find this region. The landing spot is on the rocky desert side of the mountains/rocky desert/frozen hills biome border. When you land the ship should be close to the snowline, the landscape should be predominantly flat with stone pillars and a small mound in the middle distance in the snow-covered region. Opposite from the snowline will be a hot springs geographic feature whcih you should have seen during the landing animation.
+
+From the landing site, follow the snowline north for about 3km. Half way there you'll pass a large dysprosium patch that crosses the snowline and eventually come to a snow-covered region that is relatively void of stone pillars. One last stone pillar on the snow side of the border (left, in the direction of travel), and there will be a large slab of rock perched on the hillside. At this location you can place an outpost and have access to Dysprosium, Lead and Lithium.
+
+<p>
+<img src="images/schrodinger-viii-e-location-map.jpg" alt="Map of Schrodinger VIII-e with resources shown. There is a marker for the location of the outpost." width="40%">
+<img src="images/schrodinger-viii-e-location-landing.jpg" alt="The landscape at the landing site on Schrodinger VIII-e intended to help players find the location of this outpost" width="40%">
+<img src="images/schrodinger-viii-e-location-landscape.jpg" alt="The landscape around the outpost on Schrodinger VIII-e intended to help players find the location once they have landed." width="40%">
+</p>
 
 ### Grimsey (Iridium, Plutonium, Uranium, Vanadium)
 
@@ -1088,70 +1196,33 @@ Location:
 
 Any tasine-rich area.
 
-### Schrodinger VIII-e (control rod)
-
-It's important to find a site that has access to both lithium and dysprosium (that's why we're building on this world). It should be easy to find lead in the area where Lithium and Dysprosium are both available.
-
-This is a manual production site as part of the XP grind. Produce Control Rods, Rothicite Magnets, Microsecond Regulators. Bring Europium if you are producing Microsecond Regulators to build Aldumite Drilling Rig instead of just buying Aldumite Drilling Rig.
-
-If you haven't set up the lubricant production on Alpha Tirna VIII-c as prt of the Veryl-Treated Manifold production chain, you should be able to get lubricant from Sieghart, Trade Authority.
+### Shoza VIII-b (tasine superconductor)
 
 Design:
 
 - Reactor
-- 6 Cargo Link - Inter-system (austenitic manifold, isotopic coolant, rothicite, semimetal wafer, supercooled magnet, he3)
-- 2 Extractor - Solid (lithium, dysprosium)
-- 4 Storage - Solid - Large (dysprosium, lead, lithium, rothicite)
-- 1 Storage - Gas - Large (he3)
-- 6 Warehouse - Large (austenitic manifold, control rods, isotopic coolant, rothicite magnets, semimetal wafer, supercooled magnet)
-- 1 Compound Fabricator (control rod)
-- 1 Multiplex Fabricator (rothicite magnet)
+- 2 Cargo Link - Inter-system (tasine from Huygens VII-a, polymer from zeta ophiuchi i)
+- 1 Storage - Liquid - Large (tasine)
+- 1 Warehouse - Large (tasine superconductor)
+- Multiplex Fabricator (tasine superconductor)
 
 Materials:
 
+- Reactor
 - Manufactured
-  - Adaptive Frame: 116
-  - Comm Relay: 6
-  - Control Rod: 3
-  - Isotopic Coolant: 2
-  - Nuclear Fuel Rod: 8
-  - Paramagnon Conductor: 4
+  - Adaptive Frame: 20
+  - Comm Relay: 2
   - Positron Battery: 3
-  - Reactive Gauge: 18
-  - Supercooled Magnet: 5
-  - Tau Grade Rheostat: 3
-  - Zero Wire: 5
+  - Reactive Gauge: 6
+  - Zero Wire: 2
 - Solid
-  - Adhesive: 4
-  - Aluminum: 264
-  - Copper: 20
-  - Iron: 210
-  - Lead: 10
+  - Aluminum: 76
+  - Beryllium: 2
+  - Iron: 60
   - Lubricant: 6
+  - Nickel: 16
   - Polymer: 8
-  - Titanium: 104
-  - Tungsten: 28
-
-Cargo links:
-
-- He3 from Shoza III-a He3/Nd
-- Austenitic Manifold from Bessel III-b Manifolds
-- Isotopic Coolant from Procyon III
-- Semimetal Wafer from Cruth
-- Supercooled Magnet from Serpentis V-d He3/Supcolmag
-- Rothicite from Carinae III-a Rothicite
-
-Location:
-
-In the southern hemisphere, find this region. The landing spot is on the rocky desert side of the mountains/rocky desert/frozen hills biome border. When you land the ship should be close to the snowline, the landscape should be predominantly flat with stone pillars and a small mound in the middle distance in the snow-covered region. Opposite from the snowline will be a hot springs geographic feature whcih you should have seen during the landing animation.
-
-From the landing site, follow the snowline north for about 3km. Half way there you'll pass a large dysprosium patch that crosses the snowline and eventually come to a snow-covered region that is relatively void of stone pillars. One last stone pillar on the snow side of the border (left, in the direction of travel), and there will be a large slab of rock perched on the hillside. At this location you can place an outpost and have access to Dysprosium, Lead and Lithium.
-
-<p>
-<img src="images/schrodinger-viii-e-location-map.jpg" alt="Map of Schrodinger VIII-e with resources shown. There is a marker for the location of the outpost." width="40%">
-<img src="images/schrodinger-viii-e-location-landing.jpg" alt="The landscape at the landing site on Schrodinger VIII-e intended to help players find the location of this outpost" width="40%">
-<img src="images/schrodinger-viii-e-location-landscape.jpg" alt="The landscape around the outpost on Schrodinger VIII-e intended to help players find the location once they have landed." width="40%">
-</p>
+  - Titanium: 24
 
 ### Grimsey (Vytinium Fuel Rod) 
 
@@ -1292,49 +1363,6 @@ Location:
 <img src="images/zeta-ophiuchi-i-location-map.jpg" alt="Map of Zeta Ophiuchi I with resources shown. There is a marker for the location of the outpost." width="40%">
 <img src="images/zeta-ophiuchi-i-location-landscape.jpg" alt="The landscape around the outpost on Zeta Ophiuchi I intended to help players find the location once they have landed." width="40%">
 </p>
-
-### Serpentis V-d (He3/SupColMag)
-
-Design:
-
-- Industrial Workbench
-- 4 Solar Dome (8 power)
-- Extractor - Gas (helium-3)
-- Storage - Gas - Large (He3)
-- 2 Extractor - Solid (Nickel, Cobalt)
-- 4 Storage - Solid - Large (Co, Ni, Nd)
-- 3 Warehouse - Large (Isotopic Coolant, Isocentered Magnet, Supercooled Magnet)
-- Simple Fabricator (isocentered magnet)
-- Compound Fabricator (supercooled magnet)
-- 3 Cargo Link - Inter-system (Neodymium from Shoza III-a, Isotopic Coolant from Procyon III, Supercooled Magnets to Schrodinger VIII-e)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 80
-  - Comm Relay: 3
-  - Isotopic Coolant: 2
-  - Reactive Gauge: 9
-  - Tau Grade Rheostat: 8
-  - Zero Wire: 8
-- Solid
-  - Adhesive: 4
-  - Aluminum: 201
-  - Copper: 23
-  - Iron: 153
-  - Nickel: 4
-  - Sealant: 2
-  - Titanium: 48
-  - Tungsten: 32
-
-Location:
-
-The resources needed for this outpost are Co/Ni and He3. You'll find Co/Ni in the Hills biome, He3 in the craters biome. In the surface map you'll find a confluence of craters, hills and mountains along the left edge of the litte green nubbin, craters down the centre, hills south (down) from that, mountains west (left) of the craters. The landing site is on the mountains side of craters/mountains border. This outpost has He3, Ni, Co, Al, Be.
-
-<img src="images/serpentis-v-d-location-map.jpg" alt="Map of Serpentis V-d with resources shown" width="40%">
-<img src="images/serpentis-v-d-landscape-landing.jpg" alt="Landscape at the landing site" width="40%">
-<img src="images/serpentis-v-d-surface-map.jpg" alt="Surface map showing landing site and outpost location" width="40%">
-<img src="images/serpentis-v-d-landscape-outpost.jpg" alt="Landscape at outpost location" width="40%">
 
 ### Shoza III-a (He3 expansion)
 
