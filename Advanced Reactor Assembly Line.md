@@ -45,13 +45,14 @@
     - [Shoza VIII-b (tasine superconductor)](#shoza-viii-b-tasine-superconductor)
     - [Grimsey (Vytinium Fuel Rod)](#grimsey-vytinium-fuel-rod)
     - [Grimsey (storage expansion)](#grimsey-storage-expansion)
-    - [Grimsey (cargo links)](#grimsey-cargo-links)
     - [Procyon III Expansion (Isotopic Coolant, Copper to Bessel III-b)](#procyon-iii-expansion-isotopic-coolant-copper-to-bessel-iii-b)
     - [Bessel III-b Expansion (manufacturing, cargo links)](#bessel-iii-b-expansion-manufacturing-cargo-links)
     - [Zeta Ophiuchi I (Polymer, Silver, Ytterbium)](#zeta-ophiuchi-i-polymer-silver-ytterbium)
     - [Shoza III-a (He3 expansion)](#shoza-iii-a-he3-expansion)
   - [Mass Production Upgrades](#mass-production-upgrades)
-      - [Cruth (Mass Production of Semimetal Wafers)](#cruth-mass-production-of-semimetal-wafers)
+    - [Cruth (Mass Production of Semimetal Wafers)](#cruth-mass-production-of-semimetal-wafers)
+    - [Decaran (extraction upgrade)](#decaran-extraction-upgrade)
+    - [Codos (production upgrade)](#codos-production-upgrade)
   - [Other Sites](#other-sites)
     - [Leviathan II (He3/Be/Eu/Nd)](#leviathan-ii-he3beeund)
   - [References](#references)
@@ -70,7 +71,7 @@ In this document you'll build upon the *Industry from Scratch* infrastructure to
 
 As a stepping stone from *Industry from Scratch* to the Advanced Reactor Production chain, having the capacity to build normal reactors is useful. They produce a fixed 30 power which is great for those worlds where wind turbines and solar arrays are especially weak (airless worlds with dim light).
 
-This manufacturing system is based on shipping resources manually since the volume of production is so low. The steps taken to expand industry capacity in this section are necessary for the next section on Advance Reactor production.
+This manufacturing system is automated simply because schlepping around the starfield to pick up some parts here and other parts there is annoying enough without having to pick up feed stock from one planet and ship it to another.
 
 Recipe for Reactors:
 
@@ -116,7 +117,7 @@ Materials:
 
 ### Procyon III (Isotopic Coolant/Antimicrobial expansion)
 
-Upgading the copper-producing infrastructure at Procyon III to produce Isotopic Coolant and Antimicrobial. The isotopic coolant will be required for reactors, antimicrobial is useful elsewhere.
+Upgade the infrastructure at Procyon III to produce Isotopic Coolant and Antimicrobial. The isotopic coolant will be required for reactors, antimicrobial is useful elsewhere.
 
 Design:
 
@@ -127,21 +128,22 @@ Design:
 - 2 Storage - Liquid - Large (ionic liquid, water)
 - 2 Greenhouse (antimicrobial, sealant)
 - 3 Storage - Solid - Large (copper, antimicrobial, sealant)
-- Simple Fabricator (Isotopic Coolant)
-- Warehouse - Large (Isotopic Coolant)
+- Simple Fabricator (isotopic coolant)
+- Warehouse - Large (isotopic coolant)
+- Cargo Link - Inter-system (isotopic coolant to Serpentis V-d)
 
 Bill of Materials:
 
 - Manufactured
   - Adaptive Frame: 90
-  - Comm Relay: 2
+  - Comm Relay: 1
   - Isocentered Magnet: 4
-  - Reactive Gauge: 12
+  - Reactive Gauge: 9
   - Zero Wire: 3
 - Solid
-  - Aluminum: 175
+  - Aluminum: 163
   - Copper: 46
-  - Iron: 109
+  - Iron: 89
   - Nickel: 52
   - Sealant: 8
   - Titanium: 16
@@ -193,7 +195,7 @@ Location of Cruth outpost isn't important, just plonk it down on a large yellow 
 
 ### Codos (Solvent)
 
-[Codos](https://inara.cz/starfield/starsystem/10/#area1158) is a nice place for a **solvent**-producing outpost, being the only domesticable plant-based solvent supply.
+[Codos](https://inara.cz/starfield/starsystem/10/#area1158) is a nice place for a **solvent**-producing outpost, being the only domesticable plant-based solvent supply. It should be possible to find a location that also produces Carboxylic Acids (R-COOH) which are useful for research and weapon mods.
 
 Design:
 
@@ -366,21 +368,12 @@ All the resources we need from Grimsey are in one biome. Just find somewhere rel
 
 Run a route to pick up materials and manufacture components on the way:
 
-- Collect Neodymium from Shoza III-a
-- Collect Dysprosium from Alpha Tirna VIII-c
-- Collect Isotopic Coolant from Procyon III
-- Deliver Isotopic Coolant, Dysprosium, some of the Neodymium to home base
-- Craft 3 Control Rods
-- Craft 5 Supercooled Magnet
+- Collect 10 Lead, 3 Control Rods, 5 Supercooled Magnet from Schrodinger VIII-e
 - Collect 6 Adaptive Frame, 3 Tau Grade Rheostat from Bessel III-b
-- Collect Silver from Zeta Ophiuchi I
-- Deliver Silver, Neodymium to Cruth
-- Collect 8 Semimetal Wafer (3.5kg, 3 x Storage Box), 4 Paramagnon Conductor (4kg, 2 x Storage Box) from Cruth
-- Collect 8 Solvent from Codos
-- Head to Grimsey to craft 8 Nuclear Fuel Rods
+- Collect 4 Paramagnon Conductor from Cruth
+- Craft 8 Nuclear Fuel Rods at Grimsey
+- Build reactor, then demolish it (ensures you have all the parts, leaves materials in your inventory)
 - Head to site to build reactor
-
-Of course there's also the option of setting up all the manufacturing lines at home base and just hauling the extracted materials there, building the reactor at home base then disassembling it which puts the components in your ship's hold. This won't work for mass production of Vytinium Fuel Rods for XP grinding, but more about that after the infrastructure to produce Advanced Reactors has been established.
 
 ## Industrial Liquid Extractors and Greenhouses
 
@@ -681,29 +674,26 @@ Materials:
 
 I've already set up Alpha Tirna VIII-c for the metals. Livestock will require water which can only be obtained through vapor extractors, and fiber which can be grown locally:
 
-- 3 Solar Dome (12 power)
-- 4 Extractor - Liquid Vapor (water)
+- 2 Extractor - Liquid Vapor (water)
 - 1 Storage - Liquid (water)
-- 2 Greenhouse (fiber)
-- 1 Storage - Solid (fiber)
-- 2 Animal Husbandry Facility (lubricant)
-- Storage - Solid - Large (lubricant)
+- 1 Greenhouse (fiber)
+- 2 Storage - Solid - Large (fiber, lubricant)
+- 1 Animal Husbandry Facility (lubricant)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 36
-  - Reactive Gauge: 12
-  - Tau Grade Rheostat: 6
+  - Adaptive Frame: 33
+  - Reactive Gauge: 6
 - Solid
-  - Aluminum: 75
-  - Iron: 26
-  - Membrane: 16
+  - Aluminum: 56
+  - Iron: 40
+  - Membrane: 8
   - Nickel: 5
-  - Sealant: 12
+  - Sealant: 6
 - Gas
-  - Benzene: 12
-  - Fluorine: 8
+  - Benzene: 6
+  - Fluorine: 4
 
 #### Serpentis IV (veryl-treated manifold)
 
@@ -883,21 +873,19 @@ In this section we'll expand the industrial base to produce those parts. Most of
 
 Once the upgrades in this section are complete:
 
-1. Head to Grimsey and build Vytinium Fuel Rods
-  1. Check the warehouse for stock of Indicite Wafer and Nuclear Fuel Rods
-  1. Check stocks of Semimetal Wafers
+1. Head to Grimsey and build 8 Vytinium Fuel Rods
   1. Build Indicite Wafers with half the available semimetal wafers
-  1. Build Nuclear Fuel Rods with the remaining semimetal wafers
-  1. Build all the Vytinium Fuel rods that resources allow
-  1. Deposit remaining Indicite Wafers and Nuclear Fuel Rods in the warehouse
-1. Head to Shoza VIII-b and build:
+  2. Build Nuclear Fuel Rods with the remaining semimetal wafers
+  3. Build all the Vytinium Fuel rods that resources allow
+  4. Deposit remaining Indicite Wafers and Nuclear Fuel Rods in the warehouse
+2. Head to Shoza VIII-b and build:
   - 3 Power Circuits
   - 4 Tasine Superconductors
-1. Head to Schrodinger VIII-e and build:
+3. Head to Schrodinger VIII-e and collect:
   - 5 Rothicite Magnets
   - 5 Control Rods
-1. Collect lead from Schrodinger VIII-e
-2. Collect 10 Adaptive Frame from Bessel III-b
+  - 20 Lead
+4. Collect 10 Adaptive Frame from Bessel III-b
 
 ### Experience grinding
 
@@ -995,6 +983,7 @@ Land on the Frozen Hills side of the Sandy Desert/Frozen Hills border. Head to t
 <img src="images/maal-ix-b-outpost-landscape.jpg" alt="The landscape around the outpost on Maal IX-b intended to help players find the location once they have landed." width="40%">
 </p>
 
+NB: you should be able to find a similar spot on most frozen hills/sandy desert biome borders. This is just the one that I documented because I am lazy.
 
 ### Shoza VIII-b (Power Circuit)
 
@@ -1002,7 +991,7 @@ Manually construct Power Circuit here to build advanced reactors:
 
 - Palladium from Shoza VII-c
 - Polymer from Zeta Ophiuchi I
-- Power Circuit from Maal IX-b
+- Positron Battery from Maal IX-b
 
 Design:
 
@@ -1011,29 +1000,38 @@ Design:
 - 4 Extractor - Solid (Al, Be, Cu, Au)
 - 6 Storage - Solid - Large (Al, Be, Cu, Au, Pd, polymer)
 - Simple Fabricator (tau grade rheostat)
-- 3 Warehouse - Large (paramagnon conductor, positron battery, tau grade rheostat)
+- 4 Warehouse - Large (paramagnon conductor, positron battery, power circuit, tau grade rheostat)
+- Multiplex Fabricator (power circuit)
 - Cargo Link (Pd from Shoza VII-c)
+- 1 Extractor - Gas (Helium-3)
+- Storage - Gas - Large
+- 4 Cargo Link - Inter-system (tau grade rheostat to Maal IX-b, positron battery from Maal IX-b, paramagnon conductor from Cruth, polymer from Zeta Ophiuchi I)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 120
-  - Control Rod: 6
-  - Isotopic Coolant: 2
-  - Nuclear Fuel Rod: 16
-  - Paramagnon Conductor: 8
-  - Supercooled Magnet: 10
-  - Tau Grade Rheostat: 6
-  - Zero Wire: 12
+  - Adaptive Frame: 116
+  - Comm Relay: 4
+  - Control Rod: 3
+  - Nuclear Fuel Rod: 8
+  - Paramagnon Conductor: 4
+  - Positron Battery: 3
+  - Reactive Gauge: 12
+  - Supercooled Magnet: 5
+  - Tau Grade Rheostat: 3
+  - Zero Wire: 5
 - Solid
-  - Adhesive: 4
-  - Aluminum: 192
-  - Beryllium: 4
-  - Iron: 190
-  - Lead: 20
+  - Aluminum: 273
+  - Beryllium: 2
+  - Copper: 23
+  - Iron: 260
+  - Lead: 10
+  - Lubricant: 6
+  - Nickel: 4
+  - Polymer: 8
   - Sealant: 2
-  - Titanium: 48
-  - Tungsten: 20
+  - Titanium: 72
+  - Tungsten: 28
 
 Location:
 
@@ -1090,7 +1088,7 @@ Materials:
 Design:
 
 - Cargo Link (semimetal wafers to Grimsey)
-- 4 Cargo Link - Inter-system (silver from Zeta Ophiuchi I, semimetal wafers to Schrodinger VIII-e, antimony to Shoza VIII-b, neodymium from Shoza III-a, He3 from Shoza III-a)
+- 4 Cargo Link - Inter-system (silver from Zeta Ophiuchi I, semimetal wafers to Schrodinger VIII-e, antimony to Shoza VIII-b, neodymium from Shoza III-a, He3 from Shoza III-a, paramagnon conductor to Shoza VIII-b)
 
 Materials:
 
@@ -1228,9 +1226,12 @@ Materials:
 
 Design:
 
+- 2 Cargo Link - Inter-system (vytinium from decaran vii-b, indicite from katydid iii)
 - 2 Storage - Solid - Large (indicite, vytinium)
+- 1 Cargo Link (caesium from dalvik)
 - 1 Storage - Liquid - Large (caesium)
 - 1 Warehouse - Large (semimetal wafers)
+- 1 Storage - Gas - Large (He3)
 
 Materials:
 
@@ -1265,28 +1266,6 @@ Materials:
   - Iron: 440
   - Nickel: 16
   - Titanium: 272
-
-### Grimsey (cargo links)
-
-Design:
-
-- 2 Cargo Link - Inter-system (vytinium from decaran vii-b, indicite from katydid iii)
-- 1 Cargo Link (caesium from dalvik)
-- 1 Storage - Gas - Large (He3)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 10
-  - Comm Relay: 3
-  - Reactive Gauge: 9
-  - Zero Wire: 6
-- Solid
-  - Aluminum: 72
-  - Beryllium: 6
-  - Copper: 20
-  - Iron: 120
-  - Tungsten: 16
 
 ### Procyon III Expansion (Isotopic Coolant, Copper to Bessel III-b)
 
@@ -1391,30 +1370,8 @@ Materials:
   - Nickel: 32
   - Tungsten: 32
 
-### Shoza VIII-b (inter-system links)
 
-Design:
-
-- 1 Extractor - Gas (Helium-3)
-- Storage - Gas - Large
-- 4 Cargo Link - Inter-system (polymer from Zeta Ophiuchi I, power circuit from Maal IX-b, paramagnon conductor from Cruth, tasine from Huygens VII-a)
-- 1 Cargo Link (Nd from Shoza III-b)
-
-Materials:
-
-- Manufactured
-  - Adaptive Frame: 10
-  - Comm Relay: 6
-  - Reactive Gauge: 18
-- Solid
-  - Aluminum: 107
-  - Copper: 41
-  - Iron: 120
-  - Nickel: 28
-  - Tungsten: 16
-
-
-### Industrial Upgrades
+## Mass Production Upgrades
 
 From here, I chose to upgrade all the feeders to Grimsey to allow producing 500 Vytinium Fuel Rods every two days (the reset period for merchants).
 
@@ -1433,19 +1390,21 @@ Start with Cruth, which produces the semi-metal wafers. The basic upgrade proces
 - Expand local storage to hold production requirements to meet 500 Vytinium Fuel Rods target
 - Expand production to fill local storage in two days
 
-In detail, expanding local storage means working back from the 500 Vytinium Fuel Rod target to find how much of each component and thus raw material is required:
+Note that cargo links work in real time, while production happens in UT. If you sleep on Bessel III-b for a couple of hours all the production sites will fill up with materials, then the freighters will start hauling materials between cargo links once you wake up. This means you need adequate storage at both ends of each cargo link: storage for 500 semimetal wafers at Grimsey will also require storage for 500 semimetal wafers at Cruth.
 
-- 500 Vytinium Fuel Rods
+In detail, expanding local storage means working back from the 500 Vytinium Fuel Rod target to find how much of each component and thus raw material is required (these numbers are not modified by skills):
+
+- 500 Vytinium Fuel Rods (no storage, XP grind crafting, but 500 will be 5500kg)
   - 500 Indicite Wafer (no storage directly, the XP grind involves building these for XP)
-    - 1000 Caesium (800kg, 3 Storage - Liquid - Large)
-    - 2000 Indicite (4600kg, 16 Storage - Solid - Large)
+    - 500 Caesium (800kg, 3 Storage - Liquid - Large)
+    - 1000 Indicite (4600kg, 16 Storage - Solid - Large)
     - **500 Semimetal Wafer** (1750kg, 6 Warehouse - Large)
-      - 1000 Antimony
-      - 1000 Gold
-      - 500 Zero Wire
-        - 500 Copper
-        - 500 Silver
-    - 1000 Solvent (500kg, 2 Storage - Solid - Large)
+      - 1000 Antimony (800kg, 3 Storage - Solid - Large)
+      - 1000 Gold (800kg, 3 Storage - Solid - Large)
+      - 500 Zero Wire (850kg, 3 Warehouse - Large)
+        - 500 Copper (300kg, 1 Storage - Solid - Large)
+        - 500 Silver (300kg, 1 Storage - Solid - Large) )
+    - 500 Solvent (500kg, 2 Storage - Solid - Large)
   - 500 Nuclear Fuel Rod (no storage directly, as above)
     - **500 Semimetal Wafer** (another 6 Warehouse - Large)
     - 1000 Solvent (another 2 Storage - Solid - Large)
@@ -1455,9 +1414,9 @@ In detail, expanding local storage means working back from the 500 Vytinium Fuel
 
 Most extraction sites will benefit from an Advanced Reactor or two. It can be easier to simply add more extractors rather than upgrading to industrial extractors. Switch to the industrial extractors when you run out of space for regular extractors. The same goes for greenhouses and animal husbandry facilities.
 
-#### Cruth (Mass Production of Semimetal Wafers)
+### Cruth (Mass Production of Semimetal Wafers)
 
-From that 1000 Semimetal Wafer in 2 days figure, work back from the 12 warehouses full of Semimetal Wafer that are required, and build those warehouses at Grimsey and at Cruth. Then over at Cruth scale up the production chain to be able to build 1000 Semimetal Wafers in 48 hours UT (48 minutes game time, so 21 wafers per minute of play time). Note that production happens when you sleep or wait, but cargo links operate in "real time". Once you rest for 2 days the storage at Cruth will fill up, then the cargo links will bring the wafers to Grimsey at which point you'll be able to run through the manufacturing chain. Also worth noting is that the stock of semimetal wafers will take over half an hour to arrive (12 trips at 3 minutes each) which is most of the two days you'll be waiting for the next trip through the vendors.
+From that 1000 Semimetal Wafer in 2 days figure, work back from the 12 warehouses full of Semimetal Wafer that are required, and build those warehouses at Grimsey and at Cruth. Then over at Cruth scale up the production chain to be able to build 1000 Semimetal Wafers in 48 hours UT (48 minutes game time, so 21 wafers per minute of play time). Note that production happens when you sleep or wait, but cargo links operate in "real time". Once you rest for 2 days the storage at Cruth will fill up, then the cargo links will bring the wafers to Grimsey at which point you'll be able to run through the manufacturing chain. Also worth noting is that the stock of semimetal wafers will take over half an hour to arrive (12 trips at 3 minutes each) which is most of the two days (48 minutes) you'll be waiting for the next trip through the vendors.
 
 - 1000 Semimetal Wafers (21 per minute, 12 Warehouse - Large)
   - 2000 Antimony (42 per minute, 6 Storage - Solid - Large)
@@ -1480,35 +1439,102 @@ Now it's a simple matter of dividing the desired rate by the rate per extractor 
 - Copper 21/3.7 = 5.676, round up to 6
 - Gold 42/1.87 = 22.45, round up to 23
 
-That's a lot of extractors. The number can be reduced slightly by using Sanitation Mini Bots to increase the production rate of inorganic resources by 10% (multiplicative, so 3 Sanitation Mini Bots will increase production by 33%). This could trim the number of Antimony extractors required from 28 to 22. A further reduction could come from using industrial extractors, bringing that total down to 11. That's still 220 power required just for the Antimony extractors at this site!
+That's a lot of extractors. The number can be reduced slightly by using Sanitation Mini Bots to increase the production rate of inorganic resources by 10% (multiplicative, so 3 Sanitation Mini Bots will increase production by 33%), and assigning [Lin][INARALIN] to this outpost. This could trim the number of Antimony extractors required from 28 to 22. A further reduction could come from using industrial extractors, bringing that total down to 11. That's still 220 power required just for the Antimony extractors at this site!
+
+Remember that the numbers in this section are indicative and will vary based on character skill, companions, robots, and glitches.
+
+It may be useful to deploy in stages, bringing 1/4 of the total build online at any time: 1 advanced reactor, a few extractors, a few containers.
 
 Design:
 
-- 4 Reactor - Advanced
+- 5 Reactor - Advanced
 - 11 Extractor - Solid - Industrial (Antimony)
 - 6 Extractor - Solid (Copper)
 - 9 Extractor - Solid - Industrial (Gold)
-- 3 Sanitation Mini Bot
+- 6 Sanitation Mini Bot
 - 18 Warehouse - Large (12 Semimetal Wafers, 6 Zero Wire)
 - 16 Storage - Solid - Large (6 Antimony, 6 Gold, 2 Copper, 2 Silver)
+- 1 Compound Fabriator (semimetal wafer)
+- 1 Simple Fabricator (zero wire)
 
 Materials:
 
 - Manufactured
   - Adaptive Frame: 440
   - Aldumite Drilling Rig: 20
-  - Control Rod: 20
+  - Control Rod: 25
   - Isotopic Coolant: 80
-  - Power Circuit: 12
-  - Rothicite Magnet: 20
-  - Tasine Superconductor: 16
-  - Vytinium Fuel Rod: 32
+  - Power Circuit: 15
+  - Rothicite Magnet: 25
+  - Tasine Superconductor: 20
+  - Vytinium Fuel Rod: 40
 - Solid
   - Aluminum: 640
   - Iron: 350
-  - Lead: 80
+  - Lead: 100
   - Titanium: 288
   - Tungsten: 132
+
+### Decaran (extraction upgrade)
+
+Producing 500 VFR every 48 hours requires 2000 Vytinium every 48 hours. A useful metric is the time it takes the freighter to travel back and forth which is about three minutes of real time, or about 30 min UT. Per-minute production is 2000 / 48 / 6, with 3 minutes between freight runs so 21 Vytinium per freighter.
+
+Time to build an assay lab. This is simply going to be an industrial extractor feeding independent storage. Connect them together and watch the container for 10 minutes to get an initial estimate for production rate. Then empty the container and sleep for long enough to almost fill the container. Let's build the lab and then walk through the assay process.
+
+Design:
+
+- Reactor - Advanced
+- Extractor - Solid - Industrial (vytinium)
+- 2 Storage - Solid - Large (vytinium)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 15
+  - Aldumite Drilling Rig: 1
+  - Control Rod: 5
+  - Isotopic Coolant: 4
+  - Power Circuit: 3
+  - Rothicite Magnet: 5
+  - Tasine Superconductor: 4
+  - Vytinium Fuel Rod: 8
+- Solid
+  - Aluminum: 16
+  - Iron: 20
+  - Lead: 20
+  - Tungsten: 6
+
+For my experiment, the industrial extractor was producing 3 Vytinium per minute (10min UT). Vytinium has 2.5kg mass, which means about 120 will fit into a large storage container. At Decaran, 1 local hour is 45.5h UT, so resting for 1 local hour should mean the storage ends up containing 45.5 x 3 x 6 or roughly 810 vytinium, give or take.
+
+I rested for 1 Decaran hour and came back to 425 units of vytinium. Something is wrong with those calculations, but what? It looks like 1 minute real time is 10 minutes UT, not 1h.
+
+### Codos (production upgrade)
+
+Set up an assay lab. Do the usual 10 minute observation. Then calculate required build-out on the basis of producing 500 solvent every 48h, roughly 11/h or 6 per freighter run.
+
+Design:
+
+- Wind Turbine - Advanced (power:14)
+- Extractor - Liquid (water)
+- Storage - Liquid - Large (water)
+- Greenhouse (solvent)
+- Storage - Solid - Large (solvent)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 25
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3
+- Solid
+  - Aluminum: 46
+  - Iron: 23
+  - Nickel: 20
+  - Sealant: 3
+- Gas
+  - Fluorine: 4
+
+In my run, the greenhouse was producing 1 solvent every 1m25s (4.8/h UT). To get Codos to industrial level production in my game I should need two and a bit greenhouses.
 
 ## Other Sites
 
