@@ -46,12 +46,7 @@ This site can be boot-strapped with 8 tungsten (bought from eg: Jemison Mercanti
 
 Be aware that one local hour on Bessel III-b is a couple of days UT. One local day is 58 days UT. To get the landing site into daylight from the start of the game takes a month.
 
-Production rates for my character (level 180) in this barebones outpost with the planet fully surveyed (production rate in game-UT):
-
-- Aluminium: 3.7/h
-- Cobalt: 2.5/h
-- Iron: 3.7/h
-- Nickel: 3.7/h
+Once this outpost is established, start building out storage with each visit.
 
 Design:
 
@@ -76,7 +71,9 @@ Location:
 
 ## Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)
 
-Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main minerals of interest here are Titanium for warehouses and Tungsten for extractors.
+Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main minerals of interest here are Titanium for warehouses and Tungsten for extractors. Tungsten is available locally, copper is not. In the early game there's a bit of chicken-and-egg going on between sourcing copper from Procyon III versus the tungsten to build extractors from this outpost.
+
+To get around buying copper, consider gathering enough copper from Procyon III to build enough infrastructure to start extracting tungsten here, then build the copper extractor on Procyon III, then with enough copper come back to finish this outpost.
 
 Design:
 
@@ -178,10 +175,10 @@ Bill of Materials:
   - Aluminum: 78 (+3 for reactive gauge)
   - Iron: 71
   - Nickel: 20
-  - Sealant: 3
+  - Sealant: 3 (cold cave nettle, frozen plains)
   - Tungsten: 2
 - Gas
-  - Fluorine: 4
+  - Fluorine: 4 (can be gathered locally)
 
 **Location**: You should be able to find an appropriate site in various wetlands (regions where Ionic Liquids are available). Look for a **flat site with copper, fluorine, ionic liquids, tetrafluorides and water**. The ionic liquids and tetrafluorides will be needed later for producing isotopic coolant, while the fluorine is necessary for producing greenhouses.
 
@@ -300,7 +297,7 @@ Materials:
 
 Location:
 
-The location is one of many available along the frozen crevasses side of the frozen crevasses/savanna border. There's probably a better site at a confluence of frozen crevasses/savanna/wetlands which would allow copper and fluorine to be extracted, but we already have Procyon III for that and Serpentis IV is going to be busy enough producing pharmaceuticals, food, substrate molecule sieve and veryl-treated manifold (assuming you go down that path).
+The location is one of many available along the frozen crevasses side of the frozen crevasses/savanna border and provides Lithium, Argon, Chlorine, Benzene. There's probably a better site at a confluence of frozen crevasses/savanna/wetlands which would allow copper and fluorine to be extracted, but we already have Procyon III for that and Serpentis IV is going to be busy enough producing pharmaceuticals, food, substrate molecule sieve and veryl-treated manifold (assuming you go down that path).
 
 <img src="images/serpentis-iv-location-map-2.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the alternative outpost location" width="40%">
 <img src="images/serpentis-iv-location-landscape-2.jpg" alt="The landscape around the landing site for the alternative outpost location on Serpentis IV." width="40%">
