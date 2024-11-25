@@ -8,8 +8,8 @@ After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Lin
   - [Preparation](#preparation)
   - [Bessel III-b Al/Fe/Ni/Co](#bessel-iii-b-alfenico)
   - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-pb-ta-ti-w-alkanes)
-  - [Andraphon (He3/Be/Eu)](#andraphon-he3beeu)
   - [Procyon III (Cu, Sealant)](#procyon-iii-cu-sealant)
+  - [Andraphon (He3/Be/Eu)](#andraphon-he3beeu)
   - [Zeta Ophiucui I (silver, ytterbium, polymer)](#zeta-ophiucui-i-silver-ytterbium-polymer)
   - [Shoza III-a (He3, Nd)](#shoza-iii-a-he3-nd)
   - [Serpentis IV (fiber, structural)](#serpentis-iv-fiber-structural)
@@ -106,6 +106,40 @@ Unfortunately this is one of those "keep trying till it works" scenarios. My ima
 
 If you find a better location that's easier to pick up the first time, please raise an issue in the [GitHub repository](https://github.com/MaraRinn/StarfieldOutpostCompendium).
 
+## Procyon III (Cu, Sealant)
+
+[Procyon III](https://inara.cz/starfield/starsystem/101/#area1624) is one of several convenient sources of **Ionic Liquid**, along with Copper, Fluorine, Tetrafluoride, Water, Antimicrobial, Sealant, and Fiber. All the materials should be available if you select a site in a region rich with Ionic Liquids (bright green patches on the map).
+
+We'll start off with extracting copper to drive industry at Bessel III-b.
+
+Design:
+
+- Landing Pad - Small
+- Industrial Workbench
+- Wind Turbine - Advanced (25 power)
+- Extractor - Solid (copper)
+- 2 Storage - Solid - Large (copper, sealant)
+- Extractor - Liquid (water)
+- Storage - Liquid - Large (water)
+- Greenhouse (sealant)
+
+Bill of Materials:
+
+- Manufactured
+  - Adaptive Frame: 35
+  - Isocentered Magnet: 2
+  - Reactive Gauge: 3 (built on-site using copper extracted locally)
+- Solid
+  - Aluminum: 78 (+6 for reactive gauge)
+  - Iron: 71
+  - Nickel: 20
+  - Sealant: 3 (cold cave nettle, frozen plains)
+  - Tungsten: 2
+- Gas
+  - Fluorine: 4 (can be gathered locally)
+
+**Location**: You should be able to find an appropriate site in various wetlands (regions where Ionic Liquids are available). Look for a **flat site with copper, fluorine, ionic liquids, tetrafluorides and water**. The ionic liquids and tetrafluorides will be needed later for producing isotopic coolant, while the fluorine is necessary for producing greenhouses.
+
 ## Andraphon (He3/Be/Eu)
 
 The only use for Europium is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors. Androphon can be useful as an extra Helium source. Consider visiting Procyon III to gather the copper, or buy the copper from New Atlantis vendors.
@@ -147,40 +181,6 @@ It's worth pointing out that if you land right in a Europium rich area, He3 will
 </p>
 
 Video presentation of this site by JRamosWorks Gaming Fun, [#Starfield Outposts - 5 Resources in One Spot on Andraphon | Great Starter Locations Video 1 of 4](https://www.youtube.com/watch?v=XEJNLgBUXVI)
-
-## Procyon III (Cu, Sealant)
-
-[Procyon III](https://inara.cz/starfield/starsystem/101/#area1624) is one of several convenient sources of **Ionic Liquid**, along with Copper, Fluorine, Tetrafluoride, Water, Antimicrobial, Sealant, and Fiber. All the materials should be available if you select a site in a region rich with Ionic Liquids (bright green patches on the map).
-
-We'll start off with extracting copper to drive industry at Bessel III-b.
-
-Design:
-
-- Landing Pad - Small
-- Industrial Workbench
-- Wind Turbine - Advanced (25 power)
-- Extractor - Solid (copper)
-- 2 Storage - Solid - Large (copper, sealant)
-- Extractor - Liquid (water)
-- Storage - Liquid - Large (water)
-- Greenhouse (sealant)
-
-Bill of Materials:
-
-- Manufactured
-  - Adaptive Frame: 35
-  - Isocentered Magnet: 2
-  - Reactive Gauge: 3 (built on-site using copper extracted locally)
-- Solid
-  - Aluminum: 78 (+3 for reactive gauge)
-  - Iron: 71
-  - Nickel: 20
-  - Sealant: 3 (cold cave nettle, frozen plains)
-  - Tungsten: 2
-- Gas
-  - Fluorine: 4 (can be gathered locally)
-
-**Location**: You should be able to find an appropriate site in various wetlands (regions where Ionic Liquids are available). Look for a **flat site with copper, fluorine, ionic liquids, tetrafluorides and water**. The ionic liquids and tetrafluorides will be needed later for producing isotopic coolant, while the fluorine is necessary for producing greenhouses.
 
 ## Zeta Ophiucui I (silver, ytterbium, polymer)
 
