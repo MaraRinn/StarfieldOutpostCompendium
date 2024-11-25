@@ -361,7 +361,7 @@ Stick to *one material*, *one direction*.
 
 Design:
 
-- 4 Cargo Link - Inter-system
+- 4 Cargo Link - Inter-system (copper, titanium, tungsten, helium)
 - 1 Storage - Gas - Large (helium)
 
 Materials:
