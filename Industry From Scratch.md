@@ -145,8 +145,7 @@ Bill of Materials:
 The only use for Europium is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors. Androphon can be useful as an extra Helium source. Consider visiting Procyon III to gather the copper, or buy the copper from New Atlantis vendors.
 
 - He3 for transport
-- Beryllium for Bessel workshop
-- Stock Europium
+- Beryllium and Europium for Bessel workshop
 
 Solar Array: 6
 Wind Turbine: 0
