@@ -431,16 +431,16 @@ The only connection here is sending the copper from the copper storage to the ou
 
 Design:
 
-- Cargo Link - Inter-system
+- 2 Cargo Link - Inter-system (titanium to Bessel III-b, tungsten to Bessel III-b)
 
 Materials:
 
 - Manufactured
-  - Comm Relay: 1
-  - Reactive Gauge: 3
+  - Comm Relay: 2
+  - Reactive Gauge: 6
 - Solid
-  - Aluminum: 12
-  - Iron: 20
+  - Aluminum: 24
+  - Iron: 40
 
 The only connections here are titanium storage to the outgoing/red box of one cargo link, and tungsten storage to the outgoing/red box of the other cargo link. Here's a picture to reinforce the idea that each resource uses its own dedicated link:
 
