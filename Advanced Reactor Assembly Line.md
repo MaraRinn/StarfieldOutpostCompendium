@@ -269,20 +269,18 @@ The resources needed for this outpost are Co/Ni and He3. You'll find Co/Ni in th
 
 ### Schrodinger VIII-e (control rod)
 
-It's important to find a site that has access to both lithium and dysprosium (that's why we're building on this world). It should be easy to find lead in the area where Lithium and Dysprosium are both available.
-
-This is a manual production site as part of the XP grind. Produce Control Rods, Rothicite Magnets, Microsecond Regulators. Bring Europium if you are producing Microsecond Regulators to build Aldumite Drilling Rig instead of just buying Aldumite Drilling Rig.
+This is a manual production site as part of the XP grind. Produce Control Rods using Dysprosium. The lithium will be used for Rothicite Magnets later.
 
 If you haven't set up the lubricant production on Alpha Tirna VIII-c as part of the Veryl-Treated Manifold production chain, you should be able to get lubricant from Sieghart, Trade Authority.
 
 Design:
 
 - Reactor
-- 6 Cargo Link - Inter-system (austenitic manifold, isotopic coolant, rothicite, semimetal wafer, supercooled magnet, he3)
-- 2 Extractor - Solid (lithium, dysprosium)
-- 4 Storage - Solid - Large (dysprosium, lead, lithium, rothicite)
+- 3 Cargo Link - Inter-system (austenitic manifold from Bessel III-b, isotopic coolant from Procyon III, he3 from Andraphon)
+- 3 Extractor - Solid (lead, lithium, dysprosium)
+- 3 Storage - Solid - Large (dysprosium, lead, lithium)
 - 1 Storage - Gas - Large (he3)
-- 6 Warehouse - Large (austenitic manifold, control rods, isotopic coolant, rothicite magnets, semimetal wafer, supercooled magnet)
+- 6 Warehouse - Large (austenitic manifold, isotopic coolant, supercooled magnet)
 - 1 Compound Fabricator (control rod)
 - 1 Multiplex Fabricator (rothicite magnet)
 
@@ -322,14 +320,19 @@ Cargo links:
 
 Location:
 
-In the southern hemisphere, find this region. The landing spot is on the rocky desert side of the mountains/rocky desert/frozen hills biome border. When you land the ship should be close to the snowline, the landscape should be predominantly flat with stone pillars and a small mound in the middle distance in the snow-covered region. Opposite from the snowline will be a hot springs geographic feature whcih you should have seen during the landing animation.
+In the southern hemisphere, find this region. The landing spot is on the **rocky desert** side of the mountains/rocky desert/frozen hills biome border. When you land the ship should be on dirt close to the snowline, the landscape should be predominantly flat with stone pillars and a small mound in the middle distance in the snow-covered region. Opposite from the snowline will be a hot springs geographic feature which you should have seen during the landing animation.
 
-From the landing site, follow the snowline north for about 3km. Half way there you'll pass a large dysprosium patch that crosses the snowline and eventually come to a snow-covered region that is relatively void of stone pillars. One last stone pillar on the snow side of the border (left, in the direction of travel), and there will be a large slab of rock perched on the hillside. At this location you can place an outpost and have access to Dysprosium, Lead and Lithium.
+From the landing site, follow the snowline north for about 3km. Half way there (1.6km) you'll pass a large dysprosium patch that crosses the snowline, then eventually come to a snow-covered region that is relatively void of stone pillars. One last stone pillar on the snow side of the border (left, in the direction of travel), and there will be a large slab of rock perched on the hillside.
+
+The final image shows a view from the top of that large rock back towards the ship. At this location you can place an outpost and have access to Dysprosium, Lead and Lithium. The lithium and dysprosium are at opposite edges of the outpost building range, you may have to finesse the location a little to get comfortable access to both.
+
+This is a low-grav world, you'll find it much easier driving on the dirt than the snow. Of course if power sliding is your thing, there's plenty of snow to play in.
 
 <p>
 <img src="images/schrodinger-viii-e-location-map.jpg" alt="Map of Schrodinger VIII-e with resources shown. There is a marker for the location of the outpost." width="40%">
 <img src="images/schrodinger-viii-e-location-landing.jpg" alt="The landscape at the landing site on Schrodinger VIII-e intended to help players find the location of this outpost" width="40%">
-<img src="images/schrodinger-viii-e-location-landscape.jpg" alt="The landscape around the outpost on Schrodinger VIII-e intended to help players find the location once they have landed." width="40%">
+<img src="images/schrodinger-viii-e-location-landscape.jpg" alt="The landscape approaching the outpost on Schrodinger VIII-e intended to help players find the location once they have landed." width="40%">
+<img src="images/schrodinger-viii-e-location-outpost.jpg" alt="The landscape around the outpost beacon looking back towards the landing site." width="40%">
 </p>
 
 ### Grimsey (Iridium, Plutonium, Uranium, Vanadium)
