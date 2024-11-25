@@ -320,18 +320,20 @@ Design:
 
 - 9 Storage - Solid - Large (beryllium, copper, dysprosium, europium, neodymium, silver, titanium, tungsten, ytterbium)
 - 2 Storage - Gas - Large (alkanes, fluorine)
+- Storage - Liquid - Large (ionic liquid)
 - 7 Warehouse - Small (adaptive frame, isocentered magnet, isotopic coolant, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
 - 6 Simple Fabricator (adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
 
 Bill of Materials:
 
 - Manufactured
-  - Adaptive Frame: 131
+  - Adaptive Frame: 141
   - Zero Wire: 18
 - Solid
-  - Aluminum: 234
+  - Aluminum: 254
   - Copper: 40
   - Iron: 180
+  - Nickel: 16
   - Sealant: 12
   - Titanium: 35
   - Tungsten: 56
