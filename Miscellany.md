@@ -355,6 +355,7 @@ Warehouses (1 large, 28 small):
 - Tasine Superconductor
 - Tau Grade Rheostat
 - Veryl-Treated Manifold
+- Vytinium Fuel Rod
 - Zero Wire
 - Zero-G Gimbal
 
