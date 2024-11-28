@@ -32,6 +32,56 @@ Maybe one day Scan Boosters will function as expected (ie: boosting scanner abil
 
 ## Planet Reports
 
+### Va'ruun'kai
+
+Fauna:
+
+- Female Groat (nutrient) (rocky desert, frozen craters, sandy desert) (non-lethal)
+- Frozen Grub Grazer (lubricant) (frozen craters) (outpost: water)
+- Frozen Nautiloos Scavenger (metabolic agent) (frozen craters) (outpost: water)
+- Frozen Nautilus Scavenger (nutrient) (frozen craters)
+- Herding Frozen Bladeback Grazer (membrane) (frozen craters)
+- Herding Rocky Bladeback Grazer (membrane) (rocky desert)
+- Herding Sandy Bladeback Grazer (membrane) (sandy desert)
+- Hunting Frozen Bonecrest (adhesive) (frozen craters)
+- Hunting Rocky Bonecrest (adhesive) (rocky desert)
+- Hunting Sandy Bonecrest (adhesive) (sandy desert)
+- Kid Groat (nutrient) (rocky desert, frozen craters, sandy desert) (non-lethal)
+- Male Groat (nutrient) (rocky desert, frozen craters, sandy desert) (non-lethal)
+- Rocky Grub Grazer (lubricant) (rocky desert) (non-lethal, outpost:)
+- Rocky Nautilus Scavenger (nutrient) (rocky desert)
+- Rocky Nautiloos Scavenger (metabolic agent) (rocky desert, outpost:)
+- Sandy Grub Grazer (lubricant) (sandy desert) (outpost:)
+- Sandy Nautiloos Scavenger (metabolic agent) (sandy desert) (outpost: water)
+- Sandy Nautilus Scavenger (nutrient) (sandy desert)
+
+Flora:
+
+- Halepod (sealant) (rocky desert, sandy desert)
+- Pendentleaf (lubricant) (rocky desert, sandy desert)
+
+### Kavynk II-c
+
+Fauna:
+
+- Herding Olgreg Scavenger (membrane) (plateau, hills)
+- Herding Wobbleback Grazer (nutrient) (rocky desert)
+- Hunting Twintail (cosmetic) (rocky desert, plateau, hills)
+- Tubecrawler Scavenger (lubricant) (rocky desert, plateau, hills) (outpost:)
+
+Flora:
+
+- Bright Fire Reed (amino acids) (plateau, hills) (outpost: water)
+- Sleeping Giant Thorn (metabolic agent) (rocky desert, plateau) (outpost: water)
+
+### Kavynk II-d
+
+Fauna:
+
+Flora:
+
+- Red Stinging Nettle (lubricant) (rocky desert, hills) (outpost: water)
+
 ### Bardeen III
 
 Fauna:

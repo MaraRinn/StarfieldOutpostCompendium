@@ -29,32 +29,81 @@ From this list we'll focus on Analgesic Poultice, Repairing Immobiliser and Snak
 
 Sources for ingredients are a small selected list of domesticable fauna or flora. For more complete listing check Inara directly.
 
-Producing Analgesic Poultice requires researching Medical Treatment 2 and each item crafted rewards 20XP.
+Producing Analgesic Poultice requires researching Medical Treatment 2 and each item crafted rewards 20XP. We can dispose of about 750 Analgesic Poultice every two days.
 
 - Antibiotics (750)
-  - Antimicrobial
+  - Antimicrobial (750)
     - Kreet: Kreet Grazer (fauna)
     - Polvo: Bighorn (fauna)
     - Proycon III: Rotting Stinkroot (flora)
     - Proycon III: Coralheart (fauna)
-  - Membrane
+  - Membrane (750)
     - Montara Luna: Dodo
     - Altair II: Canis Palm
     - Cassiopea IV-a: Moon Root
     - Eridani II: Tropical Maw Palm
     - Serpentis IV: Seahorse
-- Bandages (400)
+- Bandages (750)
   - Fiber
     - Serpentis IV: Swamp Bottle Root (flora)
   - Sealant
     - Serpentis IV: Grabber (fauna)
-- Heal Paste (800)
-  - Analgesic
+- Heal Paste (750)
+  - Analgesic (750)
     - Serpentis IV: Tuskfrog (fauna)
-  - Membrane
+  - Membrane (750)
     - see above
 
 My plan: produce Antimicrobial on Proycon III (already have an outpost for coolant), deliver those to Serpentis IV and produce Analgesic Poultice on Serpentis IV.
+
+To produce one load of Analgesic Poultice requires:
+
+- 750 Analgesic (0.5kg, 2 Storage - Solid - Large)
+- 750 Antimicrobial (0.5kg, 2 Storage - Solid - Large)
+- 750 Fiber (0.5kg, 2 Storage - Solid - Large)
+- 1500 Membrane (0.5kg, 3 Storage - Solid - Large)
+- 750 Sealant (0.5kg, 2 Storage - Solid - Large)
+
+This plan requires producing a tad over 5 membrane per minute (32/h UT, 5 per real time minute which is 10 minutes in game). My current AHF produces 2 membrane per minute so I'll need 3 AHF (I usually build 2 large facilities for simplicity).
+
+Start with establishing the production infrastructure. Ramping up to industrial production will come later.
+
+## The build
+
+### Antibiotics
+
+#### Procyon III (antimicrobial)
+
+Design:
+
+- 1 Wind Turbine - Advanced
+- 1 Extractor - Liquid (water)
+- 1 Greenhouse (antimicrobial)
+- 1 Storage - Solid - Large (antimicrobial)
+
+#### Serpentis IV (analgesic, fiber, membrane, sealant)
+
+Design:
+
+- 2 Wind Turbine - Advanced (25 power)
+- 4 Extractor - Liquid (water)
+- 2 Greenhouse (fiber)
+- 3 Animal Husbandry Facility (analgesic, membrane, sealant)
+- 5 Storage - Solid - Large (analgesic, antimicrobial, fiber, membrane, sealant)
+
+Materials:
+
+- Manufactured
+  - Adaptive Frame: 75
+  - Isocentered Magnet: 4
+  - Reactive Gauge: 15
+- Solid
+  - Aluminum: 134
+  - Iron: 112
+  - Nickel: 16
+  - Sealant: 15
+- Gas
+  - Fluorine: 8
 
 #### Repairing Immobiliser
 
@@ -66,7 +115,12 @@ My plan: produce Antimicrobial on Proycon III (already have an outpost for coola
   -  Sealant
   -  Structural
 
+My plan: produce Biosuppressant on Alpha Andraste III, deliver those to Serpentis IV and produce Repairing Immobiliser on Serpentis IV. This product will only be produced for personal use with some excess sold.
 
+#### Injector
+
+- Metabolic Agent
+- Membrane
 
 ### Retail-Scale Aids
 
@@ -196,17 +250,11 @@ Design:
 
 ### Serpentis IV
 
-Production facilities and large solid storages for each component:
-
-  - membrane
-  - fiber
-  - sealant
-  - analgesic
-  - antimicrobial (from Procyon III)
+This is the main lab, with production facilities and large solid storages for each component.
 
 In general you need about 1 water extractor for each greenhouse and animal husbandry facility. Each animal husbandry facility in this installation requires fibre too. This means that for each animal husbandry facility there are 2 water extractors and 1 greenhouse producing fiber. Then you find that production rates never quite match up with consumption rates and suddenly five animal husbandry facilities require 10 fiber greenhouses and 10 water extractors, with a bit extra on top.
 
-NB: The greenhouses will be replaced with industrial variants as part of *Advanced Reactor Assembly Line* - skip to the section on *Industrial Liquid Extractors*. Short version: buy Substrate Molecule Sieve from Clint/Outland/UC Exchange/Sieghart/Shepard's/The Trader, and replace 2 Greenhouse with 1 Greenhouse - Industrial. For the water extractors, you also want Veryl-Treated Manifold from the same vendors.
+NB: The greenhouses and animal facilities can be replaced with industrial variants as part of *Advanced Reactor Assembly Line* - skip to the section on *Industrial Liquid Extractors*. Short version: buy Substrate Molecule Sieve from Clint/Outland/UC Exchange/Sieghart/Shepard's/The Trader, and replace 2 Greenhouse with 1 Greenhouse - Industrial. For the water extractors, you also want Veryl-Treated Manifold from the same vendors.
 
 Design:
 
@@ -330,8 +378,11 @@ Then cook up:
 
 - Alien Stew
 - Lumberjack Julep
+- Amp
 - Analgesic Poultice
+- Antibiotic Injector
 - Repairing Immobiliser
+- Snake Oil
 
 ## References & Further Reading
 
