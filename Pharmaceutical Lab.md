@@ -2,7 +2,7 @@
 
 One form of industry in Starfield is producing drugs. Some drugs are able to be produced at industrial scale, with input products scalable by number of extractors/greenhouses/animal houses, while other drugs will rely on availability of source materials such as Trauma Packs, Chasmbass Oil, or Caelumite (loot, vendor, anomaly sites respectively).
 
-The industrial base for this plan is described in [Industry From Scratch](Industry From Scratch.md).
+The industrial base for this plan is described in *Industry From Scratch*.
 
 ## The Lab
 
