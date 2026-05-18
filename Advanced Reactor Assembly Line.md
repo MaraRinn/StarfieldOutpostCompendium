@@ -62,7 +62,7 @@
 
 ## Overview
 
-In this document you'll build upon the *Industry from Scratch* infrastructure to:
+In this document you'll build upon the [Industry From Scratch](Industry%20From%20Scratch.md) infrastructure to:
 
 - Build Reactors using manual logistics
 - Build Advanced Reactors using manual logistics
@@ -70,13 +70,9 @@ In this document you'll build upon the *Industry from Scratch* infrastructure to
 - Add cargo links to automate most of the logistics
 - Scale up production to be able to produce 700 Vytinium Fuel Rods every two days for the XP grind
 
-## Prerequisites
-
-Complete the infrastructure described in *Industry from Scratch*.
-
 ## Reactor Production
 
-As a stepping stone from *Industry from Scratch* to the Advanced Reactor Production chain, having the capacity to build normal reactors is useful. They produce a fixed 30 power which is great for those worlds where wind turbines and solar arrays are especially weak (airless worlds with dim light).
+As a stepping stone to the Advanced Reactor Production chain, having the capacity to build normal reactors is useful. They produce a fixed 30 power which is great for those worlds where wind turbines and solar arrays are especially weak (airless worlds with dim light).
 
 This manufacturing system is automated simply because schlepping around the starfield to pick up some parts here and other parts there is annoying enough without having to pick up feed stock from one planet and ship it to another.
 

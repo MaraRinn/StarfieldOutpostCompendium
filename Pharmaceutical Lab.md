@@ -2,7 +2,7 @@
 
 One form of industry in Starfield is producing drugs. Some drugs are able to be produced at industrial scale, with input products scalable by number of extractors/greenhouses/animal houses, while other drugs will rely on availability of source materials such as Trauma Packs, Chasmbass Oil, or Caelumite (loot, vendor, anomaly sites respectively).
 
-The industrial base for this plan is described in *Industry From Scratch*.
+The industrial base for this plan is described in [Industry From Scratch](Industry%20From%20Scratch.md).
 
 ## The Lab
 
@@ -194,52 +194,6 @@ Drink:
 Note: damage resistance buffs do not stack. The stronger buff will override the weaker one.
 
 ## Planet Plans
-
-First I'll present a comfortable starting habitat for production outposts. You can assign crew here to help with production and just improve the character of an outpost. My typical arrangement here is the two round habs stacked on top of each other connected to the two-storey four wall hab, with the airlock attached to the four-wall hab. With the hydroponic hab on top you can put your work areas up there and have a good view of the outpost.
-
-You might want to build something different rather than just have a corporate mandated style to every outpost. The key features of my outpost starter are crew stations to support the maximum possible crew, beds, and crafting stations. Everything else is for convenience.
-
-### Nice Outpost Starter
-
-This outpost has a two-storey build, top floor is a glass-walled hab to let you see the scenery and will contain 3 crew stations. Bottom floor is a regular hab which will contain three beds.
-
-Design:
-
-- Landing Pad - Small
-- Four Wall Hab - Double
-- Hab Round
-- Hydroponic Hab Round
-- Outpost Airlock
-- 3 Crew Station
-- 3 Bed 12
-- Mission Board
-- Constellation Mission Board
-- Self-Service Bounty Clearance
-- Industrial Workbench
-- Cooking Station
-- Pharmaceutical Lab
-- Weapon Workbench
-- Spacesuit Workbench
-- Research Lab
-- Navigation Console
-
-- Manufactured
-  - Zero Wire: 6
-- Solid
-  - Adhesive: 3
-  - Aluminum: 84
-  - Beryllium: 8
-  - Copper: 2
-  - Cosmetic: 4
-  - Fiber: 12
-  - Iron: 39
-  - Lead: 20
-  - Nickel: 11
-  - Sealant: 19
-  - Structural: 12
-- Gas
-  - Benzene: 3
-  - Chlorine: 4
 
 ### Serpentis IV
 
