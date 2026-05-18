@@ -2,7 +2,7 @@
 
 New Game, New You? Here's how to bootstrap your industry. Start off with a handful of Tungsten, building out basic resources and low tier manufactured goods. At the completion of this guide you'll be able to construct "tier 1" goods (the ones made by [Simple Fabricator](https://inara.cz/starfield/outpost-module/1206/)). The process is entirely based on picking stuff up from each outpost and bringing it back to Bessel III-b for the moment. Cargo Links for some routes will be added right at the end, along with a major caveat about using cargo links in New Game Plus.
 
-After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Line*, or you can branch out into pharmaceuticals with *Pharmaceutical Lab*. With reactor production under your belt either path is a great source of income and XP.
+After that we'll proceed to producing Reactors in [Advanced Nuclear Reactor Assembly Line](Advanced%20Reactor%20Assembly%20Line.md), or you can branch out into pharmaceuticals with [Pharmaceutical Lab](Pharmaceutical%20Lab.md). With reactor production under your belt either path is a great source of income and XP.
 
 - [Industry from Scratch](#industry-from-scratch)
   - [Preparation](#preparation)
