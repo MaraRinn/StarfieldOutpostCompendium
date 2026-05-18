@@ -1,20 +1,22 @@
 # Industry from Scratch
 
-New Game, New You? Here's how to bootstrap your industry. Start off with a handful of Tungsten, building out basic resources and low tier manufactured goods. At the completion of this guide you'll be able to construct "tier 1" goods (the ones made by [Simple Fabricator](https://inara.cz/starfield/outpost-module/1206/)). The process is entirely based on picking stuff up from each outpost and bringing it back to Bessel III-b for the moment. Cargo Links for some routes will be added right at the end.
+New Game, New You? Here's how to bootstrap your industry. Start off with a handful of Tungsten, building out basic resources and low tier manufactured goods. At the completion of this guide you'll be able to construct "tier 1" goods (the ones made by [Simple Fabricator](https://inara.cz/starfield/outpost-module/1206/)). The process is entirely based on picking stuff up from each outpost and bringing it back to Bessel III-b for the moment. Cargo Links for some routes will be added right at the end, along with a major caveat about using cargo links in New Game Plus.
 
-After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Line*, or you can branch out into pharmaceuticals with *Pharmaceutical Lab*.
+After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Line*, or you can branch out into pharmaceuticals with *Pharmaceutical Lab*. With reactor production under your belt either path is a great source of income and XP.
 
 - [Industry from Scratch](#industry-from-scratch)
   - [Preparation](#preparation)
+  - [Landing Pads - Small vs Large](#landing-pads---small-vs-large)
   - [Bessel III-b Al/Fe/Ni/Co](#bessel-iii-b-alfenico)
-  - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)](#alpha-tirna-viii-c-dy-pb-ta-ti-w-alkanes)
-  - [Procyon III (Cu, Sealant)](#procyon-iii-cu-sealant)
-  - [Andraphon (He3/Be/Eu)](#andraphon-he3beeu)
+  - [Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W)](#alpha-tirna-viii-c-dy-pb-ta-ti-w)
+  - [Procyon III (Cu, Fluorine, Sealant)](#procyon-iii-cu-fluorine-sealant)
+  - [Andraphon (Be/Eu)](#andraphon-beeu)
   - [Zeta Ophiucui I (silver, ytterbium, polymer)](#zeta-ophiucui-i-silver-ytterbium-polymer)
   - [Shoza III-a (He3, Nd)](#shoza-iii-a-he3-nd)
-  - [Serpentis IV (fiber, structural)](#serpentis-iv-fiber-structural)
+  - [Serpentis IV (fiber, structural, argon, benzene, chlorine, chlorosilanes, lithium)](#serpentis-iv-fiber-structural-argon-benzene-chlorine-chlorosilanes-lithium)
   - [Home Base Industry Expansion](#home-base-industry-expansion)
-    - [Further Expansion](#further-expansion)
+    - [Unlimited Storage System](#unlimited-storage-system)
+    - [Segregated Storage](#segregated-storage)
   - [Cargo Links](#cargo-links)
     - [Bessel III-b (cargo links, helium plumbing)](#bessel-iii-b-cargo-links-helium-plumbing)
     - [Androphon (cargo link, helium export)](#androphon-cargo-link-helium-export)
@@ -22,7 +24,7 @@ After that we'll proceed to producing Reactors in *Advanced Reactor Assembly Lin
     - [Alpha Tirna VIII-c (cargo link, titanium and tungsten export)](#alpha-tirna-viii-c-cargo-link-titanium-and-tungsten-export)
     - [Bessel III-b (activate cargo links)](#bessel-iii-b-activate-cargo-links)
   - [Sales Route](#sales-route)
-
+  - [References](#references)
 
 ## Preparation
 
@@ -31,12 +33,22 @@ Starting from the beginning of the game, I will typically go through the Constel
 - 28 Tungsten
 - 38 Copper
 
+## Landing Pads - Small vs Large
+
 Many outposts here will use small landing pads. If you want to get through the whole guide using larger ships, I'll leave it to you to adjust the build materials. To place a large landing pad instead of small you'll need to add:
 
 - 18 Adaptive Frame
 - 2 Beryllium
 - 10 Iron
 - 2 Zero Wire
+
+You can also simulate a Landing Pad with Shipbuilder by building a Cargo Link and two Storage - Solid - Large. This means you can construct the items you want to build at your home base, then deconstruct them and have the materials added to your ship's cargo hold. This can be easier than counting resources, depending on whether you have the space to build the things you need.
+
+Note ships that have been rendered in space will sometimes stop landing on a small landing pads. One fix is to open the ship in the ship editor (at a Starship Technician) and move some item around on the hull, such as switching a weapon or shield to a different snap point. Then save the ship and try landing at the recalcitrant outpost again.
+
+Sometimes for some reason an entire save will stop allowing any ships to land on small landing pads.
+
+A later version of this guide will shift entirely to large landing pads if only for the sanity of the author.
 
 ## Bessel III-b Al/Fe/Ni/Co
 
@@ -46,7 +58,7 @@ This site can be boot-strapped with 8 tungsten (bought from eg: Jemison Mercanti
 
 Be aware that one local hour on Bessel III-b is a couple of days UT. One local day is 58 days UT. To get the landing site into daylight from the start of the game takes a month.
 
-Once this outpost is established, start building out storage with each visit.
+Once this outpost is established, start building out storage with each visit. My storage preference for Bessel III-b is individual containers for each material, since I'll be coming here to collect specific materials. For other outposts I will sometimes use an "infinite storage" system because the materials only need to be available for crafting, not collection.
 
 Design:
 
@@ -66,35 +78,37 @@ Materials:
 
 Location:
 
+Mountains side of mountains/rocky desert/hills confluence.
+
+![Bessel III b site on the dark side](images/bessel-iii-b-location-map.jpg)
+
 - Brahmiluff, [Bessel III-b outpost location](https://www.youtube.com/watch?v=NSxSKiD4ahk), YouTube 23 Sep 2023 (NB: relies on good lighting which you won't get until a couple of weeks from start of game)
 - Vash Cowaii, [Starfield: The Best Beginner XP Farm? Only 950 Credits](https://www.youtube.com/watch?v=DKTjyx-1ES4), YouTube 13 Sep 2023 (NB: provides necessary hints to find the landing site on the dark side. Abrasive personality)
 
-## Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W, Alkanes)
+## Alpha Tirna VIII-c (Dy, Pb, Ta, Ti, W)
 
-Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main minerals of interest here are Titanium for warehouses and Tungsten for extractors. Tungsten is available locally, copper is not. In the early game there's a bit of chicken-and-egg going on between sourcing copper from Procyon III versus the tungsten to build extractors from this outpost.
+To expand Bessel III-b you'll need tungsten to build extractors and titanium to build warehouses.
 
-To get around buying copper, consider gathering enough copper from Procyon III to build enough infrastructure to start extracting tungsten here, then build the copper extractor on Procyon III, then with enough copper come back to finish this outpost.
+Power and water are an issue on this planet. Solar Arrays will produce 6 power while Wind Turbines produce 3. Water is only available as vapour. The main minerals of interest here are Titanium for warehouses and Tungsten for extractors. In the early game there's a bit of chicken-and-egg going on between sourcing copper from Procyon III versus the tungsten to build extractors from this outpost.
 
 Design:
 
-- 1 Landing Pad - Small
+- 1 Landing Pad with Shipbuilder
 - 3 Solar Dome (12 power)
 - 5 Extractor - Solid (dysprosium, lead, tantalum, titanium, tungsten)
 - 5 Storage - Solid - Large (dysprosium, lead, tantalum, titanium, tungsten)
-- 1 Extractor - Gas (alkanes)
-- 1 Storage - Gas - Large (alkanes)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 60
+  - Adaptive Frame: 68
   - Tau Grade Rheostat: 6
+  - Zero Wire: 2
 - Solid
-  - Aluminum: 125
-  - Copper: 23
-  - Iron: 145
-  - Nickel: 4
-  - Tungsten: 26
+  - Aluminum: 112
+  - Beryllium: 2
+  - Iron: 155
+  - Tungsten: 10
 
 Location:
 
@@ -102,13 +116,13 @@ Check Brahmiluff's location from [8-in-one Resources Tirna VIII-c Outpost Locati
 
 ![swamp site](images/tirna-viii-c-location-map-swamp-site.jpg)
 
-Unfortunately this is one of those "keep trying till it works" scenarios. My images for whatever reason look nothing like Brahmiluff's - different resolution, different zoom level, completely different look to the splotches of colour. There's no convenient border nearby, the surrounding pixels are all swamp. There's a confluence of savanna, hills and swamp to the west but there's no convenient outpost location there.
+Unfortunately this is one of those "keep trying till it works" scenarios. My images for whatever reason look nothing like Brahmiluff's - different resolution, different zoom level, completely different look to the splotches of colour. There's no convenient border nearby, the surrounding pixels are all swamp. There's a confluence of savanna, hills and swamp to the west but there's no convenient outpost location there. I've regularly got 7 resources, only six of which I'm actually interested in (Dy, HnCn, Pb, Ta, Ti, W).
 
 If you find a better location that's easier to pick up the first time, please raise an issue in the [GitHub repository](https://github.com/MaraRinn/StarfieldOutpostCompendium).
 
-## Procyon III (Cu, Sealant)
+## Procyon III (Cu, Fluorine, Sealant)
 
-[Procyon III](https://inara.cz/starfield/starsystem/101/#area1624) is one of several convenient sources of **Ionic Liquid**, along with Copper, Fluorine, Tetrafluoride, Water, Antimicrobial, Sealant, and Fiber. All the materials should be available if you select a site in a region rich with Ionic Liquids (bright green patches on the map).
+[Procyon III](https://inara.cz/starfield/starsystem/101/#area1624) is one of several convenient sources of **Ionic Liquid**, along with Antimicrobial, Copper, Fiber, Fluorine, Sealant, Sedative, Tetrafluoride, Water. All the materials should be available if you select a site in a region rich with Ionic Liquids (bright green patches on the map).
 
 We'll start off with extracting copper to drive industry at Bessel III-b.
 
@@ -122,52 +136,47 @@ Design:
 - Extractor - Liquid (water)
 - Storage - Liquid - Large (water)
 - Greenhouse (sealant)
+- Extractor - Gas (fluorine)
+- Storage - Gas - Large (fluorine)
 
 Bill of Materials:
 
 - Manufactured
-  - Adaptive Frame: 35
+  - Adaptive Frame: 45
   - Isocentered Magnet: 2
   - Reactive Gauge: 3 (built on-site using copper extracted locally)
 - Solid
-  - Aluminum: 78 (+6 for reactive gauge)
+  - Aluminum: 83 (including 3 for reactive gauge)
+  - Copper: 23
   - Iron: 71
-  - Nickel: 20
+  - Nickel: 24
   - Sealant: 3 (cold cave nettle, frozen plains)
-  - Tungsten: 2
+  - Tungsten: 18
 - Gas
   - Fluorine: 4 (can be gathered locally)
 
-**Location**: You should be able to find an appropriate site in various wetlands (regions where Ionic Liquids are available). Look for a **flat site with copper, fluorine, ionic liquids, tetrafluorides and water**. The ionic liquids and tetrafluorides will be needed later for producing isotopic coolant, while the fluorine is necessary for producing greenhouses.
+Location:
 
-## Andraphon (He3/Be/Eu)
+You should be able to find an appropriate site in various wetlands (regions where Ionic Liquids are available). Look for a **flat site with copper, fluorine, ionic liquids, tetrafluorides and water**. The ionic liquids and tetrafluorides will be needed later for producing isotopic coolant, while the fluorine is necessary for producing greenhouses.
 
-The only use for Europium is Microsecond Regulator, which we don't need to build if buying Aldumite Drilling Rig from vendors. Androphon can be useful as an extra Helium source. Consider visiting Procyon III to gather the copper, or buy the copper from New Atlantis vendors.
+## Andraphon (Be/Eu)
 
-- He3 for transport
-- Beryllium and Europium for Bessel workshop
-
-Solar Array: 6
-Wind Turbine: 0
+Europium has very limited utility. Starting this build is about supplying beryllium for home base, initially to build Tau Grade Rheostats. This outpost will be expanded later to provide He-3.
 
 - Landing Pad - Small
 - 1 Solar Dome (12 power)
-- Extractor - Solid (beryllium)
-- Storage - Solid - Large (beryllium)
-- 1 Extractor - Gas (He3)
-- Storage - Gas - Large (He3)
+- 2 Extractor - Solid (beryllium, europium)
+- 2 Storage - Solid - Large (beryllium, europium)
 
 Bill of Materials:
 
 - Manufactured
   - Adaptive Frame: 20
-  - Tau Grade Rheostat: 2
+  - Tau Grade Rheostat: 2 (bring 2 copper, use locally sourced beryllium)
 - Solid
-  - Aluminum: 37
-  - Copper: 23
-  - Iron: 45
-  - Nickel: 4
-  - Tungsten: 18
+  - Aluminum: 52
+  - Iron: 70
+  - Tungsten: 4
 
 Location:
 
@@ -186,7 +195,8 @@ Video presentation of this site by JRamosWorks Gaming Fun, [#Starfield Outposts 
 Design:
 
 - 2 Wind Turbine - Advanced (14 power)
-- Landing Pad - Small
+- Landing Pad with Shipbuilder
+- Industrial Workbench
 - Extractor - Solid (silver)
 - Extractor - Solid (ytterbium)
 - Storage - Solid - Large (silver)
@@ -199,12 +209,14 @@ Design:
 Bill of Materials:
 
 - Manufactured
-  - Adaptive Frame: 45
+  - Adaptive Frame: 63
   - Isocentered Magnet: 4
   - Reactive Gauge: 3
+  - Zero Wire: 2
 - Solid
-  - Aluminum: 99
-  - Iron: 93
+  - Aluminum: 95
+  - Beryllium: 2
+  - Iron: 106
   - Nickel: 20
   - Sealant: 3
   - Tungsten: 4
@@ -217,9 +229,9 @@ Location:
 <img src="images/zeta-ophiuchi-i-location-landscape.jpg" alt="The landscape around the outpost on Zeta Ophiuchi I intended to help players find the location once they have landed." width="40%">
 </p>
 
-This site is a confluence of three biomes: swamp where silver is marked on the map, savanna to the right and frozen dunes where ytterbium is marked on the map. The landing site is just inside the frozen dunes biome when approaching from the swamp side of the confluence. So follow the swap/savanna border into the frozen dunes and land on the frozen dunes side of the swamp/frozen dunes border.
+This site is a confluence of three biomes: swamp where silver is marked on the map, savanna to the right and frozen dunes where ytterbium is marked on the map. The landing site is just inside the frozen dunes biome when approaching from the swamp side of the confluence. So follow the swap/savanna border into the frozen dunes and land on the **frozen dunes side of the swamp/frozen dunes border**.
 
-The important resources from this outpost are polymer and silver for industry, and some ytterbium for weapon mods and veryl-treated manifold manufacture.
+The important resources from this outpost are polymer and silver for industry, and some ytterbium for weapon mods and veryl-treated manifolds (part of the *Advanced Reactor Assembly Line*).
 
 Sources:
 
@@ -229,9 +241,11 @@ Sources:
 
 ## Shoza III-a (He3, Nd)
 
+This can be any planet with He3 and Nd. Shoza III-a will be used in the *Advanced Reactor Assembly Line* plan because there are two other planets in the Shoza system that can be supplied from here. If you use a different planet, try to keep it to the right of Kryx to allow travel between eg: Bessel and Katydid - the navigation for grav jumps and fast travel will take into account the ship's helium-3 capacity and any outposts that have helium in storage.
+
 Design:
 
-- Landing Pad - Small
+- Landing Pad with Shipbuilder
 - 2 Solar Dome
 - 2 Extractor - Solid (beryllium, neodymium)
 - 2 Storage - Solid - Large (beryllium, neodymium)
@@ -241,56 +255,60 @@ Design:
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 30
+  - Adaptive Frame: 48
   - Tau Grade Rheostat: 4
+  - Zero Wire: 2
 - Solid
-  - Aluminum: 61
+  - Aluminum: 53
+  - Beryllium: 2
   - Copper: 23
-  - Iron: 70
+  - Iron: 80
   - Nickel: 4
   - Tungsten: 20
 
 Location:
 
-There's a little circular patch of helium-rich terrain on the edge of a region of neodymium-rich terrain. I've had luck finding helium-3, beryllium and neodymium on Shoza III-a within a few minutes of setting down (and if I don't, just reload the pre-landing save and try a new spot). I won't win any speed runs, but it's not like Leviathan II where things are almost impossible to find.
+There's a little circular patch of helium-rich terrain on the edge of a region of neodymium-rich terrain. My chosen site is the single dark pixel between the neodymium-rich and helium-rich terrain. If you squint it's kinda like a thumb and index finger holding a tiny cubical neodymium magnet. I've had luck finding helium-3, beryllium and neodymium on Shoza III-a within a few minutes of setting down (and if I don't, just reload the pre-landing save and try a new spot). I won't win any speed runs, but it's not like Leviathan II where things are almost impossible to find.
 
 No comprehensive location guide because this planet's surface is basically craters, craters and craters so there's no confluence of biomes to guide you. Pick a site, explore for a few minutes, try to find helium and neodymium together.
 
 If you find a nice site that lines up with the visuals on the surface map and has an easy to find location due to local features on the ground, please raise an issue in the Github project! I may end up replacing Shoza with another planet.
 
-<p>
-<img src="images/shoza-iii-a-location-map.jpg" alt="Map of Shoza III-a with resources shown. There is a marker for the location of the outpost.">
-</p>
+![Map of Shoza III-a with resources shown. There is a marker for the location of the outpost.](images/shoza-iii-a-location-map.jpg)
 
-## Serpentis IV (fiber, structural)
+## Serpentis IV (fiber, structural, argon, benzene, chlorine, chlorosilanes, lithium)
 
-This outpost is where I build my pharmaceutical lab and kitchen (see *Pharmaceuticals Lab* document). This initial setup will provide fiber and structural material to start building a habitat. A habitat here will be useful to house security detail to complement turrets and robots, all of which will be busy keeping clickbeetles at bay.
+This outpost is where I build my pharmaceutical lab and kitchen (see *Pharmaceuticals Lab* document). This initial setup will provide fiber and structural material to start furnishing a habitat. A habitat here will be useful to house security detail to complement turrets and robots, all of which will be busy keeping clickbeetles at bay.
 
 Design:
 
-- 1 Landing Pad - Small
+- 1 Landing Pad with Shipbuilder
 - 3 Wind Turbine - Advanced
-- 2 Greenhouse (fiber, structural)
 - 2 Extractor - Liquid (water)
 - Storage - Liquid - Large (water)
+- 2 Greenhouse (fiber, structural)
 - Extractor - Solid (lithium)
 - 3 Storage - Solid - Large (fiber, lithium, structural)
-- 2 Extractor - Gas (argon, chlorine)
-- 2 Storage - Gas - Medium (argon, chlorine)
+- 3 Extractor - Gas (argon, benzene, chlorine)
+- 3 Storage - Gas - Medium (argon, benzene, chlorine)
+- Extractor - Liquid (chlorosilanes)
+- Storage - Liquid - Large (chlorosilanes)
 
 Materials:
 
 - Manufactured
-  - Adaptive Frame: 60
+  - Adaptive Frame: 93
   - Isocentered Magnet: 6
   - Reactive Gauge: 6
+  - Zero Wire: 2
 - Solid
-  - Aluminum: 115
-  - Copper: 26
-  - Iron: 91
-  - Nickel: 32
+  - Aluminum: 137
+  - Beryllium: 2
+  - Copper: 39
+  - Iron: 104
+  - Nickel: 56
   - Sealant: 6
-  - Tungsten: 18
+  - Tungsten: 26
 - Gas
   - Fluorine: 8
 
@@ -298,11 +316,45 @@ Location:
 
 The location is one of many available along the frozen crevasses side of the frozen crevasses/savanna border and provides Lithium, Argon, Chlorine, Benzene. There's probably a better site at a confluence of frozen crevasses/savanna/wetlands which would allow copper and fluorine to be extracted, but we already have Procyon III for that and Serpentis IV is going to be busy enough producing pharmaceuticals, food, substrate molecule sieve and veryl-treated manifold (assuming you go down that path).
 
-<img src="images/serpentis-iv-location-map-2.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the alternative outpost location" width="40%">
-<img src="images/serpentis-iv-location-landscape-2.jpg" alt="The landscape around the landing site for the alternative outpost location on Serpentis IV." width="40%">
-<img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the alternative outpost location on Serpentis IV" width="40%">
+<img src="images/serpentis-iv-location-map-2.jpg" alt="Map of Serpentis IV with resources shown. There is a marker for the outpost location" width="40%">
+<img src="images/serpentis-iv-location-landscape-2.jpg" alt="The landscape around the landing site for the outpost location on Serpentis IV." width="40%">
+<img src="images/serpentis-iv-location-outpost-2.jpg" alt="The landscape around the outpost location on Serpentis IV" width="40%">
 
 ## Home Base Industry Expansion
+
+At this point it's time to establish a "Home Base". I typically use Serpentis IV because it has a breathable atmosphere, though the weather can get extreme.
+
+There are two general styles for "home base" that I have built: in the case of Serpentis IV I have access to all resource types so preparing materials for a new outpost build is as simple as building the equipment at the Serpentis IV base then deconstructing them. This process means the ingredients end up in your ship or personal inventory. As a result it's easier to build an "unlimited storage system" for Serpentis - I will never be hunting for individual materials, every activity at Serpentis will invovle crafting.
+
+For Bessel III-b though, I need to have the ingredients stored separately so that I can pick the materials required to build the new outpost. This means I need a segregated storage system.
+
+### Unlimited Storage System
+
+I found a neat storage solution by Zikorik on YouTube, [Starfield Unlimited Storage & Automated Resource Guide][UNLIMSTOR]. The basic instruction is as follows:
+
+1. Set up the head & tail of the storage
+   1. 2 Storage - Solid - Large (stacked)
+   2. 2 Storage - Liquid - Large (stacked)
+   3. 2 Storage - Gas - Large (stacked)
+   4. 2 Warehouse - Large (stacked)
+   5. Transfer Container
+   6. Link the Transfer container to the top row of that storage collection
+2. Build the body of the storage system
+   1. 2 Storage - Solid - Large (linked)
+   2. Link the top storage near the transfer container to the start of this chain
+   3. Link the end of the chain to the bottom storage near the transfer container
+   4. Repeat for the other storage types
+3. Expand the storage
+   1. Add new containers to the body
+   2. Break links and add the new containers into the link
+
+Here's the visible front end of the system as I usually set it up:
+
+![Unlimited storage system explained in one image](images/unlimited-storage-system.jpg)
+
+Noting that the transfer container is close to the outpost beacon since that's where the character will spawn when arriving.
+
+### Segregated Storage
 
 With the titanium available from Tirna VIII-c, build some extra storage and production:
 
@@ -314,33 +366,36 @@ With the titanium available from Tirna VIII-c, build some extra storage and prod
 
 My typical operation at this stage is to build a ship with a decent cargo capacity, then visit my outposts roughly in clockwise order around the map, returning to Bessell III-b when full to top up storage there, then Serpentis IV to top up storage there, then going through the sales route to get rid of the surplus.
 
-This design does not include power expansion. You will need to provide 30 power, which on Bessel III-b means 5 Wind Turbine - Advanced.
+Ultimately I'll end up with storage arranged something like this:
 
-Design:
+![Storage Arrangement](images/storage-arrangement.jpg)
 
-- 9 Storage - Solid - Large (beryllium, copper, dysprosium, europium, neodymium, silver, titanium, tungsten, ytterbium)
-- 2 Storage - Gas - Large (alkanes, fluorine)
-- Storage - Liquid - Large (ionic liquid)
-- 7 Warehouse - Small (adaptive frame, isocentered magnet, isotopic coolant, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
-- 6 Simple Fabricator (adaptive frame, isocentered magnet, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
+The containers are various sizes based on what I typically collect and use, and also what fits neatly. This arrangement consists of:
 
-Bill of Materials:
+- 4 Storage - Solid - Large (aluminum, copper, iron, nickel)
+- 10 Storage - Solid - Medium (aldumite, beryllium, caelumite, cobalt, iridium, neodymium, silver, tantalum, titanium, tungsten)
+- 16 Storage - Solid (antimony, aqueous haematite, dysprosium, europium, gold, indicite, lead, lithium, palladium, platinum, plutonium, rothicite, uranium, vanadium, vytinium, ytterbium)
+- 31 Storage - Solid (organic components)
+- 6 Storage - Liquid - Medium (caesium, carboxylic acids, chlorosilane, ionic liquids, mercury, tasine)
+- 9 Storage - Gas - Medium (alkanes, argon, benzene, chlorine, fluorine, neon, tetrafluorides, veryl, xenon)
+- 1 Warehouse - Large (adaptive frame)
+- 7 Warehouse - Small (comm relay, isocentered magnet, isotopic coolant, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
+- 7 Simple Fabricator (adaptive frame, comm relay, isocentered magnet, mag pressure tank, reactive gauge, tau grade rheostat, zero wire)
+
+
+This will require the following to build:
 
 - Manufactured
-  - Adaptive Frame: 141
+  - Adaptive Frame: 334
   - Zero Wire: 18
 - Solid
-  - Aluminum: 254
-  - Copper: 40
-  - Iron: 180
-  - Nickel: 16
+  - Aluminum: 574
+  - Copper: 90
+  - Iron: 276
+  - Nickel: 48
   - Sealant: 12
-  - Titanium: 35
-  - Tungsten: 56
-
-### Further Expansion
-
-Over time, I will usually expand this storage to include space for all materials. This relies on a mixture of small storages for stuff that is imported, and large storages for the important and local resources.
+  - Titanium: 201
+  - Tungsten: 96
 
 ## Cargo Links
 
@@ -363,7 +418,7 @@ Stick to *one material*, *one direction*.
 
 Design:
 
-- 4 Cargo Link - Inter-system (copper, titanium, tungsten, helium)
+- 4 Cargo Link - Inter-system (He3 from Androphon, copper from Procyon III, titanium from Alpha Tirna VIII-c, tungsten from Alpha Tirna VIII-c)
 - 1 Storage - Gas - Large (helium)
 
 Materials:
@@ -380,16 +435,15 @@ Materials:
 
 Most of these materials should already be at Bessel III-b.
 
-When you set these cargo links up:
+When you set these cargo links up, remember that the goal is to feed He3 arriving from Androphon to the other inter-system links:
 
 - plumb the *incoming* (green) bay from one cargo link to the helium storage - this will be the one we link to Androphon
 - plumb the helium storage to the *helium* (blue) bay of the remaining cargo links
-- connect the *incoming* (green) bays from the other three cargo links to the local storage for copper, titanium and tungsten respectively (I'm a ghostbusters fan: never cross the streams)
+- connect the *incoming* (green) bays from the other three cargo links to the local storage for copper, titanium and tungsten respectively
 
 Here's a picture showing how I plumbed it up, the helium shipments arrive at the left-most link:
 
 ![screenshot showing four cargo links in an arc from left to right. The leftmost cargo link has its incoming bay connected to a local gas storage, for incoming helium. The helium storage is connected to the blue bays on the remaining three cargo links. There are green and grey arrows representing links from the incoming bays of the three right-most cargo links to copper, titanium and tungsten storage respectively.](images/bessel-iii-b-industry-from-scratch-4-cargo-links.jpg)
-
 
 ### Androphon (cargo link, helium export)
 
@@ -433,18 +487,18 @@ The only connection here is sending the copper from the copper storage to the ou
 
 Design:
 
-- 2 Cargo Link - Inter-system (titanium to Bessel III-b, tungsten to Bessel III-b)
+- 2 Cargo Link - Inter-system
 
 Materials:
 
 - Manufactured
-  - Comm Relay: 2
-  - Reactive Gauge: 6
+  - Comm Relay: 1
+  - Reactive Gauge: 3
 - Solid
-  - Aluminum: 24
-  - Iron: 40
+  - Aluminum: 12
+  - Iron: 20
 
-The only connections here are titanium storage to the outgoing/red box of one cargo link, and tungsten storage to the outgoing/red box of the other cargo link. Here's a picture to reinforce the idea that each resource uses its own dedicated link:
+The only connections here are titanium storage to the outgoing/red box of one cargo link, and tungsten storage to the outgoing/red box of the other cargo link. Helium is supplied from the other end of these links. Here's a picture to reinforce the idea that each resource uses its own dedicated link:
 
 ![screenshot showing the links between local storage for titanium and tungsten and their respective cargo link's green bays](images/tirna-viii-c-cargo-link-connections.jpg)
 
@@ -452,7 +506,7 @@ The only connections here are titanium storage to the outgoing/red box of one ca
 
 Now it's time to activate the cargo links. Double check and triple-check to make sure you have the correct materials imported to each cargo link!
 
-When you activate a link, the first freighter to arrive will be empty. It will loiter for a short spell then depart to begin its hauling route. Each circuit takes three minutes of wall clock time (about 3 hours UT):
+When you activate a link, the first freighter to arrive will be empty. It will loiter for a short spell then depart to begin its hauling route. Each circuit takes three minutes of wall clock time:
 
 1. As the freighter is arriving the lights on the pad will rapidly blink amber
 2. Once the freighter has landed it will transfer what cargo it can into the green bay, and the lights on the pad will slowly blink amber
@@ -492,3 +546,9 @@ If the lights on the pad are red, that means you haven't configured the pad yet 
    1. Trade Authority kiosk - 5,000Cr
    2. Trade Authority - 11,000Cr
    3. Shepard's - 5,000Cr
+
+## References
+
+- Zikorik, [Starfield Unlimited Storage & Automated Resources Guide][UNLIMSTOR], YouTube September 2023
+
+[UNLIMSTOR]: https://www.youtube.com/watch?v=4PpCgF9RtY4
