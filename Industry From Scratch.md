@@ -50,6 +50,48 @@ Sometimes for some reason an entire save will stop allowing any ships to land on
 
 A later version of this guide will shift entirely to large landing pads if only for the sanity of the author.
 
+## Nice Outpost Starter
+
+This outpost has a two-storey build, top floor is a glass-walled hab to let you see the scenery and will contain 3 crew stations (supporting 6 crew). Bottom floor is a regular hab which will contain three beds.
+
+Design:
+
+- Landing Pad - Small
+- Four Wall Hab - Double
+- Hab Round
+- Hydroponic Hab Round
+- Outpost Airlock
+- 3 Crew Station
+- 3 Bed 12
+- Mission Board
+- Constellation Mission Board
+- Self-Service Bounty Clearance
+- Industrial Workbench
+- Cooking Station
+- Pharmaceutical Lab
+- Weapon Workbench
+- Spacesuit Workbench
+- Research Lab
+- Navigation Console
+
+- Manufactured
+  - Zero Wire: 6
+- Solid
+  - Adhesive: 3
+  - Aluminum: 84
+  - Beryllium: 8
+  - Copper: 2
+  - Cosmetic: 4
+  - Fiber: 12
+  - Iron: 39
+  - Lead: 20
+  - Nickel: 11
+  - Sealant: 19
+  - Structural: 12
+- Gas
+  - Benzene: 3
+  - Chlorine: 4
+
 ## Bessel III-b Al/Fe/Ni/Co
 
 Start with Bessel III-b, basic extraction site. Produce Isocentered Magnet and Adaptive Frame from that material.
