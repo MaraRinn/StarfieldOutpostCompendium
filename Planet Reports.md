@@ -32,6 +32,8 @@ Maybe one day Scan Boosters will function as expected (ie: boosting scanner abil
 
 ## Planet Reports
 
+Information about planets including power production and fauna/flora.
+
 ### Va'ruun'kai
 
 Fauna:
@@ -709,7 +711,7 @@ Flora:
 
 - Bleeding Heart Vine (fiber) (hills) (outpost: no)
 - Mountain Silkweed (metabolic agent) (mountains) (outpost: no)
-- Star Bloom Root (adhesive) (hills, mountains) (outpost: water)
+- Star Bloom Root (adhesive) (hills, mountains) (outpost: yes, water)
 
 ### Bradbury III
 
@@ -913,6 +915,12 @@ Flora:
 
 ### Linnaeus II
 
+Resources:
+
+- Solar Dome: 8
+- Wind Turbine - Advanced: 6
+- Water only as vapour
+
 Biomes:
 
 - Mountains
@@ -988,6 +996,9 @@ Flora:
 - Forest Wisp (toxin) (coniferous forest, frozen plains, craters) (outpost: water)
 
 ### Zeta Ophiuchi I
+
+Solar Dome: 12
+Wind Turbine - Advanced: 14
 
 The pack caterpillars are something else!
 
@@ -1121,6 +1132,8 @@ Flora:
 - Lattice Leaf (structural) (savanna, wetlands, deciduous forest, tropical forest) (outpost: water)
 
 ### Gagarin
+
+1 day is 13h UT.
 
 Biomes:
 

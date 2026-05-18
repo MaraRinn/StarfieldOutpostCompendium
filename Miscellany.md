@@ -371,4 +371,3 @@ Outpost Management increases production of resources by 5/10/15/15%:
 
 - [Lin][INARALIN] 15%
 - [Rafael][INARARAFAEL] 5%
-
