@@ -589,8 +589,10 @@ If the lights on the pad are red, that means you haven't configured the pad yet 
    2. Trade Authority - 11,000Cr
    3. Shepard's - 5,000Cr
 
-## References
+## Further Reading
 
+- MattGyver, [Starfield Outpost Pocket Reference][MATTPOST]
 - Zikorik, [Starfield Unlimited Storage & Automated Resources Guide][UNLIMSTOR], YouTube September 2023
 
+[MATTPOST]: https://www.mattgyver.com/starfield-outpost
 [UNLIMSTOR]: https://www.youtube.com/watch?v=4PpCgF9RtY4

@@ -15,4 +15,3 @@ The contents are as follows:
 - Detailed guide on how I locate outpost sites based on desired resources
 - Some guides on laying out local production chains and local logistics, eg: separating import, local production and export storage, when it makes sense to use performing logistics manually, with limited cargo links, or with 6 cargo links allowed by Outpost Management when it isn't broken, when it makes sense to use transfer containers versus just using a collection of large storages
 - Some thoughts on planning inter-planetary industry chains including specific optimisations I made to MattGyver's plans
-
